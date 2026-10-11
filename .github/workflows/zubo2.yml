@@ -1,0 +1,60 @@
+name: zubo2
+
+on:
+  schedule:
+    - cron: '25 3 * * *'   # UTC 03:25 = 北京 11:25
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      TZ: Asia/Shanghai
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y yt-dlp sed nmap netcat-openbsd curl
+
+      - name: 测试组播源
+        env:
+          CITY_JOBS: '3'
+          SPEED_JOBS: '5'
+          NC_JOBS: '50'
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          chmod +x zubo.sh
+
+          bash ./zubo.sh 0
+
+          time=$(date +"%Y/%m/%d %H:%M:%S")
+          {
+            echo "组播源 $time 更新,#genre#"
+            [ -f txt/浙江.txt ] && cat txt/浙江.txt
+            for f in $(ls txt/*.txt 2>/dev/null | grep -vE '/zubo\.txt$|/浙江\.txt$' | sort); do
+              cat "$f"
+            done
+          } > zubo.txt
+
+          echo "===== zubo.txt 前 5 行 ====="
+          head -n 5 zubo.txt
+          echo "===== 行数 ====="
+          wc -l zubo.txt
+
+      - name: 更新组播源
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git diff --cached --quiet && echo "无变化" && exit 0
+          git commit -m "更新组播源 $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
