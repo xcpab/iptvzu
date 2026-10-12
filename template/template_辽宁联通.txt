@@ -60,6 +60,8 @@ CCTV风云剧场,http://ipipip/rtp/232.0.0.45:1234$1080p
 CCTV风云足球,http://ipipip/rtp/232.0.0.52:1234$1080p
 CCTV风云音乐,http://ipipip/rtp/232.0.0.47:1234$1080p
 CCTV高尔夫网球,http://ipipip/rtp/232.0.0.243:1234$1080p
+CCTV4K,http://ipipip/rtp/232.0.0.167:1234$2160p
+湖南卫视4K,http://ipipip/rtp/232.0.0.216:1234$2160p
 CETV1,http://ipipip/rtp/232.0.0.212:1234$1080p
 CETV2,http://ipipip/rtp/232.0.0.238:1234$576p
 CETV4,http://ipipip/rtp/232.0.0.239:1234$576p
@@ -217,7 +219,6 @@ CHC影迷电影,http://ipipip/rtp/232.0.0.233:1234$1080p
 华数3,http://ipipip/rtp/232.0.0.203:1234$1080p
 聚鲨环球精选,http://ipipip/rtp/232.0.0.207:1234$576p
 无台标,http://ipipip/rtp/232.0.0.48:1234$576p
-广播未知,http://ipipip/rtp/232.0.0.167:1234$2160p
-广播未知,http://ipipip/rtp/232.0.0.216:1234$2160p
 央广购物,http://ipipip/rtp/232.0.0.240:1234$576p
 电视剧,http://ipipip/rtp/232.0.0.189:1234$1080p
+
