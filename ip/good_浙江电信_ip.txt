@@ -5,7 +5,6 @@ dk.song.zj.cn:4043
 dknas.song.zj.cn:4043
 dootask.nlmxy.cn:4000
 dous.cc:4023
-hjro.cn:9999
 www.kod.nlmxy.cn:4000
 www.nlmxy.cn:4000
 www.tangtuanpp.fun:4000
