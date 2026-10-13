@@ -16,6 +16,7 @@ dx.joygala.cn:8118
 h.vanshun.com:8802
 j1900.silicaite.com:58888
 j1900.silicaite.top:58888
+jstxsheng.com:28088
 mail.ck.wiki:4022
 njbobo.com:4022
 njbobo.mycloudnas.com:4022
