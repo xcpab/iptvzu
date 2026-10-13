@@ -9,7 +9,6 @@
 183.47.2.156:16883
 408.135560.xyz:58888
 59.35.185.47:8188
-61.145.188.90:50055
 ddns.cyruslee.top:8888
 demo.lbs.eeue.net:8888
 dsm.cyruslee.top:8888
