@@ -289,7 +289,6 @@ CGTN阿语,http://ipipip/rtp/239.111.205.86:5140
 咸阳彬州,http://ipipip/rtp/239.112.205.181:5140
 咸阳彬州,http://ipipip/rtp/239.110.205.49:9922
 咸阳淳化,http://ipipip/rtp/239.111.205.97:5140
-咸阳泾阳,http://ipipip/rtp/239.111.205.12:5140
 咸阳杨凌,http://ipipip/rtp/239.111.205.253:5140
 商洛综合,http://ipipip/rtp/239.109.205.66:8464
 商洛综合,http://ipipip/rtp/239.109.205.69:8488
@@ -333,6 +332,7 @@ CGTN阿语,http://ipipip/rtp/239.111.205.86:5140
 渭南蒲城,http://ipipip/rtp/239.112.205.194:5140
 渭南韩城,http://ipipip/rtp/239.109.205.72:8512
 渭南韩城,http://ipipip/rtp/239.112.205.166:5140
+渭南潼关,http://ipipip/rtp/239.111.205.12:5140
 渭南大荔,http://ipipip/rtp/239.111.205.91:5140
 榆林综合,http://ipipip/rtp/239.110.205.42:9882
 榆林综合,http://ipipip/rtp/239.112.205.177:5140
