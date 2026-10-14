@@ -3,6 +3,8 @@
 江西IPTV1,http://ipipip/udp/239.252.219.188:5140$1080p
 江西IPTV1,http://ipipip/udp/239.252.220.217:5140$1080p
 江西IPTV2,http://ipipip/udp/239.252.219.187:5140$1080p
+江西公共农业,http://ipipip/udp/239.252.220.102:5140$1080p
+江西公共农业,http://ipipip/udp/239.252.220.239:5140$576p
 江西卫视,http://ipipip/udp/239.252.219.30:5140$576p
 江西卫视,http://ipipip/udp/239.252.220.63:5140$1080p
 江西少儿,http://ipipip/udp/239.252.219.113:5140$1080p
@@ -11,8 +13,6 @@
 江西教育,http://ipipip/udp/239.252.219.147:5140$576p
 江西新闻,http://ipipip/udp/239.252.220.100:5140$1080p
 江西新闻,http://ipipip/udp/239.252.220.103:5140$576p
-江西公共农业,http://ipipip/udp/239.252.220.102:5140$1080p
-江西公共农业,http://ipipip/udp/239.252.220.239:5140$576p
 江西移动电视,http://ipipip/udp/239.252.220.241:5140$1080p
 江西经济生活,http://ipipip/udp/239.252.219.173:5140$1080p
 江西经济生活,http://ipipip/udp/239.252.220.110:5140$576p
@@ -48,7 +48,7 @@ CCTV-5 体育,http://ipipip/udp/239.252.219.198:5140$1080p
 CCTV-5 体育,http://ipipip/udp/239.252.219.236:5140$1080p
 CCTV-5 体育,http://ipipip/udp/239.252.220.141:5140$1080p
 CCTV-5 体育,http://ipipip/udp/239.252.220.67:5140$576p
-CCTV-5+ 体育赛事,http://ipipip/udp/239.252.219.73:5140$576p
+CCTV-5+ 体育赛事,http://ipipip/udp/239.252.219.72:5140$1080p
 CCTV-6 电影,http://ipipip/udp/239.252.219.237:5140$1080p
 CCTV-6 电影,http://ipipip/udp/239.252.220.195:5140$1080p
 CCTV-6 电影,http://ipipip/udp/239.252.220.68:5140$576p
@@ -75,7 +75,7 @@ CCTV-16 奥林匹克,http://ipipip/udp/239.252.219.59:5140$2160p
 CCTV-16 奥林匹克,http://ipipip/udp/239.252.220.237:5140$2160p
 CCTV-17 农业农村,http://ipipip/udp/239.252.220.191:5140$576p
 CCTV-17 农业农村,http://ipipip/udp/239.252.220.192:5140$1080p
-CCTV4K,http://ipipip/udp/239.252.219.60:5140
+CCTV4K,http://ipipip/udp/239.252.219.60:5140$2160p
 CCTV4K,http://ipipip/udp/239.252.220.244:5140$2160p
 CCTV世界地理,http://ipipip/udp/239.252.219.93:5140$1080p
 CCTV兵器科技,http://ipipip/udp/239.252.219.98:5140$1080p
@@ -91,6 +91,7 @@ CCTV风云音乐,http://ipipip/udp/239.252.219.87:5140$1080p
 CCTV高尔夫网球,http://ipipip/udp/239.252.219.95:5140$1080p
 CETV1,http://ipipip/udp/239.252.219.108:5140$576p
 CETV1,http://ipipip/udp/239.252.220.198:5140$1080p
+CETV2,http://ipipip/udp/239.252.219.73:5140$576p
 CETV4,http://ipipip/udp/239.252.219.126:5140$1080p
 CETV4,http://ipipip/udp/239.252.219.169:5140$576p
 CGTN,http://ipipip/udp/239.252.219.14:5140$576p
@@ -101,19 +102,16 @@ CGTN法语,http://ipipip/udp/239.252.219.65:5140$1080p
 CGTN纪录,http://ipipip/udp/239.252.219.195:5140$1080p
 CGTN西语,http://ipipip/udp/239.252.219.196:5140$1080p
 CGTN阿语,http://ipipip/udp/239.252.219.66:5140$1080p
-测试4K,http://ipipip/udp/239.252.219.114:5140$2160p
 CHC动作电影,http://ipipip/udp/239.252.219.85:5140$1080p
-CHC家庭影院,http://ipipip/udp/239.252.219.72:5140$1080p
 CHC家庭影院,http://ipipip/udp/239.252.219.84:5140$1080p
 CHC影迷电影,http://ipipip/udp/239.252.219.83:5140$1080p
+测试4K,http://ipipip/udp/239.252.219.114:5140$2160p
 三沙卫视,http://ipipip/udp/239.252.219.76:5140$576p
 东南卫视,http://ipipip/udp/239.252.219.38:5140$576p
 东南卫视,http://ipipip/udp/239.252.220.82:5140$1080p
 东方卫视,http://ipipip/udp/239.252.219.229:5140$1080p
 东方卫视,http://ipipip/udp/239.252.219.22:5140$576p
 东方卫视,http://ipipip/udp/239.252.220.159:5140$1080p
-中国天气,http://ipipip/udp/239.252.219.143:5140$1080p
-书画,http://ipipip/udp/239.252.219.99:5140$576p
 云南卫视,http://ipipip/udp/239.252.219.185:5140$1080p
 云南卫视,http://ipipip/udp/239.252.219.216:5140$576p
 兵团卫视,http://ipipip/udp/239.252.219.107:5140$576p
@@ -123,7 +121,7 @@ CHC影迷电影,http://ipipip/udp/239.252.219.83:5140$1080p
 北京卫视,http://ipipip/udp/239.252.219.206:5140$1080p
 北京卫视,http://ipipip/udp/239.252.219.21:5140$576p
 北京卫视,http://ipipip/udp/239.252.220.251:5140$1080p
-北京卫视4K,http://ipipip/udp/239.252.220.250:5140
+北京卫视4K,http://ipipip/udp/239.252.220.250:5140$2160p
 厦门卫视,http://ipipip/udp/239.252.219.75:5140$576p
 吉林卫视,http://ipipip/udp/239.252.219.36:5140$576p
 吉林卫视,http://ipipip/udp/239.252.220.188:5140$1080p
@@ -183,6 +181,8 @@ CHC影迷电影,http://ipipip/udp/239.252.219.83:5140$1080p
 青海卫视,http://ipipip/udp/239.252.219.46:5140$576p
 黑龙江卫视,http://ipipip/udp/239.252.219.211:5140$1080p
 黑龙江卫视,http://ipipip/udp/239.252.219.37:5140$576p
+中国天气,http://ipipip/udp/239.252.219.143:5140$1080p
+书画,http://ipipip/udp/239.252.219.99:5140$576p
 优优宝贝,http://ipipip/udp/239.252.220.219:5140$576p
 嘉佳卡通,http://ipipip/udp/239.252.219.92:5140$576p
 国学频道,http://ipipip/udp/239.252.220.157:5140$576p
@@ -199,12 +199,18 @@ CHC影迷电影,http://ipipip/udp/239.252.219.83:5140$1080p
 金鹰卡通,http://ipipip/udp/239.252.219.44:5140$576p
 金鹰卡通,http://ipipip/udp/239.252.219.69:5140$1080p
 金鹰纪实,http://ipipip/udp/239.252.220.155:5140$1080p
-游戏风云,http://ipipip/udp/239.252.219.203:5140$1080p
-游戏风云,http://ipipip/udp/239.252.219.204:5140$1080p
 快乐购,http://ipipip/udp/239.252.220.164:5140$576p
 电影,http://ipipip/udp/239.252.220.204:5140$1080p
 资料,http://ipipip/udp/239.252.220.14:5140$576p
-IPTV爱体育,http://ipipip/udp/239.252.220.211:5140$1080p
+广播,http://ipipip/udp/239.252.220.21:5140
+广播,http://ipipip/udp/239.252.220.23:5140
+广播,http://ipipip/udp/239.252.220.29:5140
+广播,http://ipipip/udp/239.252.220.32:5140
+广播,http://ipipip/udp/239.252.220.39:5140$576p
+广播,http://ipipip/udp/239.252.220.48:5140
+无效,http://ipipip/udp/239.252.220.40:5140$576p
+无效,http://ipipip/udp/239.252.220.58:5140$576p
+IPTV,http://ipipip/udp/239.252.220.47:5140$1080p
 IPTV军事,http://ipipip/udp/239.252.220.206:5140$1080p
 IPTV地理,http://ipipip/udp/239.252.219.162:5140$1080p
 IPTV地理,http://ipipip/udp/239.252.220.207:5140$1080p
@@ -215,16 +221,17 @@ IPTV收视指南,http://ipipip/udp/239.252.220.144:5140$1080p
 IPTV早教,http://ipipip/udp/239.252.219.164:5140$1080p
 IPTV武术,http://ipipip/udp/239.252.220.203:5140$1080p
 IPTV法治,http://ipipip/udp/239.252.220.74:5140$1080p
+IPTV爱体育,http://ipipip/udp/239.252.220.211:5140$1080p
+IPTV爱生活,http://ipipip/udp/239.252.220.202:5140$1080p
+IPTV爱生活,http://ipipip/udp/239.252.220.208:5140$1080p
 IPTV爱生活,http://ipipip/udp/239.252.220.89:5140$1080p
-IPTV相声小品,http://ipipip/udp/239.252.220.146:5140$1080p
 IPTV爱综艺,http://ipipip/udp/239.252.220.140:5140$1080p
-IPTV美人,http://ipipip/udp/239.252.220.202:5140$1080p
-IPTV美妆,http://ipipip/udp/239.252.220.208:5140$1080p
+IPTV电视剧,http://ipipip/udp/239.252.220.201:5140$1080p
+IPTV相声小品,http://ipipip/udp/239.252.220.146:5140$1080p
 IPTV解密,http://ipipip/udp/239.252.220.209:5140$1080p
 IPTV足球,http://ipipip/udp/239.252.220.205:5140$1080p
 IPTV野外,http://ipipip/udp/239.252.220.73:5140$1080p
 IPTV鉴赏,http://ipipip/udp/239.252.219.166:5140$1080p
-IPTV电视剧,http://ipipip/udp/239.252.220.201:5140$1080p
 IPTV音乐现场,http://ipipip/udp/239.252.220.87:5140$1080p
 华数光影,http://ipipip/udp/239.252.220.200:5140$1080p
 华数军旅剧场,http://ipipip/udp/239.252.220.76:5140$1080p
@@ -245,14 +252,15 @@ IPTV音乐现场,http://ipipip/udp/239.252.220.87:5140$1080p
 华数经典电影,http://ipipip/udp/239.252.220.139:5140$1080p
 华数谍战剧场,http://ipipip/udp/239.252.220.145:5140$1080p
 华数魅力时尚,http://ipipip/udp/239.252.220.137:5140$1080p
-BESTV,http://ipipip/udp/239.252.219.111:5140$1080p
+BESTV,http://ipipip/udp/239.252.219.111:5140
+BESTV,http://ipipip/udp/239.252.219.112:5140$1080p
+BESTV,http://ipipip/udp/239.252.219.117:5140$1080p
 BESTV,http://ipipip/udp/239.252.219.135:5140$1080p
 BESTV,http://ipipip/udp/239.252.219.136:5140$1080p
-BESTV,http://ipipip/udp/239.252.219.53:5140$1080p
-BESTV,http://ipipip/udp/239.252.220.84:5140$1080p
+BESTV,http://ipipip/udp/239.252.219.203:5140$1080p
+BESTV,http://ipipip/udp/239.252.219.204:5140$1080p
 BESTV,http://ipipip/udp/239.252.219.205:5140$1080p
 BESTV,http://ipipip/udp/239.252.219.215:5140$1080p
-BESTVLIVE,http://ipipip/udp/239.252.219.112:5140
-BESTVLIVE,http://ipipip/udp/239.252.219.117:5140$1080p
-BESTVLIVE,http://ipipip/udp/239.252.219.91:5140$1080p
-
+BESTV,http://ipipip/udp/239.252.219.53:5140$1080p
+BESTV,http://ipipip/udp/239.252.219.91:5140$1080p
+BESTV,http://ipipip/udp/239.252.220.84:5140$1080p
