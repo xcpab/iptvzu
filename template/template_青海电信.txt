@@ -13,8 +13,14 @@
 西宁新闻综合,http://ipipip/rtp/239.120.1.249:9444
 青海油田,http://ipipip/rtp/239.120.1.144:8416
 矿区生活,http://ipipip/rtp/239.120.1.145:8420
+久治综合,http://ipipip/rtp/239.120.1.34:9534
 CCTV-1 综合,http://ipipip/rtp/239.120.1.119:8260
 CCTV-1 综合,http://ipipip/rtp/239.120.1.120:8778
+CCTV-1 综合,http://ipipip/rtp/239.120.1.176:9114
+CCTV-1 综合,http://ipipip/rtp/239.120.1.196:8276
+CCTV-1 综合,http://ipipip/rtp/239.120.1.202:9240
+CCTV-1 综合,http://ipipip/rtp/239.120.1.203:9246
+CCTV-1 综合,http://ipipip/rtp/239.120.1.204:9252
 CCTV-2 财经,http://ipipip/rtp/239.120.1.223:9484
 CCTV-3 综艺,http://ipipip/rtp/239.120.1.88:9420
 CCTV-4 中文国际,http://ipipip/rtp/239.120.1.159:9012
@@ -33,6 +39,9 @@ CCTV-15 音乐,http://ipipip/rtp/239.120.1.167:9060
 CCTV-16 奥林匹克,http://ipipip/rtp/239.120.1.252:9554
 CCTV-16 奥林匹克,http://ipipip/rtp/239.120.1.153:9878
 CCTV-17 农业农村,http://ipipip/rtp/239.120.1.68:8370
+CHC影迷电影,http://ipipip/rtp/239.120.1.170:9078
+CHC家庭影院,http://ipipip/rtp/239.120.1.171:9084
+CHC动作电影,http://ipipip/rtp/239.120.1.172:9090
 CCTV4K,http://ipipip/rtp/239.120.1.154:9882
 CGTN,http://ipipip/rtp/239.120.1.161:9024
 CETV1,http://ipipip/rtp/239.120.1.133:8856
@@ -89,5 +98,7 @@ BRTV卡酷少儿,http://ipipip/rtp/239.120.1.138:8886
 求索纪录,http://ipipip/rtp/239.120.1.89:9834
 精彩影视,http://ipipip/rtp/239.120.1.101:9838
 嘉佳卡通,http://ipipip/rtp/239.120.1.108:8640
-久治综合,http://ipipip/rtp/239.120.1.34:9534
+梨园频道,http://ipipip/rtp/239.120.1.173:9096
+武术世界,http://ipipip/rtp/239.120.1.174:9102
+文物宝库,http://ipipip/rtp/239.120.1.175:9108
 
