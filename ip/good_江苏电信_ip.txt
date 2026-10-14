@@ -2,7 +2,6 @@
 202.8090pc.cn:58888
 222.92.158.106:9889
 222.92.158.107:9889
-222.92.158.108:9889
 222.92.158.109:9889
 222.92.158.110:9889
 222.92.94.26:9889
@@ -18,6 +17,7 @@ j1900.silicaite.top:58888
 jstxsheng.com:28088
 mail.ck.wiki:4022
 njbobo.com:4022
+njbobo.mycloudnas.com:4022
 qh.diaglepm.cn:8333
 st.dhdasheng.cn:8188
 vpn.a5521.top:9889
