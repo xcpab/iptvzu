@@ -1,0 +1,2 @@
+jellyfin.eversouthhangzhou.com.cn:8188
+z2m.eversouthhangzhou.com.cn:8188
