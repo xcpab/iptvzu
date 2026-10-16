@@ -2,30 +2,30 @@
 从 'ip/浙江电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
 连接成功 12 个,开始测速（并发 5）······
-[测速] 125.123.141.122:44022  ->  962.21 k
-[测速] dk.song.zj.cn:4043  ->  1.02 M
-[测速] 122.230.90.13:8881  ->  1010.54 k
-[测速] bit.nlmxy.cn:4000  ->  1.03 M
-[测速] dootask.nlmxy.cn:4000  ->  972.16 k
+[测速] dootask.nlmxy.cn:4000  ->  1.04 M
+[测速] bit.nlmxy.cn:4000  ->  1.00 M
+[测速] 125.123.141.122:44022  ->  1023.31 k
+[测速] 122.230.90.13:8881  ->  1.04 M
 [测速] dknas.song.zj.cn:4043  ->  1.03 M
+[测速] dk.song.zj.cn:4043  ->  1.04 M
 [测速] z2m.eversouthhangzhou.com.cn:8188  ->  0.00 B
-[测速] www.kod.nlmxy.cn:4000  ->  911.38 k
-[测速] dous.cc:4023  ->  1009.79 k
-[测速] www.nlmxy.cn:4000  ->  988.26 k
-[测速] www.tangtuanpp.fun:4000  ->  740.53 k
-[测速] zjhuct.synology.me:8881  ->  892.84 k
+[测速] www.kod.nlmxy.cn:4000  ->  1.00 M
+[测速] www.nlmxy.cn:4000  ->  1.04 M
+[测速] dous.cc:4023  ->  1000.20 k
+[测速] www.tangtuanpp.fun:4000  ->  788.72 k
+[测速] zjhuct.synology.me:8881  ->  1.04 M
 测速完成，共 12 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
+zjhuct.synology.me:8881 1.04 M
+dk.song.zj.cn:4043     1.04 M
+www.nlmxy.cn:4000      1.04 M
+122.230.90.13:8881     1.04 M
+dootask.nlmxy.cn:4000  1.04 M
 dknas.song.zj.cn:4043  1.03 M
-bit.nlmxy.cn:4000      1.03 M
-dk.song.zj.cn:4043     1.02 M
-122.230.90.13:8881     1010.54 k
-dous.cc:4023           1009.79 k
-www.nlmxy.cn:4000      988.26 k
-dootask.nlmxy.cn:4000  972.16 k
-125.123.141.122:44022  962.21 k
-www.kod.nlmxy.cn:4000  911.38 k
-zjhuct.synology.me:8881 892.84 k
+www.kod.nlmxy.cn:4000  1.00 M
+bit.nlmxy.cn:4000      1.00 M
+125.123.141.122:44022  1023.31 k
+dous.cc:4023           1000.20 k
 ---------------------------
 浙江电信 测试完成，生成可用文件：'txt/浙江电信.txt'
