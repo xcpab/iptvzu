@@ -264,11 +264,11 @@ CHC影迷电影,http://ipipip/udp/239.21.2.127:5002
 长清综合,http://ipipip/udp/239.21.1.107:5002$576p
 阳信综合,http://ipipip/udp/239.21.1.252:5002$1080p
 陵城综合,http://ipipip/udp/239.21.2.24:5002$1080p
-青岛影视,http://ipipip/udp/239.21.1.71:5002$576p
-青岛教育,http://ipipip/udp/239.21.1.74:5002$576p
-青岛文化娱乐,http://ipipip/udp/239.21.1.72:5002$576p
 青岛新闻综合,http://ipipip/udp/239.21.1.69:5002
 青岛经济生活,http://ipipip/udp/239.21.1.70:5002
+青岛文旅体育,http://ipipip/udp/239.21.1.71:5002$576p
+青岛银色年华,http://ipipip/udp/239.21.1.72:5002$576p
+青岛教育,http://ipipip/udp/239.21.1.74:5002$576p
 青州文化旅游,http://ipipip/udp/239.21.1.231:5002$1080p
 青州综合,http://ipipip/udp/239.21.1.232:5002$1080p
 高密综合,http://ipipip/udp/239.21.2.59:5002

@@ -184,7 +184,7 @@ CGTN阿语,http://ipipip/rtp/239.253.93.198:6376
 柏乡综合,http://ipipip/rtp/239.253.93.171:6339
 栾城综合,http://ipipip/rtp/239.253.92.187:6051
 武安综合,http://ipipip/rtp/239.253.93.62:6215
-武强融媒综合,http://ipipip/rtp/239.253.93.79:6245
+武强综合,http://ipipip/rtp/239.253.93.79:6245
 永清综合,http://ipipip/rtp/239.253.93.172:6340
 沙河综合,http://ipipip/rtp/239.253.93.179:6347
 沧州公共,http://ipipip/rtp/239.253.92.122:6016
@@ -211,7 +211,7 @@ CGTN阿语,http://ipipip/rtp/239.253.93.198:6376
 秦皇岛民生,http://ipipip/rtp/239.253.92.53:6022
 秦皇岛新闻综合,http://ipipip/rtp/239.253.92.52:6021
 肃宁综合,http://ipipip/rtp/239.253.93.152:6320
-衡水公共,http://ipipip/rtp/239.253.93.7:6160
+衡水经济科教,http://ipipip/rtp/239.253.93.7:6160
 衡水新闻综合,http://ipipip/rtp/239.253.93.3:6154
 赞皇综合,http://ipipip/rtp/239.253.92.12:6042
 赵县1套,http://ipipip/rtp/239.253.93.140:6308
