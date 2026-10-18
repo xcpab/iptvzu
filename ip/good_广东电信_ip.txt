@@ -17,7 +17,6 @@ gzgxzm.dpdns.org:10086
 hongzhijiaoyu.net:8188
 hydeqnapnas.mycloudnas.com:8100
 jellyfin.cyruslee.top:8888
-lsa.familyds.com:8188
 plex.cyruslee.top:8888
 rfx2025.shunderen.top:2345
 sfyqvxiaoya.19810416.xyz:55555
