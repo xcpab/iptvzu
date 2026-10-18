@@ -236,12 +236,12 @@ CHC影迷电影,http://ipipip/rtp/239.112.205.23:5140$1080p
 财富天下,http://ipipip/rtp/239.112.205.196:5140$1080p
 多彩文体,http://ipipip/rtp/239.112.205.236:5140$1080p
 快乐垂钓,http://ipipip/rtp/239.112.205.71:5140$1080p
-金鹰卡遥,http://ipipip/rtp/239.112.205.136:5140$576p
+金鹰卡通,http://ipipip/rtp/239.112.205.136:5140$576p
 金鹰纪实,http://ipipip/rtp/239.112.205.203:5140$1080p
 央广购物,http://ipipip/rtp/239.112.205.208:5140$576p
 优购物,http://ipipip/rtp/239.112.205.209:5140$576p
 聚鲨环球精选,http://ipipip/rtp/239.112.205.158:5140$576p
-购物,http://ipipip/rtp/239.111.205.37:5140$576p
+快乐购,http://ipipip/rtp/239.111.205.37:5140$576p
 电影,http://ipipip/rtp/239.112.205.90:5140$1080p
 华数电影,http://ipipip/rtp/239.112.205.118:5140$1080p
 华数电影4K,http://ipipip/rtp/239.112.205.186:5140$2160p
@@ -358,7 +358,7 @@ CETV4,http://ipipip/rtp/239.109.205.49:8328
 北京卫视4K,http://ipipip/rtp/239.109.205.5:9144
 都市剧场,http://ipipip/rtp/239.109.205.50:8336
 多彩文体,http://ipipip/rtp/239.109.205.51:8344
-爱上4K,http://ipipip/rtp/239.109.205.53:8360
+华数电影4K,http://ipipip/rtp/239.109.205.53:8360
 生活时尚,http://ipipip/rtp/239.109.205.55:8376
 乐游,http://ipipip/rtp/239.109.205.56:8384
 法治天地,http://ipipip/rtp/239.109.205.57:8392
@@ -436,7 +436,7 @@ CGTN法语,http://ipipip/rtp/239.110.205.80:7956
 陕西新闻资讯,http://ipipip/rtp/239.110.205.83:7944
 陕西都市青春,http://ipipip/rtp/239.110.205.84:7940
 陕西体育休闲,http://ipipip/rtp/239.110.205.85:7936
-环球奇观,http://ipipip/rtp/239.110.205.86:7932
+CCTV第一剧场,http://ipipip/rtp/239.110.205.86:7932
 农林卫视,http://ipipip/rtp/239.110.205.88:7924
 CCTV-10 科教,http://ipipip/rtp/239.110.205.9:9782
 四川卫视4K,http://ipipip/rtp/239.110.205.90:7916
