@@ -219,3 +219,160 @@ IPTV爱体育,http://ipipip/rtp/225.1.4.5:1034
 IPTV爱电影,http://ipipip/rtp/225.1.4.6:1035
 IPTV爱大剧,http://ipipip/rtp/225.1.4.8:1037
 IPTV收视指南,http://ipipip/rtp/225.1.4.50:1079
+
+CCTV-1 综合,http://ipipip/rtp/225.1.2.47:10276
+CCTV-1 综合,http://ipipip/rtp/225.1.2.54:11380
+CCTV-2 财经,http://ipipip/rtp/225.1.2.2:10006
+CCTV-2 财经,http://ipipip/rtp/225.1.2.78:10462
+CCTV-3 综艺,http://ipipip/rtp/225.1.2.141:10864
+CCTV-4 中文国际,http://ipipip/rtp/225.1.2.197:11806
+CCTV-4 中文国际,http://ipipip/rtp/225.1.2.3:11368
+CCTV-4 欧洲,http://ipipip/rtp/225.1.2.182:11818
+CCTV-4 美洲,http://ipipip/rtp/225.1.2.183:11824
+CCTV-5 体育,http://ipipip/rtp/225.1.2.142:10870
+CCTV-5+ 体育赛事,http://ipipip/rtp/225.1.2.48:10282
+CCTV-6 电影,http://ipipip/rtp/225.1.2.143:10876
+CCTV-7 国防军事,http://ipipip/rtp/225.1.2.4:10018
+CCTV-7 国防军事,http://ipipip/rtp/225.1.2.79:10468
+CCTV-8 电视剧,http://ipipip/rtp/225.1.2.144:10882
+CCTV-9 纪录,http://ipipip/rtp/225.1.2.5:10024
+CCTV-9 纪录,http://ipipip/rtp/225.1.2.80:10474
+CCTV-10 科教,http://ipipip/rtp/225.1.2.6:10030
+CCTV-10 科教,http://ipipip/rtp/225.1.2.81:10480
+CCTV-11 戏曲,http://ipipip/rtp/225.1.2.220:11434
+CCTV-11 戏曲,http://ipipip/rtp/225.1.2.7:10036
+CCTV-12 社会与法,http://ipipip/rtp/225.1.2.82:10486
+CCTV-12 社会与法,http://ipipip/rtp/225.1.2.8:10042
+CCTV-13 新闻,http://ipipip/rtp/225.1.2.74:11584
+CCTV-13 新闻,http://ipipip/rtp/225.1.2.9:10048
+CCTV-14 少儿,http://ipipip/rtp/225.1.2.10:10054
+CCTV-14 少儿,http://ipipip/rtp/225.1.2.83:10492
+CCTV-15 音乐,http://ipipip/rtp/225.1.2.11:10060
+CCTV-15 音乐,http://ipipip/rtp/225.1.2.221:11440
+CCTV-17 农业农村,http://ipipip/rtp/225.1.2.217:11236
+CCTV-17 农业农村,http://ipipip/rtp/225.1.2.53:10312
+CETV1,http://ipipip/rtp/225.1.2.94:10558
+CETV2,http://ipipip/rtp/225.1.2.149:10912
+CETV4,http://ipipip/rtp/225.1.2.95:10564
+CGTN,http://ipipip/rtp/225.1.2.12:10066
+CGTN,http://ipipip/rtp/225.1.2.184:11830
+CGTN西语,http://ipipip/rtp/225.1.2.186:11842
+CGTN法语,http://ipipip/rtp/225.1.2.187:11848
+CGTN俄语,http://ipipip/rtp/225.1.2.189:11860
+CGTN阿语,http://ipipip/rtp/225.1.2.188:11854
+CGTN纪录,http://ipipip/rtp/225.1.2.185:11836
+CHC家庭影院,http://ipipip/rtp/225.1.2.214:11422
+CHC动作电影,http://ipipip/rtp/225.1.2.215:11428
+CHC高清电影,http://ipipip/rtp/225.1.2.210:11398
+三沙卫视,http://ipipip/rtp/225.1.2.225:11464
+东南卫视,http://ipipip/rtp/225.1.2.226:11470
+东南卫视,http://ipipip/rtp/225.1.2.31:10180
+东方卫视,http://ipipip/rtp/225.1.2.29:10168
+东方卫视,http://ipipip/rtp/225.1.2.86:10510
+云南卫视,http://ipipip/rtp/225.1.2.21:10120
+云南卫视,http://ipipip/rtp/225.1.2.76:11596
+兵团卫视,http://ipipip/rtp/225.1.2.98:10582
+内蒙古卫视,http://ipipip/rtp/225.1.2.38:10222
+北京卫视,http://ipipip/rtp/225.1.2.17:10096
+北京卫视,http://ipipip/rtp/225.1.2.49:10288
+厦门卫视,http://ipipip/rtp/225.1.2.96:10570
+吉林卫视,http://ipipip/rtp/225.1.2.105:11608
+吉林卫视,http://ipipip/rtp/225.1.2.35:10204
+四川卫视,http://ipipip/rtp/225.1.2.108:11626
+四川卫视,http://ipipip/rtp/225.1.2.24:10138
+天津卫视,http://ipipip/rtp/225.1.2.18:10102
+天津卫视,http://ipipip/rtp/225.1.2.87:10516
+宁夏卫视,http://ipipip/rtp/225.1.2.41:10240
+安徽卫视,http://ipipip/rtp/225.1.2.16:10090
+安徽卫视,http://ipipip/rtp/225.1.2.88:10522
+山东卫视,http://ipipip/rtp/225.1.2.20:10114
+山东卫视,http://ipipip/rtp/225.1.2.89:10528
+山东教育,http://ipipip/rtp/225.1.2.150:10918
+山西卫视,http://ipipip/rtp/225.1.2.37:10216
+广东卫视,http://ipipip/rtp/225.1.2.151:10924
+广东卫视,http://ipipip/rtp/225.1.2.33:10192
+广西卫视,http://ipipip/rtp/225.1.2.34:10198
+新疆卫视,http://ipipip/rtp/225.1.2.43:10252
+江苏卫视,http://ipipip/rtp/225.1.2.15:10084
+江苏卫视,http://ipipip/rtp/225.1.2.84:10498
+江西卫视,http://ipipip/rtp/225.1.2.25:10144
+江西卫视,http://ipipip/rtp/225.1.2.77:11602
+河北卫视,http://ipipip/rtp/225.1.2.106:11614
+河北卫视,http://ipipip/rtp/225.1.2.32:10186
+浙江卫视,http://ipipip/rtp/225.1.2.14:11362
+浙江卫视,http://ipipip/rtp/225.1.2.85:10504
+海南卫视,http://ipipip/rtp/225.1.2.107:11620
+海南卫视,http://ipipip/rtp/225.1.2.40:10234
+深圳卫视,http://ipipip/rtp/225.1.2.27:10156
+深圳卫视,http://ipipip/rtp/225.1.2.91:10540
+湖北卫视,http://ipipip/rtp/225.1.2.28:10162
+湖北卫视,http://ipipip/rtp/225.1.2.90:10534
+湖南卫视,http://ipipip/rtp/225.1.2.13:10072
+湖南卫视,http://ipipip/rtp/225.1.2.50:10294
+甘肃卫视,http://ipipip/rtp/225.1.2.44:10258
+西藏卫视,http://ipipip/rtp/225.1.2.42:10246
+贵州卫视,http://ipipip/rtp/225.1.2.109:11632
+贵州卫视,http://ipipip/rtp/225.1.2.26:10150
+辽宁卫视,http://ipipip/rtp/225.1.2.152:10930
+辽宁卫视,http://ipipip/rtp/225.1.2.19:10108
+重庆卫视,http://ipipip/rtp/225.1.2.30:10174
+重庆卫视,http://ipipip/rtp/225.1.2.75:11590
+陕西卫视,http://ipipip/rtp/225.1.2.36:10210
+青海卫视,http://ipipip/rtp/225.1.2.39:10228
+黑龙江卫视,http://ipipip/rtp/225.1.2.23:10132
+黑龙江卫视,http://ipipip/rtp/225.1.2.92:10546
+河南卫视,http://ipipip/rtp/225.1.2.22:10126
+河南卫视,http://ipipip/rtp/225.1.2.237:11530
+河南卫视,http://ipipip/rtp/225.1.2.99:10588
+河南卫视,http://ipipip/rtp/225.1.2.237:11530
+大美河南,http://ipipip/rtp/225.1.2.211:11404
+河南乡村,http://ipipip/rtp/225.1.2.104:10618
+河南公共,http://ipipip/rtp/225.1.2.123:10756
+河南公共,http://ipipip/rtp/225.1.2.62:10366
+河南国际,http://ipipip/rtp/225.1.2.103:10612
+河南新闻,http://ipipip/rtp/225.1.2.60:10354
+河南欢腾购物,http://ipipip/rtp/225.1.2.61:10360
+河南民生,http://ipipip/rtp/225.1.2.57:10336
+河南法治,http://ipipip/rtp/225.1.2.58:10342
+河南电视剧,http://ipipip/rtp/225.1.2.59:10348
+河南移动电视,http://ipipip/rtp/225.1.2.190:11866
+河南都市,http://ipipip/rtp/225.1.2.56:10330
+文物宝库,http://ipipip/rtp/225.1.2.101:10600
+梨园频道,http://ipipip/rtp/225.1.2.100:10594
+武术世界,http://ipipip/rtp/225.1.2.102:10606
+国学频道,http://ipipip/rtp/225.1.2.129:11674
+商丘新闻综合,http://ipipip/rtp/225.1.2.114:10702
+商丘公共,http://ipipip/rtp/225.1.2.115:10708
+商丘文体科教,http://ipipip/rtp/225.1.2.157:10960
+许昌综合,http://ipipip/rtp/225.1.2.122:10750
+嘉佳卡通,http://ipipip/rtp/225.1.2.93:10552
+现场直播,http://ipipip/rtp/225.1.2.181:11104
+金鹰卡通,http://ipipip/rtp/225.1.2.46:10270
+金鹰纪实,http://ipipip/rtp/225.1.2.97:10576
+IPTV军事,http://ipipip/rtp/225.1.2.164:11002
+IPTV国学,http://ipipip/rtp/225.1.2.161:10984
+IPTV地理,http://ipipip/rtp/225.1.2.166:11014
+IPTV好学生,http://ipipip/rtp/225.1.2.160:10978
+IPTV收视指南,http://ipipip/rtp/225.1.2.55:10324
+IPTV早教,http://ipipip/rtp/225.1.2.162:10990
+IPTV法治,http://ipipip/rtp/225.1.2.171:11044
+IPTV爱体育,http://ipipip/rtp/225.1.2.153:10936
+IPTV爱体育,http://ipipip/rtp/225.1.2.52:10306
+IPTV爱生活,http://ipipip/rtp/225.1.2.159:10972
+IPTV爱综艺,http://ipipip/rtp/225.1.2.146:10894
+IPTV相声小品,http://ipipip/rtp/225.1.2.169:11032
+IPTV美妆,http://ipipip/rtp/225.1.2.165:11008
+IPTV足球,http://ipipip/rtp/225.1.2.198:11392
+IPTV野外,http://ipipip/rtp/225.1.2.170:11038
+IPTV音乐现场,http://ipipip/rtp/225.1.2.158:10966
+IPTV高网,http://ipipip/rtp/225.1.2.163:10996
+华数,http://ipipip/rtp/225.1.2.155:10948
+华数家庭剧场,http://ipipip/rtp/225.1.2.51:10300
+华数少儿动画,http://ipipip/rtp/225.1.2.172:11050
+华数热播剧场,http://ipipip/rtp/225.1.2.173:11056
+华数热播精选,http://ipipip/rtp/225.1.2.236:11524
+华数电影4K,http://ipipip/rtp/225.1.2.196:11194
+华数经典电影,http://ipipip/rtp/225.1.2.167:11020
+华数谍战剧场,http://ipipip/rtp/225.1.2.168:11026
+华数魅力时尚,http://ipipip/rtp/225.1.2.145:10888
+
