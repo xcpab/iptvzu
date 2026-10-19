@@ -1,4 +1,3 @@
-125.123.141.122:44022
 bit.nlmxy.cn:4000
 dk.song.zj.cn:4043
 dknas.song.zj.cn:4043
@@ -10,7 +9,3 @@ www.nlmxy.cn:4000
 www.tangtuanpp.fun:4000
 z2m.eversouthhangzhou.com.cn:8188
 zjhuct.synology.me:8881
-218.71.18.154:18888
-125.117.1.236:4022
-115.205.49.57:8022
-115.198.217.143:8686

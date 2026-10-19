@@ -1,30 +1,29 @@
 ======== 开始检索 浙江电信 ========
 从 'ip/浙江电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 11 个,开始测速（并发 5）······
-[测速] 125.123.141.122:44022  ->  1.03 M
-[测速] dk.song.zj.cn:4043  ->  1.04 M
-[测速] bit.nlmxy.cn:4000  ->  1.03 M
-[测速] dknas.song.zj.cn:4043  ->  1.04 M
-[测速] dous.cc:4023  ->  1.04 M
-[测速] dootask.nlmxy.cn:4000  ->  1.02 M
-[测速] z2m.eversouthhangzhou.com.cn:8188  ->  1.05 M
-[测速] www.nlmxy.cn:4000  ->  1.04 M
-[测速] www.kod.nlmxy.cn:4000  ->  1.03 M
-[测速] www.tangtuanpp.fun:4000  ->  803.88 k
-[测速] zjhuct.synology.me:8881  ->  1.04 M
-测速完成，共 11 条结果。
+连接成功 10 个,开始测速（并发 5）······
+[测速] dootask.nlmxy.cn:4000  ->  1023.77 k
+[测速] dous.cc:4023  ->  900.88 k
+[测速] bit.nlmxy.cn:4000  ->  959.00 k
+[测速] dk.song.zj.cn:4043  ->  1.02 M
+[测速] dknas.song.zj.cn:4043  ->  1.03 M
+[测速] www.kod.nlmxy.cn:4000  ->  941.49 k
+[测速] www.nlmxy.cn:4000  ->  927.87 k
+[测速] z2m.eversouthhangzhou.com.cn:8188  ->  1.04 M
+[测速] www.tangtuanpp.fun:4000  ->  729.65 k
+[测速] zjhuct.synology.me:8881  ->  977.54 k
+测速完成，共 10 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-z2m.eversouthhangzhou.com.cn:8188 1.05 M
-dous.cc:4023           1.04 M
-zjhuct.synology.me:8881 1.04 M
-dk.song.zj.cn:4043     1.04 M
-dknas.song.zj.cn:4043  1.04 M
-www.nlmxy.cn:4000      1.04 M
-125.123.141.122:44022  1.03 M
-bit.nlmxy.cn:4000      1.03 M
-www.kod.nlmxy.cn:4000  1.03 M
-dootask.nlmxy.cn:4000  1.02 M
+z2m.eversouthhangzhou.com.cn:8188 1.04 M
+dknas.song.zj.cn:4043  1.03 M
+dk.song.zj.cn:4043     1.02 M
+dootask.nlmxy.cn:4000  1023.77 k
+zjhuct.synology.me:8881 977.54 k
+bit.nlmxy.cn:4000      959.00 k
+www.kod.nlmxy.cn:4000  941.49 k
+www.nlmxy.cn:4000      927.87 k
+dous.cc:4023           900.88 k
+www.tangtuanpp.fun:4000 729.65 k
 ---------------------------
 浙江电信 测试完成，生成可用文件：'txt/浙江电信.txt'
