@@ -44,10 +44,10 @@
 雅安新闻综合,http://ipipip/rtp/239.0.0.140:5140$1080p
 雅安文化生活,http://ipipip/rtp/239.0.0.93:5140$1080p
 遂宁综合,http://ipipip/rtp/239.0.0.127:5140
-遂宁文化生活,http://ipipip/rtp/239.0.0.92:5140$1080p
 阿坝州新闻综合,http://ipipip/rtp/239.0.0.141:5140$1080p
 阿坝州藏语综合,http://ipipip/rtp/239.0.0.142:5140$1080p
 CCTV-1 综合,http://ipipip/rtp/239.0.0.10:5140$1080p
+CCTV-1 综合,http://ipipip/rtp/239.0.0.92:5140$1080p
 CCTV-2 财经,http://ipipip/rtp/239.0.0.11:5140$1080p
 CCTV-3 综艺,http://ipipip/rtp/239.0.0.12:5140$1080p
 CCTV-4 中文国际,http://ipipip/rtp/239.0.0.13:5140$1080p
