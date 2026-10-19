@@ -11,9 +11,189 @@ import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
-# 读取文件并设置参数：每行 host:port，host 可以是 IPv4 也可以是域名
+# ====== CCTV 官方标准名映射 ======
+CCTV_STANDARD = {
+    "1":  "CCTV-1 综合",
+    "2":  "CCTV-2 财经",
+    "3":  "CCTV-3 综艺",
+    "4":  "CCTV-4 中文国际",
+    "5":  "CCTV-5 体育",
+    "5P": "CCTV-5+ 体育赛事",   # 5P 代表 5+
+    "6":  "CCTV-6 电影",
+    "7":  "CCTV-7 国防军事",
+    "8":  "CCTV-8 电视剧",
+    "9":  "CCTV-9 纪录",
+    "10": "CCTV-10 科教",
+    "11": "CCTV-11 戏曲",
+    "12": "CCTV-12 社会与法",
+    "13": "CCTV-13 新闻",
+    "14": "CCTV-14 少儿",
+    "15": "CCTV-15 音乐",
+    "16": "CCTV-16 奥林匹克",
+    "17": "CCTV-17 农业农村",
+}
+
+# 兜底正则里一并吃掉的常见中文后缀，避免「CCTV-9 纪录纪录」这种重复
+_CCTV_SUFFIX = (
+    "纪录|记录|综合|财经|综艺|中文国际|国际|体育赛事|体育赛视|体育|"
+    "电影|国防军事|军事|军农|农业|农业农村|电视剧|科教|戏曲|"
+    "社会与法|新闻|少儿|音乐|奥林匹克|高清|超清|超高清|标清|HD"
+)
+
+
+def standardize_cctv(name):
+    """把频道名里的 CCTV 部分统一成官方标准名（如 CCTV-1 综合）。
+
+    思路：先把 CCTV 片段抽成不含 -/空格/W/HD 的 token（§CCTV5§），
+    这样后续的通用清洗规则不会破坏它；最后再把 token 还原成标准名。
+    """
+    if not name:
+        return name
+
+    # 1) 前缀归一化：cctv / Cctv / 中央 → CCTV
+    name = re.sub(r'(?i)cctv', 'CCTV', name)
+    name = name.replace("中央", "CCTV")
+
+    # 2) 把 CCTV 片段抽成 token（顺序非常重要：具体在前，通用在后）
+
+    # 2.1) CCTV5卡 → 5（必须最先，否则会被兜底拆成 §CCTV5§ + "卡"）
+    name = re.sub(r'CCTV\s*-?\s*5\s*卡', '§CCTV5§', name)
+
+    # 2.2) 5+ 系列（必须先于通用 CCTV5）
+    name = re.sub(
+        r'CCTV\s*-?\s*5\s*\+\s*(体育赛视|体育赛事|体育赛|体育|赛事|赛)?',
+        '§CCTV5P§', name,
+    )
+    name = re.sub(
+        r'CCTV\s*-?\s*5\s*(体育赛视|体育赛事|体育赛|赛事)',
+        '§CCTV5P§', name,
+    )
+    name = re.sub(
+        r'CCTV\s*(体育赛视|体育赛事|体育赛|赛事)',
+        '§CCTV5P§', name,
+    )
+
+    # 2.3) 4 变体
+    name = re.sub(r'CCTV\s*-?\s*4\s*(国际|中文国际|广电)?', '§CCTV4§', name)
+
+    # 2.4) 13 变体
+    name = re.sub(r'CCTV\s*-?\s*13\s*(新闻)?', '§CCTV13§', name)
+    name = re.sub(r'CCTV\s*-?\s*新闻', '§CCTV13§', name)
+
+    # 2.5) 14 变体
+    name = re.sub(r'CCTV\s*-?\s*14\s*(少儿)?', '§CCTV14§', name)
+    name = re.sub(r'CCTV\s*-?\s*少儿', '§CCTV14§', name)
+
+    # 2.6) 7 变体
+    name = re.sub(
+        r'CCTV\s*-?\s*7\s*(国防军事|农业农村|军事|军农|农业)?',
+        '§CCTV7§', name,
+    )
+
+    # 2.7) 17 变体（必须在 7 之后；CCTV17 里的 7 不会被 2.6 误匹配，因为 2.6 要求紧跟 7）
+    name = re.sub(
+        r'CCTV\s*-?\s*17\s*(农业农村|农业|军农|军事)?',
+        '§CCTV17§', name,
+    )
+
+    # 2.8) CGTN
+    name = re.sub(r'(?i)CCTV\s*-?\s*news', '§CGTN§', name)
+    name = re.sub(r'CGTN\s*(今日世界|英语)?', '§CGTN§', name)
+
+    # 2.9) CETV 教育台
+    name = re.sub(r'CCTV\s*教育', '§CETV1§', name)
+    name = re.sub(r'中国教育\s*1', '§CETV1§', name)
+    name = re.sub(r'中国教育\s*2', '§CETV2§', name)
+    name = re.sub(r'中国教育\s*4', '§CETV4§', name)
+    name = re.sub(r'CETV\s*-?\s*1\s*中教', '§CETV1§', name)
+
+    # 2.10) 兜底 CCTVn（顺带吃掉常见中文后缀，避免最后重复）
+    name = re.sub(
+        r'CCTV\s*-?\s*(\d+)\s*(' + _CCTV_SUFFIX + r')?',
+        lambda m: f'§CCTV{m.group(1)}§',
+        name,
+    )
+
+    # 3) 非 CCTV 的通用清洗（token 里没有 -/空格/W/HD，所以不会被破坏）
+    name = name.replace("超高清", "")
+    name = name.replace("超清", "")
+    name = name.replace("高清", "")
+    name = name.replace("HD", "")
+    name = name.replace("标清", "")
+    name = name.replace("频道", "")
+    name = name.replace("记录", "纪录")
+    name = name.replace("-", "")
+    name = name.replace(" ", "")
+    name = name.replace("PLUS", "+")
+    name = name.replace("＋", "+")
+    name = name.replace("(", "")
+    name = name.replace(")", "")
+    name = name.replace("K1", "")
+    name = name.replace("K2", "")
+    name = name.replace("W", "")
+    name = name.replace("w", "")
+    name = name.replace("奥运匹克", "")
+    name = name.replace("军农", "")
+    name = name.replace("回放", "")
+    name = name.replace("测试", "")
+    name = name.replace("广播电视台", "")
+    name = name.replace("编码", "")
+    name = name.replace("XF", "")
+
+    # 4) 非 CCTV 频道的中文名归一化（保留原规则，与 CCTV 无关）
+    name = name.replace("上海卫视", "东方卫视")
+    name = name.replace("全纪实", "乐游纪实")
+    name = name.replace("金鹰动画", "金鹰卡通")
+    name = name.replace("河南新农村", "河南乡村")
+    name = name.replace("河南法制", "河南法治")
+    name = name.replace("文物宝库", "收藏天下")
+    name = name.replace("梨园春", "河南戏曲")
+    name = name.replace("梨园", "梨园频道")
+    name = name.replace("吉林综艺", "吉视综艺文化")
+    name = name.replace("BRTVKAKU", "BRTV卡酷少儿")
+    name = name.replace("kaku少儿", "BRTV卡酷少儿")
+    name = name.replace("北京卡通", "BRTV卡酷少儿")
+    name = name.replace("卡酷卡通", "BRTV卡酷少儿")
+    name = name.replace("卡酷动画", "BRTV卡酷少儿")
+    name = name.replace("佳佳动画", "嘉佳卡通")
+    name = name.replace("ICS", "上视ICS外语频道")
+    name = name.replace("法制天地", "法治天地")
+    name = name.replace("都市时尚", "都市剧场")
+    name = name.replace("上海炫动卡通", "哈哈炫动")
+    name = name.replace("炫动卡通", "哈哈炫动")
+    name = name.replace("旅游卫视", "海南卫视")
+    name = name.replace("福建东南卫视", "东南卫视")
+    name = name.replace("福建东南", "东南卫视")
+    name = name.replace("南方卫视粤语节目9", "大湾区卫视")
+    name = name.replace("内蒙古蒙语频道", "内蒙古蒙语卫视")
+    name = name.replace("南方卫视", "大湾区卫视")
+    name = name.replace("南方1", "广东经济科教")
+    name = name.replace("南方4", "广东影视频道")
+    name = name.replace("吉林市1", "吉林新闻综合")
+    name = name.replace("家庭影院", "CHC家庭影院")
+    name = name.replace("动作电影", "CHC动作电影")
+    name = name.replace("影迷电影", "CHC影迷电影")
+    name = name.replace("CCTV足球", "CCTV风云足球")   # 付费频道，无编号，不参与标准表
+# 去掉末尾的单个大写字母后缀（B/J/K 等源标记）
+    name = re.sub(r'(?<=[\u4e00-\u9fa5])[A-Z]$', '', name)
+    # 5) token → 标准名
+    for key, std in CCTV_STANDARD.items():
+        name = name.replace(f'§CCTV{key}§', std)
+    name = name.replace('§CGTN§', 'CGTN')
+    name = name.replace('§CETV1§', 'CETV1')
+    name = name.replace('§CETV2§', 'CETV2')
+    name = name.replace('§CETV4§', 'CETV4')
+
+    # 6) 兜底：不在标准表里的 CCTVn / CCTVnP 保留为 CCTV-n / CCTV-n+
+    name = re.sub(r'§CCTV(\d+)P§', r'CCTV-\1+', name)
+    name = re.sub(r'§CCTV(\d+)§', r'CCTV-\1', name)
+
+    return name
+
+
+# ====== 读取配置文件 ======
 def read_config(config_file):
-    """返回 [(host, port), ...]，任何异常情况下都返回 list（不返回 None）。"""
+    """返回 [(host, port), ...]，host 可以是 IPv4 或域名；任何异常都返回 list。"""
     host_configs = []
     try:
         with open(config_file, 'r', encoding='utf-8') as f:
@@ -35,11 +215,8 @@ def read_config(config_file):
     return host_configs
 
 
+# ====== 展开扫描目标（IPv4 扫整段，域名只扫自己） ======
 def expand_targets(host, port):
-    """把 (host, port) 展开成要扫描的 host:port 列表。
-    IPv4 → 扫同网段 1~254（保留原逻辑）；
-    域名 → 只扫它本身。
-    """
     try:
         ipaddress.IPv4Address(host)
         a, b, c, _ = host.split('.')
@@ -48,7 +225,7 @@ def expand_targets(host, port):
         return [f"{host}:{port}"]
 
 
-# 发送get请求检测url是否可访问
+# ====== 探测单个 host:port 是否可访问 ======
 def check_ip_port(ip_port, url_end):
     try:
         url = f"http://{ip_port}{url_end}"
@@ -62,7 +239,7 @@ def check_ip_port(ip_port, url_end):
     return None
 
 
-# 发送GET请求获取JSON文件, 解析JSON文件, 获取频道信息
+# ====== 解析频道信息 ======
 def extract_channels(url):
     hotel_channels = []
     try:
@@ -95,7 +272,7 @@ def extract_channels(url):
         return []
 
 
-# 测速
+# ====== 测速 ======
 def speed_test(channels):
     def show_progress():
         while checked[0] < len(channels):
@@ -151,132 +328,22 @@ def speed_test(channels):
     return results
 
 
-# 替换关键词以规范频道名
+# ====== 统一频道名（调用 standardize_cctv） ======
 def unify_channel_name(channels_list):
     new_channels_list = []
     for name, channel_url, speed in channels_list:
-        name = name.replace("cctv", "CCTV")
-        name = name.replace("中央", "CCTV")
-        name = name.replace("超清", "")
-        name = name.replace("超高清", "")
-        name = name.replace("高清", "")
-        name = name.replace("HD", "")
-        name = name.replace("标清", "")
-        name = name.replace("频道", "")
-        name = name.replace("记录", "纪录")
-        name = name.replace("-", "")
-        name = name.replace(" ", "")
-        name = name.replace("PLUS", "+")
-        name = name.replace("＋", "+")
-        name = name.replace("(", "")
-        name = name.replace(")", "")
-        name = name.replace("K1", "")
-        name = name.replace("K2", "")
-        name = name.replace("W", "")
-        name = name.replace("w", "")
-        name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
-        name = name.replace("CCTV2", "CCTV-2")
-        name = name.replace("CCTV3", "CCTV-3")
-        name = name.replace("CCTV4国际", "CCTV-4中文国际")
-        name = name.replace("CCTV4广电", "CCTV-4中文国际")
-        name = name.replace("CCTV4", "CCTV-4")
-        name = name.replace("CCTV5", "CCTV-5")
-        name = name.replace("CCTV6", "CCTV-6")
-        name = name.replace("CCTV7军事", "CCTV-7国防军事")
-        name = name.replace("CCTV7军农", "CCTV-7国防军事")
-        name = name.replace("CCTV7农业", "CCTV-7国防军事")
-        name = name.replace("CCTV7", "CCTV-7")
-        name = name.replace("CCTV8", "CCTV-8")
-        name = name.replace("CCTV9", "CCTV-9")
-        name = name.replace("CCTV10", "CCTV-10")
-        name = name.replace("CCTV11", "CCTV-11")
-        name = name.replace("CCTV12", "CCTV-12")
-        name = name.replace("CCTV13", "CCTV-13")
-        name = name.replace("CCTV新闻", "CCTV-13新闻")
-        name = name.replace("CCTV14", "CCTV-14")
-        name = name.replace("CCTV少儿", "CCTV-14少儿")
-        name = name.replace("CCTV15", "CCTV-15")
-        name = name.replace("CCTV16", "CCTV-16")
-        name = name.replace("CCTV17农业农村", "CCTV-17农业农村")
-        name = name.replace("CCTV17农业", "CCTV-17农业农村")
-        name = name.replace("CCTV17军农", "CCTV-17农业农村")
-        name = name.replace("CCTV17军事", "CCTV-17农业农村")
-        name = name.replace("CCTV5+体育赛视", "CCTV5+")
-        name = name.replace("CCTV5+体育赛事", "CCTV5+")
-        name = name.replace("CCTV5+体育", "CCTV5+")
-        name = name.replace("CCTV赛事", "CCTV5+")
-        name = name.replace("CCTV5卡", "CCTV5")
-        name = name.replace("CCTV5赛事", "CCTV5+")
-        name = name.replace("CCTV1", "CCTV-1")
-
-        name = name.replace("CCTV5+", "CCTV-5+体育赛事")
-        name = name.replace("CCTV足球", "CCTV风云足球")
-        name = name.replace("上海卫视", "东方卫视")
-        name = name.replace("奥运匹克", "")
-        name = name.replace("军农", "")
-        name = name.replace("回放", "")
-        name = name.replace("测试", "")
-        name = name.replace("CCTV教育", "CETV1")
-        name = name.replace("中国教育1", "CETV1")
-        name = name.replace("CETV1中教", "CETV1")
-        name = name.replace("中国教育2", "CETV2")
-        name = name.replace("中国教育4", "CETV4")
-        name = name.replace("CCTV教育", "CETV1")
-        name = name.replace("CCTVnews", "CGTN")
-        name = name.replace("1资讯", "凤凰资讯台")
-        name = name.replace("2中文", "凤凰台")
-        name = name.replace("3XG", "香港台")
-        name = name.replace("上海卫视", "东方卫视")
-        name = name.replace("全纪实", "乐游纪实")
-        name = name.replace("金鹰动画", "金鹰卡通")
-        name = name.replace("河南新农村", "河南乡村")
-        name = name.replace("河南法制", "河南法治")
-        name = name.replace("文物宝库", "收藏天下")
-        name = name.replace("梨园", "河南戏曲")
-        name = name.replace("梨园春", "河南戏曲")
-        name = name.replace("吉林综艺", "吉视综艺文化")
-        name = name.replace("BRTVKAKU", "卡酷少儿")
-        name = name.replace("kaku少儿", "卡酷少儿")
-        name = name.replace("北京卡通", "卡酷少儿")
-        name = name.replace("卡酷卡通", "卡酷少儿")
-        name = name.replace("卡酷动画", "卡酷少儿")
-        name = name.replace("佳佳动画", "嘉佳卡通")
-        name = name.replace("CGTN今日世界", "CGTN")
-        name = name.replace("CGTN英语", "CGTN")
-        name = name.replace("ICS", "上视ICS外语频道")
-        name = name.replace("法制天地", "法治天地")
-        name = name.replace("都市时尚", "都市剧场")
-        name = name.replace("上海炫动卡通", "哈哈炫动")
-        name = name.replace("炫动卡通", "哈哈炫动")
-        name = name.replace("回放", "")
-        name = name.replace("测试", "")
-        name = name.replace("旅游卫视", "海南卫视")
-        name = name.replace("福建东南卫视", "东南卫视")
-        name = name.replace("福建东南", "东南卫视")
-        name = name.replace("南方卫视粤语节目9", "广东大湾区频道")
-        name = name.replace("内蒙古蒙语卫视", "内蒙古蒙语频道")
-        name = name.replace("南方卫视", "广东大湾区频道")
-        name = name.replace("中国教育1", "CETV1")
-        name = name.replace("南方1", "广东经济科教")
-        name = name.replace("南方4", "广东影视频道")
-        name = name.replace("吉林市1", "吉林新闻综合")
-        name = name.replace("CHC家庭影院", "家庭影院")
-        name = name.replace("CHC动作电影", "动作电影")
-        name = name.replace("CHC影迷电影", "影迷电影")
-        name = name.replace("广播电视台", "")
-        name = name.replace("编码", "")
-        name = name.replace("XF", "")
+        name = standardize_cctv(name)
         new_channels_list.append(f"{name},{channel_url}\n")
     return new_channels_list
 
 
-# 定义排序函数，提取频道名称中的数字并按数字排序
+# ====== 排序 key ======
 def channel_key(channel_name):
     match = re.search(r'\d+', channel_name)
     return int(match.group()) if match else float('inf')
 
 
-# 自定义分组函数
+# ====== 分组 ======
 def classify_channels(input_file, output_file, keywords):
     keywords_list = keywords.split(',')
     pattern = '|'.join(re.escape(keyword) for keyword in keywords_list)
@@ -291,16 +358,15 @@ def classify_channels(input_file, output_file, keywords):
         out_file.writelines(extracted_lines)
 
 
-# 获取酒店源流程
+# ====== 酒店源主流程 ======
 def hotel_iptv(config_file):
-    host_configs = list(dict.fromkeys(read_config(config_file)))  # 保序去重
+    host_configs = list(dict.fromkeys(read_config(config_file)))   # 保序去重
     if not host_configs:
         print(f"{config_file} 无有效配置，跳过")
         return
 
     url_ends = ["/iptv/live/1000.json?key=txiptv", "/ZHGXTV/Public/json/live_interface.txt"]
 
-    # 把每行 host:port 展开成实际要探测的 target 列表（IPv4 扫整段 / 域名只扫自己）
     tasks_set = set()
     n_ip = n_domain = 0
     for host, port in host_configs:
@@ -316,7 +382,7 @@ def hotel_iptv(config_file):
     print(f"{config_file}: IPv4 {n_ip} 条, 域名 {n_domain} 条, 展开后共 {len(tasks)} 个探测任务")
 
     valid_urls = []
-    with ThreadPoolExecutor(max_workers=200) as executor:  # 整段扫描任务多，调高并发
+    with ThreadPoolExecutor(max_workers=200) as executor:
         futures = {
             executor.submit(check_ip_port, target, url_end): (target, url_end)
             for target, url_end in tasks
@@ -334,7 +400,7 @@ def hotel_iptv(config_file):
     print(f"共获取频道：{len(channels)}个\n开始测速")
     results = speed_test(channels)
 
-    # 对频道进行排序
+    # 先按速度降序，再按频道号排序（保持原逻辑）
     results.sort(key=lambda x: -float(x[2]))
     results.sort(key=lambda x: channel_key(x[0]))
     with open('1.txt', 'a', encoding='utf-8') as f:
