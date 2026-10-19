@@ -1,3 +1,4 @@
+125.123.141.122:44022
 bit.nlmxy.cn:4000
 dk.song.zj.cn:4043
 dknas.song.zj.cn:4043
