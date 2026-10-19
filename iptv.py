@@ -11,184 +11,119 @@ import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
-# ====== CCTV 官方标准名映射 ======
-CCTV_STANDARD = {
-    "1":  "CCTV-1 综合",
-    "2":  "CCTV-2 财经",
-    "3":  "CCTV-3 综艺",
-    "4":  "CCTV-4 中文国际",
-    "5":  "CCTV-5 体育",
-    "5P": "CCTV-5+ 体育赛事",   # 5P 代表 5+
-    "6":  "CCTV-6 电影",
-    "7":  "CCTV-7 国防军事",
-    "8":  "CCTV-8 电视剧",
-    "9":  "CCTV-9 纪录",
-    "10": "CCTV-10 科教",
-    "11": "CCTV-11 戏曲",
-    "12": "CCTV-12 社会与法",
-    "13": "CCTV-13 新闻",
-    "14": "CCTV-14 少儿",
-    "15": "CCTV-15 音乐",
-    "16": "CCTV-16 奥林匹克",
-    "17": "CCTV-17 农业农村",
-}
+# ====== 频道名归一化（基于 config.txt） ======
+class ChannelNormalizer:
+    """按 config.txt 的「标准名,别名1,别名2,...」规则归一化频道名。
 
-# 兜底正则里一并吃掉的常见中文后缀，避免「CCTV-9 纪录纪录」这种重复
-_CCTV_SUFFIX = (
-    "纪录|记录|综合|财经|综艺|中文国际|国际|体育赛事|体育赛视|体育|"
-    "电影|国防军事|军事|军农|农业|农业农村|电视剧|科教|戏曲|"
-    "社会与法|新闻|少儿|音乐|奥林匹克|高清|超清|超高清|标清|HD"
-)
-
-
-def standardize_cctv(name):
-    """把频道名里的 CCTV 部分统一成官方标准名（如 CCTV-1 综合）。
-
-    思路：先把 CCTV 片段抽成不含 -/空格/W/HD 的 token（§CCTV5§），
-    这样后续的通用清洗规则不会破坏它；最后再把 token 还原成标准名。
+    - 每行第一个字段为标准名（保持不变）
+    - 其余字段为该标准名的别名（统一映射为标准名）
+    - 匹配时按别名长度降序，保证长别名优先
+    - 自动清理「高清/超清/超高清/标清/HD」等画质词
     """
-    if not name:
-        return name
 
-    # 1) 前缀归一化：cctv / Cctv / 中央 → CCTV
-    name = re.sub(r'(?i)cctv', 'CCTV', name)
-    name = name.replace("中央", "CCTV")
+    QUALITY_TOKENS = ('超高清', '超清', '高清', '标清', 'HD')
 
-    # 2) 把 CCTV 片段抽成 token（顺序非常重要：具体在前，通用在后）
+    def __init__(self, config_file):
+        self.alias_to_std = {}
+        self.std_names = set()
+        self.conflicts = []
+        self._load_config(config_file)
+        self._build_pattern()
 
-    # 2.1) CCTV5卡 → 5（必须最先，否则会被兜底拆成 §CCTV5§ + "卡"）
-    name = re.sub(r'CCTV\s*-?\s*5\s*卡', '§CCTV5§', name)
+    def _load_config(self, config_file):
+        try:
+            with open(config_file, 'r', encoding='utf-8') as f:
+                for lineno, line in enumerate(f, 1):
+                    line = line.strip()
+                    if not line or line.startswith('#'):
+                        continue
+                    parts = [p.strip() for p in line.split(',')]
+                    parts = [p for p in parts if p]
+                    if not parts:
+                        continue
+                    std = parts[0]
+                    self.std_names.add(std)
+                    for alias in [std] + parts[1:]:
+                        key = alias.lower()
+                        if key in self.alias_to_std and self.alias_to_std[key] != std:
+                            self.conflicts.append(
+                                f"第 {lineno} 行 '{alias}' 已映射到 "
+                                f"'{self.alias_to_std[key]}'，忽略到 '{std}' 的映射"
+                            )
+                            continue
+                        self.alias_to_std[key] = std
+        except FileNotFoundError:
+            print(f"警告：配置文件不存在: {config_file}")
+        for c in self.conflicts:
+            print(f"[配置冲突] {c}")
 
-    # 2.2) 5+ 系列（必须先于通用 CCTV5）
-    name = re.sub(
-        r'CCTV\s*-?\s*5\s*\+\s*(体育赛视|体育赛事|体育赛|体育|赛事|赛)?',
-        '§CCTV5P§', name,
-    )
-    name = re.sub(
-        r'CCTV\s*-?\s*5\s*(体育赛视|体育赛事|体育赛|赛事)',
-        '§CCTV5P§', name,
-    )
-    name = re.sub(
-        r'CCTV\s*(体育赛视|体育赛事|体育赛|赛事)',
-        '§CCTV5P§', name,
-    )
+    def _build_pattern(self):
+        aliases = sorted(self.alias_to_std.keys(), key=len, reverse=True)
+        if not aliases:
+            self.pattern = None
+            return
+        self.pattern = re.compile(
+            '|'.join(re.escape(a) for a in aliases),
+            re.IGNORECASE,
+        )
 
-    # 2.3) 4 变体
-    name = re.sub(r'CCTV\s*-?\s*4\s*(国际|中文国际|广电)?', '§CCTV4§', name)
+    def _replacer(self, m):
+        return self.alias_to_std[m.group(0).lower()]
 
-    # 2.4) 13 变体
-    name = re.sub(r'CCTV\s*-?\s*13\s*(新闻)?', '§CCTV13§', name)
-    name = re.sub(r'CCTV\s*-?\s*新闻', '§CCTV13§', name)
+    def normalize(self, name):
+        if not name or self.pattern is None:
+            return name
 
-    # 2.5) 14 变体
-    name = re.sub(r'CCTV\s*-?\s*14\s*(少儿)?', '§CCTV14§', name)
-    name = re.sub(r'CCTV\s*-?\s*少儿', '§CCTV14§', name)
+        # 1) 直接匹配
+        result = self.pattern.sub(self._replacer, name)
+        if result != name:
+            return self._final_cleanup(result)
 
-    # 2.6) 7 变体
-    name = re.sub(
-        r'CCTV\s*-?\s*7\s*(国防军事|农业农村|军事|军农|农业)?',
-        '§CCTV7§', name,
-    )
+        # 2) 去掉画质词后再匹配
+        cleaned = name
+        for token in self.QUALITY_TOKENS:
+            cleaned = cleaned.replace(token, '')
+        if cleaned != name:
+            result = self.pattern.sub(self._replacer, cleaned)
+            if result != cleaned:
+                return self._final_cleanup(result)
+        else:
+            cleaned = name
 
-    # 2.7) 17 变体（必须在 7 之后；CCTV17 里的 7 不会被 2.6 误匹配，因为 2.6 要求紧跟 7）
-    name = re.sub(
-        r'CCTV\s*-?\s*17\s*(农业农村|农业|军农|军事)?',
-        '§CCTV17§', name,
-    )
+        # 3) 全角括号转半角后再匹配
+        cleaned2 = cleaned.replace('（', '(').replace('）', ')')
+        if cleaned2 != cleaned:
+            result = self.pattern.sub(self._replacer, cleaned2)
+            if result != cleaned2:
+                return self._final_cleanup(result)
 
-    # 2.8) CGTN
-    name = re.sub(r'(?i)CCTV\s*-?\s*news', '§CGTN§', name)
-    name = re.sub(r'CGTN\s*(今日世界|英语)?', '§CGTN§', name)
+        return self._final_cleanup(result)
 
-    # 2.9) CETV 教育台
-    name = re.sub(r'CCTV\s*教育', '§CETV1§', name)
-    name = re.sub(r'中国教育\s*1', '§CETV1§', name)
-    name = re.sub(r'中国教育\s*2', '§CETV2§', name)
-    name = re.sub(r'中国教育\s*4', '§CETV4§', name)
-    name = re.sub(r'CETV\s*-?\s*1\s*中教', '§CETV1§', name)
-
-    # 2.10) 兜底 CCTVn（顺带吃掉常见中文后缀，避免最后重复）
-    name = re.sub(
-        r'CCTV\s*-?\s*(\d+)\s*(' + _CCTV_SUFFIX + r')?',
-        lambda m: f'§CCTV{m.group(1)}§',
-        name,
-    )
-
-    # 3) 非 CCTV 的通用清洗（token 里没有 -/空格/W/HD，所以不会被破坏）
-    name = name.replace("超高清", "")
-    name = name.replace("超清", "")
-    name = name.replace("高清", "")
-    name = name.replace("HD", "")
-    name = name.replace("标清", "")
-    name = name.replace("频道", "")
-    name = name.replace("记录", "纪录")
-    name = name.replace("-", "")
-    name = name.replace(" ", "")
-    name = name.replace("PLUS", "+")
-    name = name.replace("＋", "+")
-    name = name.replace("(", "")
-    name = name.replace(")", "")
-    name = name.replace("K1", "")
-    name = name.replace("K2", "")
-    name = name.replace("W", "")
-    name = name.replace("w", "")
-    name = name.replace("奥运匹克", "")
-    name = name.replace("军农", "")
-    name = name.replace("回放", "")
-    name = name.replace("测试", "")
-    name = name.replace("广播电视台", "")
-    name = name.replace("编码", "")
-    name = name.replace("XF", "")
-
-    # 4) 非 CCTV 频道的中文名归一化（保留原规则，与 CCTV 无关）
-    name = name.replace("上海卫视", "东方卫视")
-    name = name.replace("全纪实", "乐游纪实")
-    name = name.replace("金鹰动画", "金鹰卡通")
-    name = name.replace("河南新农村", "河南乡村")
-    name = name.replace("河南法制", "河南法治")
-    name = name.replace("文物宝库", "收藏天下")
-    name = name.replace("梨园春", "河南戏曲")
-    name = name.replace("梨园", "梨园频道")
-    name = name.replace("吉林综艺", "吉视综艺文化")
-    name = name.replace("BRTVKAKU", "BRTV卡酷少儿")
-    name = name.replace("kaku少儿", "BRTV卡酷少儿")
-    name = name.replace("北京卡通", "BRTV卡酷少儿")
-    name = name.replace("卡酷卡通", "BRTV卡酷少儿")
-    name = name.replace("卡酷动画", "BRTV卡酷少儿")
-    name = name.replace("佳佳动画", "嘉佳卡通")
-    name = name.replace("ICS", "上视ICS外语频道")
-    name = name.replace("法制天地", "法治天地")
-    name = name.replace("都市时尚", "都市剧场")
-    name = name.replace("上海炫动卡通", "哈哈炫动")
-    name = name.replace("炫动卡通", "哈哈炫动")
-    name = name.replace("旅游卫视", "海南卫视")
-    name = name.replace("福建东南卫视", "东南卫视")
-    name = name.replace("福建东南", "东南卫视")
-    name = name.replace("南方卫视粤语节目9", "大湾区卫视")
-    name = name.replace("内蒙古蒙语频道", "内蒙古蒙语卫视")
-    name = name.replace("南方卫视", "大湾区卫视")
-    name = name.replace("南方1", "广东经济科教")
-    name = name.replace("南方4", "广东影视频道")
-    name = name.replace("吉林市1", "吉林新闻综合")
-    name = name.replace("家庭影院", "CHC家庭影院")
-    name = name.replace("动作电影", "CHC动作电影")
-    name = name.replace("影迷电影", "CHC影迷电影")
-    name = name.replace("CCTV足球", "CCTV风云足球")   # 付费频道，无编号，不参与标准表
-# 去掉末尾的单个大写字母后缀（B/J/K 等源标记）
-    name = re.sub(r'(?<=[\u4e00-\u9fa5])[A-Z]$', '', name)
-    # 5) token → 标准名
-    for key, std in CCTV_STANDARD.items():
-        name = name.replace(f'§CCTV{key}§', std)
-    name = name.replace('§CGTN§', 'CGTN')
-    name = name.replace('§CETV1§', 'CETV1')
-    name = name.replace('§CETV2§', 'CETV2')
-    name = name.replace('§CETV4§', 'CETV4')
-
-    # 6) 兜底：不在标准表里的 CCTVn / CCTVnP 保留为 CCTV-n / CCTV-n+
-    name = re.sub(r'§CCTV(\d+)P§', r'CCTV-\1+', name)
-    name = re.sub(r'§CCTV(\d+)§', r'CCTV-\1', name)
-
-    return name
+    def _final_cleanup(self, result):
+        for std in sorted(self.std_names, key=len, reverse=True):
+            if result.startswith(std):
+                tail = result[len(std):]
+                # 清理画质词
+                for token in self.QUALITY_TOKENS:
+                    tail = tail.replace(token, '')
+                # 清理空格、横线、括号
+                tail = re.sub(r'[\s\-_\(\)（）\[\]【】]', '', tail)
+                # 清理末尾源标记（大写字母 / 数字）
+                tail = re.sub(r'(?:[A-Z]|\d+)$', '', tail)
+                tail = tail.replace('*', '').replace('＊', '')
+                # 重复后缀检测：tail 是 std 的后缀时直接去掉
+                if tail and std.endswith(tail):
+                    tail = ''
+                result = std + tail
+                break
+        else:
+            # 没有匹配到任何标准名时做通用清理
+            result = re.sub(r'[\s\-_\(\)（）\[\]【】]', '', result)
+            result = re.sub(r'(?:[A-Z]|\d+)$', '', result)
+            result = result.replace('*', '').replace('＊', '')
+            for token in self.QUALITY_TOKENS:
+                result = result.replace(token, '')
+        return result.strip()
 
 
 # ====== 读取配置文件 ======
@@ -328,11 +263,11 @@ def speed_test(channels):
     return results
 
 
-# ====== 统一频道名（调用 standardize_cctv） ======
-def unify_channel_name(channels_list):
+# ====== 统一频道名（调用 ChannelNormalizer） ======
+def unify_channel_name(channels_list, normalizer):
     new_channels_list = []
     for name, channel_url, speed in channels_list:
-        name = standardize_cctv(name)
+        name = normalizer.normalize(name)
         new_channels_list.append(f"{name},{channel_url}\n")
     return new_channels_list
 
@@ -359,7 +294,7 @@ def classify_channels(input_file, output_file, keywords):
 
 
 # ====== 酒店源主流程 ======
-def hotel_iptv(config_file):
+def hotel_iptv(config_file, normalizer):
     host_configs = list(dict.fromkeys(read_config(config_file)))   # 保序去重
     if not host_configs:
         print(f"{config_file} 无有效配置，跳过")
@@ -404,7 +339,7 @@ def hotel_iptv(config_file):
     results.sort(key=lambda x: -float(x[2]))
     results.sort(key=lambda x: channel_key(x[0]))
     with open('1.txt', 'a', encoding='utf-8') as f:
-        f.writelines(unify_channel_name(results))
+        f.writelines(unify_channel_name(results, normalizer))
     print("测速完成")
 
 
@@ -414,12 +349,17 @@ def main():
         if os.path.exists(f):
             os.remove(f)
 
+    # 初始化频道归一化器（依赖 config.txt）
+    normalizer = ChannelNormalizer("config.txt")
+    print(f"频道配置加载完成：{len(normalizer.alias_to_std)} 个别名，"
+          f"{len(normalizer.std_names)} 个标准名")
+
     hotel_config_files = ["ip/酒店高清.ip", "ip/酒店标清.ip"]
     for config_file in hotel_config_files:
         if not os.path.exists(config_file):
             print(f"警告：配置文件不存在，跳过: {config_file}")
             continue
-        hotel_iptv(config_file)
+        hotel_iptv(config_file, normalizer)
 
     classify_channels('1.txt', '央视.txt', keywords="央视频道,CCTV,风云剧场,怀旧剧场,第一剧场,兵器,女性,地理,央视文化,风云音乐,CHC")
     classify_channels('1.txt', '卫视.txt', keywords="卫视频道,卫视")
