@@ -2,43 +2,43 @@
 从 'ip/北京联通_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
 连接成功 25 个,开始测速（并发 5）······
-[测速] 221.220.131.58:8012  ->  964.77 k
-[测速] 123.118.229.223:9090  ->  922.14 k
-[测速] 111.196.128.44:20000  ->  683.46 k
-[测速] 123.113.6.3:8688  ->  940.66 k
-[测速] 6.triq.cc:8012  ->  883.03 k
-[测速] fnos.cgproxy.cn:4022  ->  657.71 k
+[测速] 123.118.225.211:9090  ->  950.27 k
+[测速] 123.113.6.3:8688  ->  947.57 k
+[测速] 111.196.128.44:20000  ->  728.29 k
+[测速] 6.triq.cc:8012  ->  938.45 k
+[测速] fnos.cgproxy.cn:4022  ->  771.13 k
+[测速] 221.220.131.58:8012  ->  965.14 k
 [测速] guoxue7.xicp.net:57022  ->  0.00 B
-[测速] happylive.asuscomm.com:8888  ->  949.20 k
-[测速] guoxue.synology.me:57022  ->  937.61 k
-[测速] guoxue7.3322.org:57022  ->  922.21 k
-[测速] home.zgnc.fun:8824  ->  1.13 M
-[测速] home.zgnc.fun:8821  ->  1.11 M
-[测速] n2.192372.xyz:8888  ->  943.29 k
+[测速] guoxue7.3322.org:57022  ->  841.81 k
+[测速] guoxue.synology.me:57022  ->  951.54 k
+[测速] happylive.asuscomm.com:8888  ->  960.27 k
+[测速] home.zgnc.fun:8821  ->  1.23 M
+[测速] home.zgnc.fun:8824  ->  1.23 M
+[测速] n2.192372.xyz:8888  ->  950.55 k
 [测速] qqdwtypm3.xicp.net:64022  ->  0.00 B
 [测速] thomastian.duckdns.org:8012  ->  0.00 B
-[测速] naslmd2.myqnapcloud.com:4022  ->  883.88 k
-[测速] qqdwtypm.f3322.org:64022  ->  936.53 k
-[测速] rt.096096.xyz:61612  ->  893.43 k
-[测速] superpostmail.3322.org:1193  ->  896.87 k
-[测速] triq.cc:8012  ->  861.01 k
-[测速] wuyanjiang.cn:8012  ->  960.77 k
-[测速] www.49156116.xyz:23234  ->  939.23 k
-[测速] www.ljun.cc:4022  ->  914.25 k
-[测速] www.xiongnas.top:8888  ->  942.09 k
-[测速] www.photoby.us:28012  ->  861.10 k
+[测速] naslmd2.myqnapcloud.com:4022  ->  82.77 k
+[测速] qqdwtypm.f3322.org:64022  ->  934.93 k
+[测速] superpostmail.3322.org:1193  ->  875.84 k
+[测速] rt.096096.xyz:61612  ->  937.95 k
+[测速] triq.cc:8012  ->  934.62 k
+[测速] wuyanjiang.cn:8012  ->  959.48 k
+[测速] www.ljun.cc:4022  ->  950.83 k
+[测速] www.49156116.xyz:23234  ->  950.57 k
+[测速] www.photoby.us:28012  ->  924.13 k
+[测速] www.xiongnas.top:8888  ->  949.68 k
 测速完成，共 25 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-home.zgnc.fun:8824     1.13 M
-home.zgnc.fun:8821     1.11 M
-221.220.131.58:8012    964.77 k
-wuyanjiang.cn:8012     960.77 k
-happylive.asuscomm.com:8888 949.20 k
-n2.192372.xyz:8888     943.29 k
-www.xiongnas.top:8888  942.09 k
-123.113.6.3:8688       940.66 k
-www.49156116.xyz:23234 939.23 k
-guoxue.synology.me:57022 937.61 k
+home.zgnc.fun:8824     1.23 M
+home.zgnc.fun:8821     1.23 M
+221.220.131.58:8012    965.14 k
+happylive.asuscomm.com:8888 960.27 k
+wuyanjiang.cn:8012     959.48 k
+guoxue.synology.me:57022 951.54 k
+www.ljun.cc:4022       950.83 k
+www.49156116.xyz:23234 950.57 k
+n2.192372.xyz:8888     950.55 k
+123.118.225.211:9090   950.27 k
 ---------------------------
 北京联通 测试完成，生成可用文件：'txt/北京联通.txt'
