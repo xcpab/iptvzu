@@ -11,24 +11,22 @@ import requests
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
-# ====== 频道名归一化（基于 config.txt） ======
+# ====== 频道名归一化（基于 config.txt，完整匹配） ======
 class ChannelNormalizer:
     """按 config.txt 的「标准名,别名1,别名2,...」规则归一化频道名。
 
-    - 每行第一个字段为标准名（保持不变）
-    - 其余字段为该标准名的别名（统一映射为标准名）
-    - 匹配时按别名长度降序，保证长别名优先
-    - 自动清理「高清/超清/超高清/标清/HD」等画质词
+    - 每行第一个字段为标准名
+    - 其余字段为别名，只有**完整匹配**时才替换为标准名（大小写不敏感）
+    - 先尝试原始名匹配；失败则清理画质词后再尝试完整匹配
+    - 仍未匹配到任何规则的，保留清理画质词后的名字
     """
 
     QUALITY_TOKENS = ('超高清', '超清', '高清', '标清', 'HD')
 
     def __init__(self, config_file):
         self.alias_to_std = {}
-        self.std_names = set()
         self.conflicts = []
         self._load_config(config_file)
-        self._build_pattern()
 
     def _load_config(self, config_file):
         try:
@@ -42,7 +40,6 @@ class ChannelNormalizer:
                     if not parts:
                         continue
                     std = parts[0]
-                    self.std_names.add(std)
                     for alias in [std] + parts[1:]:
                         key = alias.lower()
                         if key in self.alias_to_std and self.alias_to_std[key] != std:
@@ -57,73 +54,33 @@ class ChannelNormalizer:
         for c in self.conflicts:
             print(f"[配置冲突] {c}")
 
-    def _build_pattern(self):
-        aliases = sorted(self.alias_to_std.keys(), key=len, reverse=True)
-        if not aliases:
-            self.pattern = None
-            return
-        self.pattern = re.compile(
-            '|'.join(re.escape(a) for a in aliases),
-            re.IGNORECASE,
-        )
-
-    def _replacer(self, m):
-        return self.alias_to_std[m.group(0).lower()]
+    def _lookup(self, name):
+        """完整匹配查表，命中返回标准名，否则返回 None。"""
+        if not name:
+            return None
+        return self.alias_to_std.get(name.strip().lower())
 
     def normalize(self, name):
-        if not name or self.pattern is None:
+        if not name:
             return name
 
-        # 1) 直接匹配
-        result = self.pattern.sub(self._replacer, name)
-        if result != name:
-            return self._final_cleanup(result)
+        # 1) 原始名（去星号空白）完整匹配
+        name1 = name.replace('*', '').replace('＊', '').strip()
+        hit = self._lookup(name1)
+        if hit:
+            return hit
 
-        # 2) 去掉画质词后再匹配
-        cleaned = name
+        # 2) 清理画质词后再完整匹配
+        name2 = name1
         for token in self.QUALITY_TOKENS:
-            cleaned = cleaned.replace(token, '')
-        if cleaned != name:
-            result = self.pattern.sub(self._replacer, cleaned)
-            if result != cleaned:
-                return self._final_cleanup(result)
-        else:
-            cleaned = name
+            name2 = name2.replace(token, '')
+        name2 = name2.strip()
+        hit = self._lookup(name2)
+        if hit:
+            return hit
 
-        # 3) 全角括号转半角后再匹配
-        cleaned2 = cleaned.replace('（', '(').replace('）', ')')
-        if cleaned2 != cleaned:
-            result = self.pattern.sub(self._replacer, cleaned2)
-            if result != cleaned2:
-                return self._final_cleanup(result)
-
-        return self._final_cleanup(result)
-
-    def _final_cleanup(self, result):
-        for std in sorted(self.std_names, key=len, reverse=True):
-            if result.startswith(std):
-                tail = result[len(std):]
-                # 清理画质词
-                for token in self.QUALITY_TOKENS:
-                    tail = tail.replace(token, '')
-                # 清理空格、横线、括号
-                tail = re.sub(r'[\s\-_\(\)（）\[\]【】]', '', tail)
-                # 清理末尾源标记（大写字母 / 数字）
-                tail = re.sub(r'(?:[A-Z]|\d+)$', '', tail)
-                tail = tail.replace('*', '').replace('＊', '')
-                # 重复后缀检测：tail 是 std 的后缀时直接去掉
-                if tail and std.endswith(tail):
-                    tail = ''
-                result = std + tail
-                break
-        else:
-            # 没有匹配到任何标准名时做通用清理
-            result = re.sub(r'[\s\-_\(\)（）\[\]【】]', '', result)
-            result = re.sub(r'(?:[A-Z]|\d+)$', '', result)
-            result = result.replace('*', '').replace('＊', '')
-            for token in self.QUALITY_TOKENS:
-                result = result.replace(token, '')
-        return result.strip()
+        # 3) 都未命中，保留清理画质词后的名字
+        return name2
 
 
 # ====== 读取配置文件 ======
@@ -351,8 +308,7 @@ def main():
 
     # 初始化频道归一化器（依赖 config.txt）
     normalizer = ChannelNormalizer("config.txt")
-    print(f"频道配置加载完成：{len(normalizer.alias_to_std)} 个别名，"
-          f"{len(normalizer.std_names)} 个标准名")
+    print(f"频道配置加载完成：{len(normalizer.alias_to_std)} 个别名")
 
     hotel_config_files = ["ip/酒店高清.ip", "ip/酒店标清.ip"]
     for config_file in hotel_config_files:
