@@ -2,7 +2,7 @@
 121.10.7.16:4000
 14.157.24.38:2345
 14.19.159.83:8100
-14.221.176.199:4022
+14.221.177.94:4022
 183.236.43.98:4013
 183.36.240.113:9901
 183.47.2.156:16883
@@ -17,6 +17,7 @@ gzgxzm.dpdns.org:10086
 hongzhijiaoyu.net:8188
 hydeqnapnas.mycloudnas.com:8100
 jellyfin.cyruslee.top:8888
+lsa.familyds.com:8188
 plex.cyruslee.top:8888
 rfx2025.shunderen.top:2345
 sfyqvxiaoya.19810416.xyz:55555
