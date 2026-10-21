@@ -1,6 +1,6 @@
 111.196.133.252:20000
 123.113.6.3:8688
-123.118.229.117:9090
+123.118.224.191:9090
 221.220.131.65:8012
 6.triq.cc:8012
 fnos.cgproxy.cn:4022
@@ -13,6 +13,7 @@ home.zgnc.fun:8824
 n2.192372.xyz:8888
 naslmd2.myqnapcloud.com:4022
 qqdwtypm.f3322.org:64022
+qqdwtypm3.xicp.net:64022
 rt.096096.xyz:61612
 superpostmail.3322.org:1193
 thomastian.duckdns.org:8012
