@@ -317,21 +317,28 @@ def main():
             continue
         hotel_iptv(config_file, normalizer)
 
-    classify_channels('1.txt', '央视.txt', keywords="央视频道,CCTV,风云剧场,怀旧剧场,第一剧场,兵器,女性,地理,央视文化,风云音乐,CHC")
+    classify_channels('1.txt', '央视.txt', keywords="央视频道,CCTV,风云剧场,怀旧剧场,第一剧场,兵器,女性,地理,央视文化,风云音乐,央视,CGTN,CETV,CHC")
     classify_channels('1.txt', '卫视.txt', keywords="卫视频道,卫视")
     classify_channels('1.txt', '少儿.txt', keywords="少儿频道,少儿,卡通,动漫,炫动")
-    classify_channels('1.txt', '湖南.txt', keywords="湖南频道,湖南,金鹰,潇湘,长沙,南县")
-    classify_channels('1.txt', '广东.txt', keywords="广东频道,广东,客家,广州,珠江")
-    classify_channels('1.txt', '河南.txt', keywords="河南频道,河南,信阳,漯河,郑州,驻马店,平顶山,安阳,武术世界,梨园,南阳")
-    classify_channels('1.txt', '广西.txt', keywords="广西频道,广西,南宁,玉林,桂林,北流")
+    classify_channels('1.txt', '湖南.txt', keywords="湖南频道,湖南,金鹰,潇湘,长沙,南县,快乐")
+    classify_channels('1.txt', '广东.txt', keywords="广东频道,广东,客家,广州,珠江,嘉佳")
+    classify_channels('1.txt', '河南.txt', keywords="河南频道,河南,信阳,漯河,郑州,驻马店,平顶山,安阳,武术世界,文物宝库,梨园,南阳")
+    classify_channels('1.txt', '广西.txt', keywords="广西频道,广西,南宁,玉林,桂林,北流,平南,贵港")
     classify_channels('1.txt', '陕西.txt', keywords="陕西频道,陕西,西安")
+    classify_channels('1.txt', '黑龙江.txt', keywords="黑龙江频道,黑龙江,齐齐哈尔")
+    classify_channels('1.txt', '江西.txt', keywords="江西频道,江西,南昌")
+    classify_channels('1.txt', '海南.txt', keywords="海南频道,海南,齐齐哈尔")
+    classify_channels('1.txt', '山东.txt', keywords="山东频道,山东,济宁,兰陵,临沂")
+    classify_channels('1.txt', '吉林.txt', keywords="吉林频道,吉林,松原,延边,四平")
+    classify_channels('1.txt', '新疆.txt', keywords="新疆频道,新疆,乌鲁木齐")
+    classify_channels('1.txt', '安徽.txt', keywords="安徽频道,安徽,合肥,安庆")
     classify_channels('1.txt', '港台.txt', keywords="香港频道,凤凰,香港,明珠台,翡翠台,星河")
     classify_channels('1.txt', '其他.txt', keywords="其他频道,tsfile")
 
     # 合并写入文件
     file_contents = []
-    file_paths = ["央视.txt", "卫视.txt", "txt/浙江.txt", "少儿.txt", "湖南.txt", "广东.txt",
-                  "河南.txt", "广西.txt", "陕西.txt", "港台.txt", "其他.txt"]
+    file_paths = ["央视.txt", "卫视.txt", "少儿.txt", "湖南.txt", "广东.txt",
+                  "河南.txt", "广西.txt", "陕西.txt", "黑龙江.txt","江西.txt","海南.txt","山东.txt","吉林.txt","新疆.txt","安徽.txt","港台.txt", "其他.txt", "txt/浙江.txt"]
     for file_path in file_paths:
         if os.path.exists(file_path):
             with open(file_path, 'r', encoding="utf-8") as f:
@@ -360,7 +367,7 @@ def main():
 
     # 移除过程文件
     files_to_remove = ["1.txt", "央视.txt", "卫视.txt", "少儿.txt", "湖南.txt", "广东.txt",
-                       "河南.txt", "广西.txt", "陕西.txt", "港台.txt", "其他.txt"]
+                       "河南.txt", "广西.txt", "陕西.txt","黑龙江.txt","江西.txt","海南.txt","山东.txt","吉林.txt","新疆.txt","安徽.txt", "港台.txt", "其他.txt"]
     for file in files_to_remove:
         if os.path.exists(file):
             os.remove(file)

@@ -1,26 +1,26 @@
-CCTV-1 综合,CCTV1,CCTV-1,CCTV1-综合
-CCTV-2 财经,CCTV2,CCTV-2,CCTV2-财经
-CCTV-3 综艺,CCTV3,CCTV-3,CCTV3综艺综艺,CCTV-3 综艺综艺,CCTV-3综艺,CCTV3-综艺
-CCTV-4 中文国际,CCTV4,CCTV-4,CCTV4-国际
-CCTV-5 体育,CCTV5,CCTV-5,CCTV5体育体育,CCTV-5 体育体育,CCTV5-体育
-CCTV-5+ 体育赛事,CCTV5PLUS,cctv5+,CCTV-5+,CCTV5+
-CCTV-6 电影,CCTV6,CCTV-6,CCTV6电影电影,CCTV-6 电影电影
-CCTV-7 国防军事,CCTV7,CCTV-7,CCTV-7 国防军事军农,CCTV7国防军事军农,CCTV7-军农
-CCTV-8 电视剧,CCTV8,CCTV-8,CCTV-8 电视剧测试,CCTV-8 电视剧IPTV电视剧,CCTV8电视剧测试,CCTV8-电视剧
-CCTV-9 纪录,CCTV9,CCTV-9,CCTV9-纪录
-CCTV-10 科教,CCTV10,CCTV-10,CCTV10-科教
-CCTV-11 戏曲,CCTV11,CCTV-11,CCTV11-戏曲
-CCTV-12 社会与法,CCTV12,CCTV-12,CCTV12-社会与法
-CCTV-13 新闻,CCTV13,CCTV-13,CCTV13-新闻
-CCTV-14 少儿,CCTV14,CCTV-14,CCTV14-少儿
-CCTV-15 音乐,CCTV15,CCTV-15,CCTV15-音乐
-CCTV-16 奥林匹克,CCTV16,CCTV-16,CCTV-16奥林匹克,CCTV16 4K,CCTV16-奥林匹克
-CCTV-17 农业农村,CCTV17,CCTV-17农业农村,CCTV-17（农业农村),CCTV17-农村
+CCTV-1 综合,CCTV1,CCTV-1,CCTV1-综合,中央1台
+CCTV-2 财经,CCTV2,CCTV-2,CCTV2-财经,中央2台
+CCTV-3 综艺,CCTV3,CCTV-3,CCTV3综艺综艺,CCTV-3 综艺综艺,CCTV-3综艺,CCTV3-综艺,中央3台
+CCTV-4 中文国际,CCTV4,CCTV-4,CCTV4-国际,中央4台
+CCTV-5 体育,CCTV5,CCTV-5,CCTV5体育体育,CCTV-5 体育体育,CCTV5-体育,中央5台,CCTV-5体育
+CCTV-5+ 体育赛事,CCTV5PLUS,cctv5+,CCTV-5+,CCTV5+,CCTV-5+体育,中央赛事,CCTV5+体育赛事
+CCTV-6 电影,CCTV6,CCTV-6,CCTV6电影电影,CCTV-6 电影电影,CCTV6电影--,CCTV-6电影,CCTV6-电影,CCTV6电影--J,中央6台
+CCTV-7 国防军事,CCTV7,CCTV-7,CCTV-7 国防军事军农,CCTV7国防军事军农,CCTV7-军农,CCTV 7,中央7台
+CCTV-8 电视剧,CCTV8,CCTV-8,CCTV-8 电视剧测试,CCTV-8 电视剧IPTV电视剧,CCTV8电视剧测试,CCTV8-电视剧,CCTV 8,中央8台,cctv8-测试10
+CCTV-9 纪录,CCTV9,CCTV-9,CCTV9-纪录,CCTV 9,中央9台
+CCTV-10 科教,CCTV10,CCTV-10,CCTV10-科教,CCTV 10,中央10台
+CCTV-11 戏曲,CCTV11,CCTV-11,CCTV11-戏曲,CCTV 11,中央11台
+CCTV-12 社会与法,CCTV12,CCTV-12,CCTV12-社会与法,CCTV 12,中央12台
+CCTV-13 新闻,CCTV13,CCTV-13,CCTV13-新闻,CCTV 13,中央13台,CCTV-新闻
+CCTV-14 少儿,CCTV14,CCTV-14,CCTV14-少儿,CCTV14-少儿,CCTV 14,中央14台,CCTV-少儿
+CCTV-15 音乐,CCTV15,CCTV-15,CCTV15-音乐,CCTV 15,中央15台,CCTV-音乐
+CCTV-16 奥林匹克,CCTV16,CCTV-16,CCTV-16奥林匹克,CCTV16 4K,CCTV16-奥林匹克,中央16台
+CCTV-17 农业农村,CCTV17,CCTV-17农业农村,CCTV-17（农业农村),CCTV17-农村,中央17台,CCTV17-农业农村
 CCTV-4 欧洲,CCTV-4 (欧洲),CCTV-4 中文国际欧洲,CCTV4欧洲,CCTV4EUO,CCTV-4中文国际（欧）
 CCTV-4 美洲,CCTV-4 (美洲),CCTV-4 中文国际美洲,CCTV4美洲,CCTV4AME,CCTV-4中文国际（美）
 CCTV4K,CCTV-4K,CCTV4K 超高清,CCTV-4K超高清
 CCTV8K,CCTV8K 超高清
-CGTN,CGTN英语,CGTN(中国环球电视网)英语频道,CCTVNews
+CGTN,CGTN英语,CGTN(中国环球电视网)英语频道,CCTVNews,CGTN 英语
 CGTN俄语,CCTV-Русский,CGTN俄罗斯语
 CGTN法语,CCTV-Français
 CGTN西语,CCTV-Español,CGTN西班牙语
@@ -35,7 +35,7 @@ CCTV兵器科技,兵器科技,CCTV-兵器科技
 CCTV风云足球,风云足球,CCTV-风云足球,CCTV风云足球HD,CCTV-央视足球
 CCTV高尔夫网球,高尔夫网球,CCTV高尔夫·网球,CCTV-高尔夫网琿,CCTV高尔夫网球,CCTV-高尔夫网球,CCTV-央视高网
 CCTV女性时尚,女性时尚,CCTV女性时尿,CCTV-女性时尿,CCTV女性时尚,CCTV-女性时尚,CCTV女性时尚HD
-CCTV央视文化精品,央视文化精品,文化精品,CCTV文化精品,CCTV-文化精品,CCTV-央视文化精品,CCTV央视文化精品HD
+CCTV央视文化精品,央视文化精品,文化精品,CCTV文化精品,CCTV-文化精品,CCTV-央视文化精品,央视精品
 CCTV央视台球,央视台球,CCTV-央视台球,CCTV央视台球HD,CCTV-台球
 CCTV电视指南,电视指南,CCTV-电视指南
 CCTV卫生健康,卫生健康,CCTV-卫生健康,CCTV卫生与健康
@@ -43,9 +43,9 @@ CCTV卫生健康,卫生健康,CCTV-卫生健康,CCTV卫生与健康
 聚鲨环球精选
 环球奇观
 中国交通,中国交通频道
-CHC家庭影院
-CHC影迷电影
-CHC动作电影
+CHC家庭影院,CHC 家庭影院
+CHC影迷电影,CHC 影迷电影
+CHC动作电影,CHC 动作电影
 每日健身
 体育赛事
 重温经典
@@ -93,7 +93,7 @@ CETV早期教育,早期教育,CCTV早期教育
 河南卫视
 吉林卫视
 江苏卫视
-江西卫视
+江西卫视,JXTV-1
 辽宁卫视
 内蒙古卫视,内蒙古卫视高清
 宁夏卫视,宁夏卫视高清
@@ -106,17 +106,17 @@ CETV早期教育,早期教育,CCTV早期教育
 三沙卫视
 天津卫视
 西藏卫视,西藏卫视高清
-新疆卫视,新疆卫视高清
+新疆卫视,新疆卫视高清,新疆1
 云南卫视
 兵团卫视,兵团卫视高清
-江西都市
-江西经济生活,江西经济
-江西公共农业,江西公共
-江西少儿
-江西新闻
+江西都市,JXTV-2
+江西经济生活,江西经济,JXTV-3
+江西公共农业,江西公共,JXTV-5
+江西少儿,JXTV-6
+江西新闻,JXTV-7
 江西陶瓷,陶瓷,taoci
 江西教育,江西教育电视台
-江西移动电视,江西移动
+江西移动电视,江西移动,JXTV-8
 新余新闻综合,新余电视台
 新余教育
 九江新闻综合,九江电视台
@@ -228,7 +228,7 @@ CETV早期教育,早期教育,CCTV早期教育
 广东经济科教,经济科教
 大湾区卫视
 广东4K,广东4K超,广东4K超高清
-广东影视,南方影视
+广东影视,南方影视,广东影视-1
 广东综艺
 广东少儿,南方少儿
 南方购物,南方购物-精选
@@ -811,7 +811,7 @@ BRTV卡酷少儿,北京卡酷少儿,卡酷少儿,BRTV卡酷少儿,BRTV卡酷少�
 湖南老年
 湖南电影
 金鹰卡通,湖南金鹰卡通
-湖南快乐购
+快乐购,湖南快乐购
 湖南国际
 湖南爱晚
 湖南教育
@@ -1053,7 +1053,7 @@ BRTV卡酷少儿,北京卡酷少儿,卡酷少儿,BRTV卡酷少儿,BRTV卡酷少�
 梧州新闻综合,梧州电视台
 梧州教育生活
 百色综合,百色电视台
-贵港新闻综合,贵港电视台
+贵港新闻综合,贵港电视台,DTV1
 贵港科教生活
 钦州综合,钦州电视台
 来宾综合,来宾市电视台
@@ -1069,7 +1069,7 @@ BRTV卡酷少儿,北京卡酷少儿,卡酷少儿,BRTV卡酷少儿,BRTV卡酷少�
 藤县综合
 灵山综合
 合浦综合
-平南综合
+平南综合,平南台
 桂平综合
 永福综合
 兴安综合
@@ -1560,10 +1560,10 @@ BRTV卡酷少儿,北京卡酷少儿,卡酷少儿,BRTV卡酷少儿,BRTV卡酷少�
 集美综合,集美区电视台
 泉港综合
 海南社会与法,海南公共
-海南文旅
+海南文旅,海南影视
 海南少儿
 海南新闻
-海南自贸
+海南自贸,海南综合
 海南移动电视
 海口综合,海口电视台,海口1台
 海口生活娱乐,海口2台
@@ -2732,8 +2732,8 @@ BRTV卡酷少儿,北京卡酷少儿,卡酷少儿,BRTV卡酷少儿,BRTV卡酷少�
 吉林市生活
 延边汉语,YBTV-2,YBTV2,延边2台
 延边朝语,YBTV-1,YBTV1,延边1台
-松原新闻综合,松原电视台
-松原生活
+松原新闻综合,松原电视台,松原
+松原生活,松原公共
 图们综合
 农安综合
 汪清综合
