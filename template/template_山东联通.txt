@@ -25,8 +25,10 @@ CCTV-14 少儿,http://ipipip/udp/239.253.254.236:8000
 CCTV-15 音乐,http://ipipip/udp/239.253.254.16:8000
 CCTV-15 音乐,http://ipipip/udp/239.253.254.170:8000
 CCTV-16 奥林匹克,http://ipipip/udp/239.253.254.143:8000
+CCTV-16 奥林匹克,http://ipipip/udp/239.253.244.155:8000
 CCTV-17 农业农村,http://ipipip/udp/239.253.254.168:8000
 CCTV4K,http://ipipip/udp/239.253.254.122:8000
+CCTV8K,http://ipipip/rtp/239.253.244.198:8000
 CETV1,http://ipipip/udp/239.253.254.110:8000
 CETV2,http://ipipip/udp/239.253.254.107:8000
 CETV4,http://ipipip/udp/239.253.254.116:8000
@@ -127,6 +129,23 @@ CHC影迷电影,http://ipipip/udp/239.253.254.154:8000
 莱西综合,http://ipipip/udp/239.253.254.247:8000
 即墨综合,http://ipipip/udp/239.253.254.245:8000
 胶州综合,http://ipipip/udp/239.253.254.246:8000
+海洋频道,http://ipipip/rtp/239.253.244.67:8000
+济宁综合,http://ipipip/rtp/239.253.244.254:8000
+济宁生活,http://ipipip/rtp/239.253.244.253:8000
+济宁公共,http://ipipip/rtp/239.253.244.248:8000
+济宁高新,http://ipipip/rtp/239.253.244.244:8000
+鱼台综合,http://ipipip/rtp/239.253.244.8:8000
+鱼台生活,http://ipipip/rtp/239.253.244.239:8000
+微山综合,http://ipipip/rtp/239.253.244.240:8000
+汶上综合,http://ipipip/rtp/239.253.244.241:8000
+任城新闻综合,http://ipipip/rtp/239.253.244.242:8000
+任城影视娱乐,http://ipipip/rtp/239.253.244.243:8000
+嘉祥综合,http://ipipip/rtp/239.253.244.245:8000
+泗水综合,http://ipipip/rtp/239.253.244.246:8000
+梁山综合,http://ipipip/rtp/239.253.244.249:8000
+曲阜综合,http://ipipip/rtp/239.253.244.250:8000
+兖州综合,http://ipipip/rtp/239.253.244.251:8000
+邹城综合,http://ipipip/rtp/239.253.244.252:8000
 东方财经,http://ipipip/udp/239.253.254.94:8000
 中华特产,http://ipipip/udp/239.253.254.76:8000
 乐游,http://ipipip/udp/239.253.254.97:8000
