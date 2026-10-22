@@ -42,7 +42,7 @@ def get_session():
 
 # ====== 频道名归一化 ======
 class ChannelNormalizer:
-    QUALITY_TOKENS = ('超高清', '超清', '高清', '标清','测试', '移动','HD')
+    QUALITY_TOKENS = ('超高清', '超清', '高清', '标清', '测试', '移动', 'HD')
 
     def __init__(self, config_file):
         self.alias_to_std = {}
@@ -95,6 +95,41 @@ class ChannelNormalizer:
         if hit:
             return hit
         return name2
+
+
+# ==== 修改点 1：新增三个辅助函数（卫视后缀归并 + 类型安全自然排序） ====
+
+def strip_satellite_suffix(name):
+    """把 XX卫视1、XX卫视12、XX卫视A 等统一归并为 XX卫视；
+    但 XX卫视4K / XX卫视8K 保留原样（不归并）。
+    """
+    if not name:
+        return name
+    s = name.strip()
+
+    # 4K / 8K 高清版本白名单：不剥后缀
+    if re.search(r'[48]\s*K$', s, re.IGNORECASE):
+        return s
+
+    m = re.match(r'^(.+?卫视)[0-9A-Za-z]+$', s)
+    return m.group(1) if m else s
+
+
+def normalize_and_finalize(name, normalizer):
+    """先走 config 别名归一化，再剥掉卫视字母数字尾巴 —— 排序/输出共用。"""
+    n = normalizer.normalize(name) if normalizer else name
+    if not n:
+        n = name
+    return strip_satellite_suffix(n)
+
+
+def natural_key(s):
+    """类型安全的自然排序 key（Python 3 兼容）：
+    数字段用 (0, int)，字符串段用 (1, lower_str)，两类永远不会交叉比较。
+    例：CCTV-2 财经 < CCTV-5 体育 < CCTV-5+ 体育赛事 < CCTV-10 科教
+    """
+    return [(0, int(t)) if t.isdigit() else (1, t.lower())
+            for t in re.split(r'(\d+)', s)]
 
 
 # ====== 读取配置文件 ======
@@ -269,14 +304,15 @@ def speed_test(channels):
 
 # ====== 统一频道名 ======
 def unify_channel_name(channels_list, normalizer):
+    # ==== 修改点 2：输出时也走 normalize_and_finalize，卫视后缀一并归并 ====
     out = []
     for name, channel_url, speed in channels_list:
-        name = normalizer.normalize(name)
+        name = normalize_and_finalize(name, normalizer)
         out.append(f"{name},{channel_url}\n")
     return out
 
 
-# ====== 排序 key ======
+# ====== 排序 key（deprecated，已用 natural_key 替代，保留兜底） ======
 def channel_key(channel_name):
     match = re.search(r'\d+', channel_name)
     return int(match.group()) if match else float('inf')
@@ -384,9 +420,14 @@ def hotel_iptv(config_file, normalizer):
     results = speed_test(channels)
     verify_time = time.time() - t2
 
-    # ↓↓↓ 唯一修改：先按频道名（channel_key 保持 CCTV-1/2/10 顺序），
-    #     同名频道再按速度降序（快的在前）
-    results.sort(key=lambda x: (channel_key(x[0]), -float(x[2])))
+    # ==== 修改点 3：先用 normalize_and_finalize 归并名字（卫视1/12/A→卫视，保留 4K/8K），
+    #     再用 natural_key 自然排序；同名频道速度快的在前 ====
+    results.sort(
+        key=lambda x: (
+            natural_key(normalize_and_finalize(x[0], normalizer)),
+            -float(x[2]),
+        )
+    )
 
     with open('1.txt', 'a', encoding='utf-8') as f:
         f.writelines(unify_channel_name(results, normalizer))
@@ -430,18 +471,19 @@ def main():
     classify_channels('1.txt', '福建.txt', keywords="福建频道,福建,厦门,泉州,漳州,新视觉")
     classify_channels('1.txt', '贵州.txt', keywords="贵州频道,贵州,贵阳,黔")
     classify_channels('1.txt', '河北.txt', keywords="河北频道,河北,秦皇岛,保定,石家庄,唐山,涿州,承德,廊坊")
+    classify_channels('1.txt', '辽宁.txt', keywords="辽宁频道,辽宁,金普,家庭理财,大连,盘锦,阜新,葫芦岛,锦州,本溪,抚顺,丹东,鞍山,营口,辽河")
     classify_channels('1.txt', '港台.txt', keywords="香港频道,凤凰,香港,明珠台,翡翠台,星河")
 
     classify_unmatched('1.txt', '其他.txt', used_files=[
         "央视.txt", "卫视.txt", "北京.txt", "湖南.txt", "广东.txt",
         "河南.txt", "广西.txt", "陕西.txt", "黑龙江.txt", "江西.txt",
-        "海南.txt", "山东.txt", "山西.txt", "吉林.txt", "新疆.txt", "安徽.txt", "内蒙古.txt", "上海.txt", "湖北.txt", "福建.txt", "贵州.txt", "河北.txt", "港台.txt",
+        "海南.txt", "山东.txt", "山西.txt", "吉林.txt", "新疆.txt", "安徽.txt", "内蒙古.txt", "上海.txt", "湖北.txt", "福建.txt", "贵州.txt", "河北.txt", "辽宁.txt",  "港台.txt",
     ])
 
     file_contents = []
     file_paths = ["央视.txt", "卫视.txt", "北京.txt", "湖南.txt", "广东.txt",
                   "河南.txt", "广西.txt", "陕西.txt", "黑龙江.txt", "江西.txt", "海南.txt",
-                  "山东.txt", "山西.txt", "吉林.txt", "新疆.txt", "安徽.txt", "内蒙古.txt", "上海.txt", "湖北.txt", "福建.txt","贵州.txt", "河北.txt","港台.txt",
+                  "山东.txt", "山西.txt", "吉林.txt", "新疆.txt", "安徽.txt", "内蒙古.txt", "上海.txt", "湖北.txt", "福建.txt", "贵州.txt", "河北.txt", "辽宁.txt", "港台.txt",
                   "其他.txt", "txt/浙江.txt"]
     for file_path in file_paths:
         if os.path.exists(file_path):
@@ -450,7 +492,7 @@ def main():
         else:
             print(f"警告：文件不存在，跳过合并: {file_path}")
 
-    now = datetime.datetime.now(datetime.UTC) + datetime.timedelta(hours=8)
+    now = datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=8)
     current_time = now.strftime("%Y/%m/%d %H:%M")
     with open("1.txt", "w", encoding="utf-8") as f:
         f.write(f"{current_time}更新,#genre#\n")
@@ -470,7 +512,7 @@ def main():
 
     files_to_remove = ["1.txt", "央视.txt", "卫视.txt", "北京.txt", "湖南.txt", "广东.txt",
                        "河南.txt", "广西.txt", "陕西.txt", "黑龙江.txt", "江西.txt", "海南.txt",
-                       "山东.txt", "山西.txt", "吉林.txt", "新疆.txt", "安徽.txt", "港台.txt","内蒙古.txt", "上海.txt","湖北.txt", "福建.txt","贵州.txt", "河北.txt","其他.txt"]
+                       "山东.txt", "山西.txt", "吉林.txt", "新疆.txt", "安徽.txt", "港台.txt", "内蒙古.txt", "上海.txt", "湖北.txt", "福建.txt", "贵州.txt", "河北.txt", "辽宁.txt", "其他.txt"]
     for file in files_to_remove:
         if os.path.exists(file):
             os.remove(file)
