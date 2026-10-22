@@ -42,7 +42,7 @@ def get_session():
 
 # ====== 频道名归一化 ======
 class ChannelNormalizer:
-    QUALITY_TOKENS = ('超高清', '超清', '高清', '标清', 'HD')
+    QUALITY_TOKENS = ('超高清', '超清', '高清', '标清','测试', '移动','HD')
 
     def __init__(self, config_file):
         self.alias_to_std = {}
@@ -412,7 +412,7 @@ def main():
     classify_channels('1.txt', '卫视.txt', keywords="卫视频道,卫视")
     classify_channels('1.txt', '北京.txt', keywords="北京频道,北京,BRTV,优优宝贝,四海钓鱼,环球旅游,中华特产,通州,门头沟,朝阳融媒,顺义")
     classify_channels('1.txt', '湖南.txt', keywords="湖南频道,湖南,金鹰,潇湘,长沙,南县,快乐")
-    classify_channels('1.txt', '广东.txt', keywords="广东频道,广东,客家,广州,珠江,嘉佳,南方购物,岭南戏曲,五华,梅县,梅州")
+    classify_channels('1.txt', '广东.txt', keywords="广东频道,广东,客家,广州,珠江,嘉佳,南方购物,岭南戏曲,五华,梅县,梅州,深圳,惠州,兴宁,河源")
     classify_channels('1.txt', '河南.txt', keywords="河南频道,河南,信阳,漯河,郑州,驻马店,平顶山,安阳,武术世界,文物宝库,梨园,南阳")
     classify_channels('1.txt', '广西.txt', keywords="广西频道,广西,南宁,玉林,桂林,北流,平南,贵港,北海")
     classify_channels('1.txt', '陕西.txt', keywords="陕西频道,陕西,西安")
@@ -420,7 +420,7 @@ def main():
     classify_channels('1.txt', '江西.txt', keywords="江西频道,江西,南昌,赣州,章贡,石城")
     classify_channels('1.txt', '海南.txt', keywords="海南频道,海南,齐齐哈尔")
     classify_channels('1.txt', '山东.txt', keywords="山东频道,山东,济宁,兰陵,临沂,济南,烟台")
-    classify_channels('1.txt', '山西.txt', keywords="山西频道,山西,朔州,太原,阳泉,大同,晋城,长治,吕梁,晋中,忻州,临汾,运城")
+    classify_channels('1.txt', '山西.txt', keywords="山西频道,山西,朔州,太原,阳泉,大同,晋城,长治,吕梁,晋中,忻州,临汾,运城,黄河卫视,岚县")
     classify_channels('1.txt', '吉林.txt', keywords="吉林频道,吉林,松原,延边,四平,通化,辉南")
     classify_channels('1.txt', '新疆.txt', keywords="新疆频道,新疆,乌鲁木齐")
     classify_channels('1.txt', '安徽.txt', keywords="安徽频道,安徽,合肥,安庆,宣城,广德,亳州")
