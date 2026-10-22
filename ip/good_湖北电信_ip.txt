@@ -18,4 +18,5 @@ www.ct123.online:8188
 www.gaochao.host:4022
 www.xk8.top:8001
 xk8.top:8001
+xuanxindong.mycloudnas.com:10001
 yong1166.vicp.net:9999
