@@ -3,7 +3,6 @@
 202.111.192.14:5146
 509509.xyz:4022
 60.168.237.209:6688
-chengzhiming.myds.me:4000
 home.pinkfloyd.cn:5000
 nas.191919.xyz:8888
 op.191919.xyz:8888
