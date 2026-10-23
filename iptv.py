@@ -449,7 +449,7 @@ def main():
             continue
         hotel_iptv(config_file, normalizer)
 
-    classify_channels('1.txt', '央视.txt', keywords="央视频道,CCTV,风云剧场,怀旧剧场,第一剧场,兵器,女性,地理,央视文化,风云音乐,央视,CGTN,中央,CETV,CHC")
+    classify_channels('1.txt', '央视.txt', keywords="央视频道,CCTV,风云剧场,怀旧剧场,第一剧场,兵器,女性,地理,央视文化,风云音乐,央视,CGTN,中央,CETV,CHC,睛彩")
     classify_channels('1.txt', '卫视.txt', keywords="卫视频道,卫视")
     classify_channels('1.txt', '北京.txt', keywords="北京频道,北京,BRTV,优优宝贝,四海钓鱼,环球旅游,中华特产,通州,门头沟,朝阳融媒,顺义")
     classify_channels('1.txt', '湖南.txt', keywords="湖南频道,湖南,金鹰,潇湘,长沙,南县,快乐")
