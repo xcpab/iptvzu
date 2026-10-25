@@ -1,9 +1,7 @@
-106.112.254.241:8989
+106.112.254.198:8989
 27.29.167.46:8883
-59.173.123.223:19999
 61.184.232.168:8888
 a.liuxiaobo.top:8888
-ak.ws.sc.cn:8100
 alist.xicp.fun:52057
 d.liuxiaobo.top:8888
 hzzzz530.com:4022
@@ -18,4 +16,3 @@ www.gaochao.host:4022
 www.xk8.top:8001
 xk8.top:8001
 xuanxindong.mycloudnas.com:10001
-yong1166.vicp.net:9999

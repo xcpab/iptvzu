@@ -1,5 +1,5 @@
 111.196.135.80:20000
-123.118.228.137:9090
+123.118.227.223:9090
 221.220.131.65:8012
 6.triq.cc:8012
 fnos.cgproxy.cn:4022
@@ -14,6 +14,7 @@ naslmd2.myqnapcloud.com:4022
 qqdwtypm.f3322.org:64022
 qqdwtypm3.xicp.net:64022
 rt.096096.xyz:61612
+superpostmail.3322.org:1193
 thomastian.duckdns.org:8012
 triq.cc:8012
 wuyanjiang.cn:8012
