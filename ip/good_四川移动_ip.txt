@@ -5,5 +5,6 @@
 770622.xyz:19998
 ai.xiaoshudiao.top:10086
 gq.scvip.net.cn:8300
+nas.201606.xyz:4022
 playerbfq.shangea.top:40064
 www.sccckj.cn:8899

@@ -1,8 +1,8 @@
 106.112.254.241:8989
 27.29.167.46:8883
 59.173.123.223:19999
-59.175.155.150:12345
 61.184.232.168:8888
+a.liuxiaobo.top:8888
 ak.ws.sc.cn:8100
 alist.xicp.fun:52057
 d.liuxiaobo.top:8888
@@ -10,6 +10,7 @@ hzzzz530.com:4022
 paul.paulli.fun:8188
 site.zhouqi.homes:4022
 sy.mc.paulli.fun:8188
+ud.mc.paulli.fun:8188
 www.3872327.top:1225
 www.661130.xyz:8188
 www.ct123.online:8188
