@@ -35,6 +35,7 @@ CCTV-16 奥林匹克,http://ipipip/rtp/226.0.2.169:9264
 CCTV-16 奥林匹克,http://ipipip/rtp/226.0.2.73:8496
 CCTV-17 农业农村,http://ipipip/rtp/226.0.2.170:9272
 CCTV-17 农业农村,http://ipipip/rtp/226.0.2.207:9568
+CCTV-17 农业农村,http://ipipip/rtp/226.0.2.87:9856
 CCTV世界地理,http://ipipip/rtp/226.0.2.222:9688
 CCTV中视购物,http://ipipip/rtp/226.0.2.72:8488
 CCTV兵器科技,http://ipipip/rtp/226.0.2.223:9696
@@ -59,24 +60,14 @@ CHC家庭影院,http://ipipip/rtp/226.0.2.240:9820
 CHC影迷电影,http://ipipip/rtp/226.0.2.93:8004
 中央新影-老故事,http://ipipip/rtp/226.0.2.112:8808
 中央新影-发现之旅,http://ipipip/rtp/226.0.2.118:9884
-CGTN阿拉伯语,http://ipipip/rtp/226.0.2.137:9156
-CGTN西班牙语,http://ipipip/rtp/226.0.2.135:9148
+CGTN,http://ipipip/rtp/226.0.2.113:9132
+CGTN阿语,http://ipipip/rtp/226.0.2.137:9156
+CGTN西语,http://ipipip/rtp/226.0.2.135:9148
 CGTN纪录,http://ipipip/rtp/226.0.2.133:9140
 CGTN俄语,http://ipipip/rtp/226.0.2.140:9164
 CGTN法语,http://ipipip/rtp/226.0.2.136:9152
-CGTN英语,http://ipipip/rtp/226.0.2.113:9132
-CCTV4K,http://ipipip/rtp/226.0.1.242:2127
 CCTV4K,http://ipipip/rtp/226.0.2.142:9168
-广东卫视4k,http://ipipip/rtp/226.0.1.245:2120
-深圳卫视4K,http://ipipip/rtp/226.0.1.244:2119
-北京卫视4K,http://ipipip/rtp/226.0.1.243:2118
 北京卫视4K,http://ipipip/rtp/226.0.2.155:9172
-湖南卫视4K,http://ipipip/rtp/226.0.1.246:2125
-浙江卫视4K,http://ipipip/rtp/226.0.1.247:2123
-东方卫视4K,http://ipipip/rtp/226.0.1.248:2121
-江苏卫视4K,http://ipipip/rtp/226.0.1.249:2122
-四川卫视4K,http://ipipip/rtp/226.0.1.250:2126
-山东卫视4K,http://ipipip/rtp/226.0.1.251:2124
 江苏卫视4K,http://ipipip/rtp/226.0.2.134:8292
 广东卫视4K,http://ipipip/rtp/226.0.2.160:9176
 四川卫视4K,http://ipipip/rtp/226.0.2.163:8308
@@ -171,7 +162,6 @@ CCTV4K,http://ipipip/rtp/226.0.2.142:9168
 运城科教,http://ipipip/rtp/226.0.2.106:9006
 屯留综合,http://ipipip/rtp/226.0.2.17:9836
 平定综合,http://ipipip/rtp/226.0.2.88:9860
-长钢综合,http://ipipip/rtp/226.0.2.87:9856
 朔州新闻综合,http://ipipip/rtp/226.0.2.185:9392
 朔州生活娱乐,http://ipipip/rtp/226.0.2.186:9400
 清徐综合,http://ipipip/rtp/226.0.2.191:9440
@@ -249,6 +239,16 @@ CCTV高尔夫网球,http://ipipip/rtp/226.0.1.211:2132
 CHC动作电影,http://ipipip/rtp/226.0.1.113:2098
 CHC家庭影院,http://ipipip/rtp/226.0.1.108:2096
 CHC影迷电影,http://ipipip/rtp/226.0.1.109:2097
+CCTV4K,http://ipipip/rtp/226.0.1.242:2127
+广东卫视4k,http://ipipip/rtp/226.0.1.245:2120
+深圳卫视4K,http://ipipip/rtp/226.0.1.244:2119
+北京卫视4K,http://ipipip/rtp/226.0.1.243:2118
+湖南卫视4K,http://ipipip/rtp/226.0.1.246:2125
+浙江卫视4K,http://ipipip/rtp/226.0.1.247:2123
+东方卫视4K,http://ipipip/rtp/226.0.1.248:2121
+江苏卫视4K,http://ipipip/rtp/226.0.1.249:2122
+四川卫视4K,http://ipipip/rtp/226.0.1.250:2126
+山东卫视4K,http://ipipip/rtp/226.0.1.251:2124
 东南卫视,http://ipipip/rtp/226.0.1.194:3119
 东方卫视,http://ipipip/rtp/226.0.1.183:3106
 云南卫视,http://ipipip/rtp/226.0.1.156:2070
