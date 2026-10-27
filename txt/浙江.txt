@@ -128,7 +128,7 @@
 永康华溪,http://play-sh13.quklive.com/live/1625062755227231.m3u8?auth_key=2064370122-a4a517903af44daa9c833a605f3ce27b-0-7e12011519500f96efbefbf94dcf5931
 和合频道,http://play-sh13.quklive.com/live/1617072208961931.m3u8?auth_key=2064370572-8c2f1a173df04e44b0b00ee8ae3d4e14-0-aa5ec8de20d7114655a630fae203b719
 玉环新闻综合,http://play-sh13.quklive.com/live/1728627049847070.m3u8?auth_key=2064370783-bf8e5b55204c41edb38eaf4872e5ab16-0-f6c48bda9274d801cfab1a9a39f83914
-景宁电视台,http://play-sh13.quklive.com/live/1644806967279134.m3u8?auth_key=2028414135-4b37fe7ecf6f4bc885be521dce9c5557-0-3e75261655836c9ed51687146268dad4
+景宁综合,http://play-sh13.quklive.com/live/1644806967279134.m3u8?auth_key=2028414135-4b37fe7ecf6f4bc885be521dce9c5557-0-3e75261655836c9ed51687146268dad4
 常山新闻综合,http://play-sh13.quklive.com/live/1621306190044902.m3u8?auth_key=2064374706-a845f255d7194af0a91f35f374802e77-0-e36c85cb0d6f7e683d7adcf5ffb35807
 江山新闻综合,http://play-sh13.quklive.com/live/1623117710666335.m3u8?auth_key=2064374936-279970252b6b460f87de3a36c317a33f-0-fe2ae623d22faeb93a12c1137e56befe
 开化新闻综合,http://play-sh13.quklive.com/live/1721295786810240.m3u8?auth_key=2064375117-5b7bceb650e94723965f3ead1446cb82-0-b15f90e9a40bf02710a3dbbec2f70a47
@@ -172,105 +172,63 @@
 扬州江都,http://yztv-wshls.homecdn.com/live/8c1.m3u8
 扬州江都,http://yztv-wshls.homecdn.com/live/8c1.flv
 扬州江都,rtmp://yztv-wshls.homecdn.com/live/8c1
-baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
-江苏卫视,http://litchi-play-encrypted-site.jstv.com/applive/jsws_live.m3u8?txSecret=d4139e38d3102f466088ab24a28c4aaf&txTime=70db6800
-江苏卫视,http://litchi-play-encrypted-site.jstv.com/applive/jswspro.m3u8?txSecret=5f95564b0fa8a4ba5bdd218f5a5cad4e&txTime=70db6800
 江苏卫视,http://lishui-tv-playing-t.cm.jstv.com/live/jsws_live.m3u8
 江苏卫视,http://lishui-tv-playing-t.cm.jstv.com/live/jswspro.m3u8
-江苏卫视4K,http://litchi-play-encrypted-site.jstv.com/applive/jsws4kpro.m3u8?txSecret=9008ae04e3996558d3e945075ff7b909&txTime=70db6800
 江苏卫视4K,http://lishui-tv-playing-t.cm.jstv.com/live/jsws4kpro.m3u8
-江苏城市,http://litchi-play-encrypted-site.jstv.com/applive/jscs_live.m3u8?txSecret=e356906754f47e7998afff3a4aa93b8d&txTime=70db6800
 江苏城市,http://lishui-tv-playing-t.cm.jstv.com/live/jscs_live.m3u8
-江苏城市,http://litchi-play-encrypted-site.jstv.com/applive/jscspro.m3u8?txSecret=1af664af0b953ce84e6075e47063d4c5&txTime=70db6800
 江苏城市,http://lishui-tv-playing-t.cm.jstv.com/live/jscspro.m3u8
-江苏综艺,http://litchi-play-encrypted-site.jstv.com/applive/jszy_live.m3u8?txSecret=f09e60205c079ef32f67e80f89fbad14&txTime=70db6800
 江苏综艺,http://lishui-tv-playing-t.cm.jstv.com/live/jszy_live.m3u8
-江苏综艺,http://litchi-play-encrypted-site.jstv.com/applive/jszypro.m3u8?txSecret=2a3ef2abb86d30e5152d3d8ff33b6ca4&txTime=70db6800
 江苏综艺,http://lishui-tv-playing-t.cm.jstv.com/live/jszypro.m3u8
-江苏影视,http://litchi-play-encrypted-site.jstv.com/applive/jsys_live.m3u8?txSecret=8939abe2d1986e0264ff90f59b8b51dc&txTime=70db6800
 江苏影视,http://lishui-tv-playing-t.cm.jstv.com/live/jsys_live.m3u8
-江苏影视,http://litchi-play-encrypted-site.jstv.com/applive/jsyspro.m3u8?txSecret=4c0695f9dc83fef6e7e39e5f1852465d&txTime=70db6800
 江苏影视,http://lishui-tv-playing-t.cm.jstv.com/live/jsyspro.m3u8
-江苏新闻,http://litchi-play-encrypted-site.jstv.com/applive/jsxw_live.m3u8?txSecret=63868a6b1fb6d973ec2e533320c502ed&txTime=70db6800
 江苏新闻,http://lishui-tv-playing-t.cm.jstv.com/live/jsxw_live.m3u8
-江苏新闻,http://litchi-play-encrypted-site.jstv.com/applive/jsxwpro.m3u8?txSecret=43c4abcd42e1e40d3abfe16b1ba0e8ed&txTime=70db6800
 江苏新闻,http://lishui-tv-playing-t.cm.jstv.com/live/jsxwpro.m3u8
-江苏教育,http://litchi-play-encrypted-site.jstv.com/applive/jsjy_live.m3u8?txSecret=5601a9a0f3d3c35bf4d76c72e98e7116&txTime=70db6800
 江苏教育,http://lishui-tv-playing-t.cm.jstv.com/live/jsjy_live.m3u8
-江苏教育,http://litchi-play-encrypted-site.jstv.com/applive/jsjypro.m3u8?txSecret=baa1a4af212a23b35e5204b34dfb536d&txTime=70db6800
 江苏教育,http://lishui-tv-playing-t.cm.jstv.com/live/jsjypro.m3u8
-江苏体育休闲,http://litchi-play-encrypted-site.jstv.com/applive/jsxx_live.m3u8?txSecret=281c9a3254fc38ddae6ab46aa07e669b&txTime=70db6800
 江苏体育休闲,http://lishui-tv-playing-t.cm.jstv.com/live/jsxx_live.m3u8
-江苏体育休闲,http://litchi-play-encrypted-site.jstv.com/applive/jsxxpro.m3u8?txSecret=906b875b2439aa9a02100cf5f7a14c5b&txTime=70db6800
 江苏体育休闲,http://lishui-tv-playing-t.cm.jstv.com/live/jsxxpro.m3u8
-江苏国际,http://litchi-play-encrypted-site.jstv.com/applive/jsgj_live.m3u8?txSecret=918da93a202cbdad39f50db1bf7a5167&txTime=70db6800
 江苏国际,http://lishui-tv-playing-t.cm.jstv.com/live/jsgj_live.m3u8
-江苏国际,http://litchi-play-encrypted-site.jstv.com/applive/jsgjpro.m3u8?txSecret=2640bc934619510a623bea320147485f&txTime=70db6800
 江苏国际,http://lishui-tv-playing-t.cm.jstv.com/live/jsgjpro.m3u8
-优漫卡通,http://litchi-play-encrypted-site.jstv.com/applive/ymkt_live.m3u8?txSecret=d7e9b9fb8c5c8787d25d77269827983c&txTime=70db6800
 优漫卡通,http://lishui-tv-playing-t.cm.jstv.com/live/ymkt_live.m3u8
-优漫卡通,http://litchi-play-encrypted-site.jstv.com/applive/ymktpro.m3u8?txSecret=d2030ae62544af855dc2ef65a6d5538f&txTime=70db6800
-优漫卡通,http://litchi-play-encrypted-site.jstv.com/applive/http://lishui-tv-playing-t.cm.jstv.com/live/ymktpro.m3u8
-财富天下,http://litchi-play-encrypted-site.jstv.com/applive/cftxtxjm.m3u8?txSecret=081f639613e9aa7fb08e439e8c129a82&txTime=70db6800
+优漫卡通,http://lishui-tv-playing-t.cm.jstv.com/live/ymktpro.m3u8
 财富天下,http://lishui-tv-playing-t.cm.jstv.com/live/cftxtxjm.m3u8
-南京新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/nanjing.m3u8?txSecret=98653c02c0c8c3709ff0aa7ae91b7ab8&txTime=70db6800
 南京新闻综合,http://lishui-tv-playing-t.cm.jstv.com/live/nanjing.m3u8
-溧水新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/lsxwzh.m3u8?txSecret=db6baadda76277ba319ba17fc82b79f3&txTime=70db6800
 溧水新闻综合,http://lishui-tv-playing-t.cm.jstv.com/live/lsxwzh.m3u8
 江宁综合,http://jiangning-tv-playing-t.cm.jstv.com/live/jnxwzh.m3u8
 宜兴新闻综合,http://yixing-tv-playing-t.cm.jstv.com/live/yxxw.m3u8
-江阴新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/jiangyin.m3u8?txSecret=3387fdb6b7301635cc0a59fd5e03797e&txTime=70db6800
 江阴新闻综合,http://yixing-tv-playing-t.cm.jstv.com/live/jiangyin.m3u8
-徐州新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/xuzhou.m3u8?txSecret=afaaec5ea93b85621855129a6492aebd&txTime=70db6800
 徐州新闻综合,http://lishui-tv-playing-t.cm.jstv.com/live/xuzhou.m3u8
-邳州综合,http://litchi-play-encrypted-site.jstv.com/applive/pizhou.m3u8?txSecret=c54840b06f250504da07116b4000d151&txTime=70db6800
 邳州综合,http://peixian-tv-playing-t.cm.jstv.com/live/pizhou.m3u8
-新沂新闻,http://litchi-play-encrypted-site.jstv.com/applive/xinyi.m3u8?txSecret=1a02488260711609005a3d9069035e2e&txTime=70db6800
-新沂新闻,http://peixian-tv-playing-t.cm.jstv.com/live/xinyi.m3u8
-贾汪新闻,http://litchi-play-encrypted-site.jstv.com/applive/jiawang.m3u8?txSecret=6ca77b39f8af255d2d3f73cddbcae576&txTime=70db6800
+新沂综合,http://peixian-tv-playing-t.cm.jstv.com/live/xinyi.m3u8
 贾汪新闻,http://jiawang-tv-playing-t.cm.jstv.com/live/jwxw.m3u8
 贾汪旅游,http://jiawang-tv-playing-t.cm.jstv.com/live/jwly.m3u8
-铜山1套,http://litchi-play-encrypted-site.jstv.com/applive/tongshan.m3u8?txSecret=afd92ead956ba9cd80ae9602717b0c60&txTime=70db6800
 铜山1套,http://peixian-tv-playing-t.cm.jstv.com/live/tongshan.m3u8
 睢宁综合,http://suining-tv-playing-t.cm.jstv.com/live/suiningzh.m3u8
 沛县新闻综合,http://peixian-tv-playing-t.cm.jstv.com/live/pxzh.m3u8,
-常州新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/changzhou.m3u8?txSecret=be4ef15e0e84b406c89d8a561a87d528&txTime=70db6800
 常州新闻综合,http://lishui-tv-playing-t.cm.jstv.com/live/changzhou.m3u8
 金坛综合,http://jintan-tv-playing-t.cm.jstv.com/live/jtxw.m3u8
-南通新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/nantong.m3u8?txSecret=4b22b7d061bb84043d3e49f29a6d3d2e&txTime=70db6800
 南通新闻综合,http://lishui-tv-playing-t.cm.jstv.com/live/nantong.m3u8
 如东综合,http://rudong-tv-playing-t.cm.jstv.com/live/rdxwzh.m3u8
-连云港新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/lianyungang.m3u8?txSecret=e6a62b612511649d2a20992e89e6b2c5&txTime=70db6800
 连云港新闻综合,http://lishui-tv-playing-t.cm.jstv.com/live/lianyungang.m3u8
 赣榆综合,http://ganyu-tv-playing-t.cm.jstv.com/live/ganyutv.m3u8
 东海综合,http://donghai-tv-playing-t.cm.jstv.com/live/donghaixinwensp.m3u8
-淮安综合,http://litchi-play-encrypted-site.jstv.com/applive/huaian.m3u8?txSecret=53fd637740d3fdc6c9c345373747ab6b&txTime=70db6800
 淮安综合,http://lishui-tv-playing-t.cm.jstv.com/live/huaian.m3u8
 淮阴综合,http://huaiyin-tv-playing-t.cm.jstv.com/live/huaiyinf.m3u8
 金湖新闻综合,http://jinhu-tv-playing-t.cm.jstv.com/live/jinhuzh.m3u8
-盱眙综合,http://litchi-play-encrypted-site.jstv.com/applive/xuyi.m3u8?txSecret=1e8c3799702be6fce7b76259cfe142b2&txTime=70db6800
 盱眙综合,http://huaiyin-tv-playing-t.cm.jstv.com/live/xuyi.m3u8
-洪泽综合,http://litchi-play-encrypted-site.jstv.com/applive/hongze.m3u8?txSecret=02b98be37b3b77d2222d665739b653cb&txTime=70db6800
 洪泽综合,http://huaiyin-tv-playing-t.cm.jstv.com/live/hongze.m3u8
-盐城新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/yancheng.m3u8?txSecret=1aa24685262e67f4b97281b9cf0200d1&txTime=70db6800
 盐城新闻综合,http://lishui-tv-playing-t.cm.jstv.com/live/yancheng.m3u8
 盐都综合,http://yandu-tv-playing-t.cm.jstv.com/live/yanduzh.m3u8
-响水综合,http://litchi-play-encrypted-site.jstv.com/applive/xiangshui.m3u8?txSecret=fb75a62aadf99f75922a1bdc852a4eed&txTime=70db6800
 响水综合,http://yandu-tv-playing-t.cm.jstv.com/live/xiangshui.m3u8
 东台综合,http://dongtai-tv-playing-t.cm.jstv.com/live/dongtaizonghe.m3u8
 大丰综合,http://dafeng-tv-playing-t.cm.jstv.com/live/dafengyt.m3u8
 大丰公共,http://dafeng-tv-playing-t.cm.jstv.com/live/dafenget.m3u8
 盐城滨海新闻综合,http://binhai-tv-playing-t.cm.jstv.com/live/bhxw.m3u8
-泰州新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/taizhou.m3u8?txSecret=b15e7237d6fe0775ca52a77a288bf314&txTime=70db6800
 泰州新闻综合,http://lishui-tv-playing-t.cm.jstv.com/live/taizhou.m3u8
-泰兴综合,http://litchi-play-encrypted-site.jstv.com/applive/taixing.m3u8?txSecret=f3b5868d50f713355635026e7841d6a5&txTime=70db6800
 泰兴综合,http://yandu-tv-playing-t.cm.jstv.com/live/taixing.m3u8
-兴化新闻综合,http://litchi-play-encrypted-site.jstv.com/applive/xinghua.m3u8?txSecret=820d1cccab5273db667de231fe9eda19&txTime=70db6800
 兴化新闻综合,http://yandu-tv-playing-t.cm.jstv.com/live/xinghua.m3u8
-宿迁综合,http://litchi-play-encrypted-site.jstv.com/applive/suqian.m3u8?txSecret=a138d21965a9e61f98c1739e6743b295&txTime=70db6800
 宿迁综合,http://lishui-tv-playing-t.cm.jstv.com/live/suqian.m3u8
 泗洪综合,http://sihong-tv-playing-t.cm.jstv.com/live/sihongxinwenzonghe.m3u8
-泗阳综合,http://litchi-play-encrypted-site.jstv.com/applive/siyang.m3u8?txSecret=7f086818e4c30de3ecef6c1222b5efaa&txTime=70db6800
 泗阳综合,http://siyang-tv-playing-t.cm.jstv.com/live/siyangzh.m3u8
 泗阳资讯,http://siyang-tv-playing-t.cm.jstv.com/live/siyangzx.m3u8
 宿豫综合,http://suyu-tv-playing-t.cm.jstv.com/live/syzhpd.m3u8
@@ -278,7 +236,6 @@ baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
 高邮综合,http://gaoyou-tv-playing-t.cm.jstv.com/live/gaoyouxw.m3u8
 丹阳新闻,http://danyang-tv-playing-t.cm.jstv.com/live/danyangtv.m3u8
 盐城滨海新闻综合,https://binhai-tv-playing-t.cm.jstv.com/live/bhxw.m3u8
-
 睢宁三农,http://suining-tv-replay.cm.jstv.com/suining-tv/suiningsn.m3u8
 睢宁三农,http://suining-tv-hls.cm.jstv.com/suining-tv/suiningsn.m3u8
 东海综合,http://donghai-tv-playing-t.cm.jstv.com/live/donghaixinwensp.m3u8
@@ -454,10 +411,10 @@ baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
 丰顺综合,http://pull-hsbj.vzan.com/v/slowlive_811049151390457075.flv
 丰顺综合,webview://https://zmaklu.vnet.weizan.cn/live/page/1575936258
 
-横州电视,https://p8.vzan.com/2041524912/400818594148407583/live.m3u8
-横州电视,http://r8.vzan.com/v/2041524912_400818594148407583.m3u8
-横州电视,http://r8.vzan.com/v/2041524912_400818594148407583.flv
-横州电视,webview://https://iufjns.vnet.weizan.cn/live/page/1933628831
+横州新闻综合,https://p8.vzan.com/2041524912/400818594148407583/live.m3u8
+横州新闻综合,http://r8.vzan.com/v/2041524912_400818594148407583.m3u8
+横州新闻综合,http://r8.vzan.com/v/2041524912_400818594148407583.flv
+横州新闻综合,webview://https://iufjns.vnet.weizan.cn/live/page/1933628831
 
 隆安综合,https://p8.vzan.com/slowlive/761366121648225328/live.m3u8
 隆安综合,http://r8.vzan.com/v/slowlive_761366121648225328.m3u8
@@ -478,10 +435,10 @@ baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
 南溪综合,http://pull-hsbj.vzan.com/v/slowlive_371673471833525863.flv
 
 
-金堂电视台,http://p8.vzan.com/slowlive/188010566442385577/live.m3u8
-金堂电视台,http://r8.vzan.com/v/slowlive_188010566442385577.m3u8
-金堂电视台,http://r8.vzan.com/v/slowlive_188010566442385577.flv
-金堂电视台,webview://https://gyeddi.vnet.weizan.cn/live/page/1834038033
+金堂综合,http://p8.vzan.com/slowlive/188010566442385577/live.m3u8
+金堂综合,http://r8.vzan.com/v/slowlive_188010566442385577.m3u8
+金堂综合,http://r8.vzan.com/v/slowlive_188010566442385577.flv
+金堂综合,webview://https://gyeddi.vnet.weizan.cn/live/page/1834038033
 
 库车综合,http://p8.vzan.com/218800995/242196610130883766/live.m3u8
 库车综合,http://r8.vzan.com/v/218800995_242196610130883766.m3u8
@@ -494,10 +451,6 @@ baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
 亚洲卫视,https://r8.vzan.com/v/slowlive_415983998730568937.flv
 亚洲卫视,https://fzuxbb.vnet.weizan.cn/live/page/721277438
 
-香江卫视文旅产业,https://p2hs.vzan.com/slowlive/802262131846613854/live.m3u8
-香江卫视文旅产业,https://pull-hsbj.vzan.com/v/slowlive_802262131846613854.m3u8
-香江卫视文旅产业,https://pull-hsbj.vzan.com/v/slowlive_802262131846613854.flv
-香江卫视文旅产业,https://zcnset.vnet.weizan.cn/live/page/1480442386
 
 绵阳新闻综合,https://p2hs.vzan.com/812528776/317120615035473567/live.m3u8
 绵阳新闻综合,https://pull-hsbj.vzan.com/v/812528776_317120615035473567.m3u8
@@ -513,8 +466,7 @@ baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
 广州南国都市,http://tencentplaygsm.gztv.com/live/nanguodushi.m3u8
 番禺综合,http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
 东莞新闻综合,http://stream.sun0769.com/dgrtv1/mp4tv1_1500/index.m3u8
-东莞生活资讯,http://stream.sun0769.com/dgrtv1/mp4tv2_1500/index.m3u8
-清远新闻综合,http://vlivestream.qyrb.cn/qyLiveSlow/74.m3u8
+清远综合,http://vlivestream.qyrb.cn/qyLiveSlow/74.m3u8
 肇庆综合,http://zqvlivestream.xjrb.com/zqLiveSlow/209.m3u8
 梅州综合,http://livepull.hellohakka.cn/live/ch_zonghe.m3u8
 梅州客家生活,http://livepull.hellohakka.cn/live/ch_kejiashenghuo.m3u8
@@ -549,7 +501,7 @@ baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
 百色综合,http://43.138.216.144/live/3d517b284178.m3u8
 
 福建
-德化电视台,https://play.cmptp.fjgdwl.com/live/63a563ec75764af588f3215b0afa2588.m3u8
+德化综合,https://play.cmptp.fjgdwl.com/live/63a563ec75764af588f3215b0afa2588.m3u8
 石狮综合,http://live-new.chinashishi.net/SSTV/sd/live.m3u8
 建宁综合,http://p2hs.vzan.com/2144741973/681448837351911792/live.m3u8
 福州生活,http://live.zohi.tv/video/s10001-fztv-3/index.m3u8
@@ -578,7 +530,6 @@ baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
 淮北矿业综合,http://xcblive.hbcoal.com/3/playlist.m3u8
 亳州综合,https://zbbf2.ahbztv.com/live/416.m3u8
 涡阳新闻综合,http://220.180.124.18:888/live/ch0.m3u8
-广德生活,http://live.gdtv.ah.cn/live/shenghuoTV.m3u8
 广德新闻综合,http://live.gdtv.ah.cn/live/newsTV.m3u8
 宿松新闻综合,http://52181.hlsplay.aodianyun.com/tv_radio_52181/tv_channel_3390.m3u8?auth_key=4864330173-0-0-2a353fbf5a7ca1fbcd416784d0dd6feb&extra_key=FRIjWvNtz2cHy_4tijOGiUt7HGzSh36VS8wM7heXJuKS7QcdzmYtB4Xdwq1-b49heYVFgOjfNYcHlNkWMLljrgOgBYUtPvwV329k2Wtl9C1vpcHndVm2VT0bYMkLnNPAKUqWAnhUpZ259pZH3kjIIJAAI7lXbvNNkOq0p761Gds
 池州新闻综合,http://gbds.chiznews.com:8037/live/xwzh.m3u8
@@ -604,13 +555,11 @@ baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
 
 
 安多卫视,https://live.qhbtv.com.cn/qhzyds/sd/live.m3u8?timestamp=1787971129&encrypt=bacd57bd3dcc598007da6b66e0538473
-
 四川科教,http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 每经AI电视,http://swiftplay.hxkjmedia.com/tv/spbW.m3u8
-高新电视台,http://livepgc.chinamcache.com/pgc/d849e3b837e34409b46124c267a8a1cf.m3u8?auth_key=1719565624-0-0-c80453df5f2edc88776ce766e497b52b
+高新综合,http://livepgc.chinamcache.com/pgc/d849e3b837e34409b46124c267a8a1cf.m3u8?auth_key=1719565624-0-0-c80453df5f2edc88776ce766e497b52b
 营山综合,http://m3u8channel.ysxtv.cn/nmip-media/channellive/channel101492/playlist.m3u8
-金堂电视台,http://live.jtxwzx.com.cn:80/jtdst/hd/live.m3u8
-金堂电视台,http://p8.vzan.com/slowlive/188010566442385577/live.m3u8
+金堂综合,http://live.jtxwzx.com.cn:80/jtdst/hd/live.m3u8
 简阳新闻综合,http://jypull.jianyangrongmei.cn/live/fb9eea7d019310009e23a40200000000/playlist.m3u8?wsSecret=27502e2ade19ed4f0c73f2d43a9547b3&wsTime=2019657600
 双流综合,http://171.221.250.132:28080/live/3146B3F489F1246E4E542E341B99EEAD.m3u8
 新都综合,http://guangbo-pull.magcloud.net/guangbo/xdtv.m3u8?sign=5216e5562b22045390a0ba97dbed5f6e&t=1800508995
@@ -622,7 +571,6 @@ baseUrl:http://litchi-play-encrypted-site.jstv.com/applive/
 荣县综合,http://play.rongxianwang.net/ydrx/rongxianlive.m3u8?auth_key=1715846517-0-0-69728c58ca3d40f9331a8cf77d985e93
 广汉综合,http://dcpull.ghrmt.cn/live/5c2bdb1a018f100098165ffc00000000/playlist.m3u8?wsSecret=0e9e279d000d65e46c102be4479c95c7&wsTime=2019657600
 广元综合,http://m3u8.channel.dzsm.com/nmip-media/channellive/channel100999/playlist.m3u8
-广元文化生活,http://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8
 朝天综合,http://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
 利州新闻综合,http://file.lzgbdst.cn/nmip-media/channellive/channel107259/playlist.m3u8
 长宁综合,http://cnpull.sccnfb.com/live/123456.flv?timestamp=20260410093356&encrypt=62b002fe97abffc6fd6ed52584677530

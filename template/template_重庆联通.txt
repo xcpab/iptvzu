@@ -153,7 +153,7 @@ CHC影迷电影,http://ipipip/udp/225.0.4.230:7980$1080p
 动漫秀场,http://ipipip/udp/225.0.4.236:7980$1080p
 游戏风云,http://ipipip/udp/225.0.4.237:7980$1080p
 生活时尚,http://ipipip/udp/225.0.4.241:7980$1080p
-都市居场,http://ipipip/udp/225.0.4.235:7980$1080p
+都市剧场,http://ipipip/udp/225.0.4.235:7980$1080p
 金色学堂,http://ipipip/udp/225.0.4.239:7980$1080p
 金鹰卡通,http://ipipip/udp/225.0.4.46:7980$576p
 嘉佳卡通,http://ipipip/udp/225.0.4.221:7980$576p
@@ -161,9 +161,9 @@ CHC影迷电影,http://ipipip/udp/225.0.4.230:7980$1080p
 快乐垂钓,http://ipipip/udp/225.0.4.213:7980$1080p
 求索纪录,http://ipipip/udp/225.0.4.232:7980$1080p
 法治天地,http://ipipip/udp/225.0.4.240:7980$1080p
+精彩影视,http://ipipip/udp/225.0.4.231:7980$1080p
 电影,http://ipipip/udp/225.0.4.226:7980
 电视剧,http://ipipip/udp/225.0.4.145:7980$1080p
-精彩影视,http://ipipip/udp/225.0.4.231:7980$1080p
 老电影,http://ipipip/udp/225.0.4.166:7980$1080p
 IPTV爱体育,http://ipipip/udp/225.0.4.167:7980$1080p
 IPTV爱体育,http://ipipip/udp/225.0.4.53:7980$1080p

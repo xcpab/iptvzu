@@ -9,7 +9,7 @@
 银川公共,http://ipipip/rtp/239.121.4.21:8100
 银川文体,http://ipipip/rtp/239.121.4.22:8106
 银川生活,http://ipipip/rtp/239.121.4.106:8610
-宁煤电视,http://ipipip/rtp/239.121.5.200:5120
+宁煤综合,http://ipipip/rtp/239.121.5.200:5120
 中卫综合,http://ipipip/rtp/239.121.5.84:5520
 BRTV卡酷少儿,http://ipipip/rtp/239.121.4.53:8292
 BRTV卡酷少儿,http://ipipip/rtp/239.121.5.46:9248

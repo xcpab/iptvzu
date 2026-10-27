@@ -35,7 +35,6 @@ CCTV-16 奥林匹克,http://ipipip/rtp/226.0.2.169:9264
 CCTV-16 奥林匹克,http://ipipip/rtp/226.0.2.73:8496
 CCTV-17 农业农村,http://ipipip/rtp/226.0.2.170:9272
 CCTV-17 农业农村,http://ipipip/rtp/226.0.2.207:9568
-CCTV-17 农业农村,http://ipipip/rtp/226.0.2.87:9856
 CCTV世界地理,http://ipipip/rtp/226.0.2.222:9688
 CCTV中视购物,http://ipipip/rtp/226.0.2.72:8488
 CCTV兵器科技,http://ipipip/rtp/226.0.2.223:9696
@@ -162,6 +161,7 @@ CCTV4K,http://ipipip/rtp/226.0.2.142:9168
 运城科教,http://ipipip/rtp/226.0.2.106:9006
 屯留综合,http://ipipip/rtp/226.0.2.17:9836
 平定综合,http://ipipip/rtp/226.0.2.88:9860
+长钢综合,http://ipipip/rtp/226.0.2.87:9856
 朔州新闻综合,http://ipipip/rtp/226.0.2.185:9392
 朔州生活娱乐,http://ipipip/rtp/226.0.2.186:9400
 清徐综合,http://ipipip/rtp/226.0.2.191:9440
