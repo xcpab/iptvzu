@@ -2,40 +2,40 @@
 从 'ip/北京联通_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
 连接成功 22 个,开始测速（并发 5）······
-[测速] 221.220.131.65:8012  ->  964.56 k
-[测速] 123.118.231.43:9090  ->  920.12 k
-[测速] 6.triq.cc:8012  ->  884.94 k
-[测速] 111.196.135.80:20000  ->  836.62 k
-[测速] fnos.cgproxy.cn:4022  ->  677.35 k
-[测速] guoxue.synology.me:57022  ->  940.21 k
+[测速] guoxue.synology.me:57022  ->  948.62 k
+[测速] 111.196.135.80:20000  ->  870.39 k
+[测速] 221.220.131.65:8012  ->  965.33 k
+[测速] fnos.cgproxy.cn:4022  ->  792.85 k
+[测速] 6.triq.cc:8012  ->  942.68 k
+[测速] 123.118.225.9:9090  ->  946.47 k
 [测速] guoxue7.xicp.net:57022  ->  0.00 B
-[测速] guoxue7.3322.org:57022  ->  934.30 k
-[测速] home.zgnc.fun:8821  ->  1.12 M
-[测速] happylive.asuscomm.com:8888  ->  950.88 k
-[测速] n2.192372.xyz:8888  ->  940.31 k
-[测速] home.zgnc.fun:8824  ->  1.11 M
+[测速] happylive.asuscomm.com:8888  ->  0.00 B
+[测速] home.zgnc.fun:8821  ->  1.04 M
+[测速] guoxue7.3322.org:57022  ->  930.24 k
+[测速] home.zgnc.fun:8824  ->  1.03 M
+[测速] n2.192372.xyz:8888  ->  947.10 k
 [测速] thomastian.duckdns.org:8012  ->  0.00 B
-[测速] naslmd2.myqnapcloud.com:4022  ->  362.68 k
+[测速] naslmd2.myqnapcloud.com:4022  ->  464.09 k
 [测速] qqdwtypm3.xicp.net:64022  ->  0.00 B
-[测速] wuyanjiang.cn:8012  ->  0.00 B
 [测速] www.49156116.xyz:23234  ->  0.00 B
-[测速] qqdwtypm.f3322.org:64022  ->  920.48 k
-[测速] superpostmail.3322.org:1193  ->  899.50 k
-[测速] rt.096096.xyz:61612  ->  874.73 k
-[测速] triq.cc:8012  ->  892.25 k
-[测速] www.photoby.us:28012  ->  903.19 k
+[测速] qqdwtypm.f3322.org:64022  ->  930.12 k
+[测速] rt.096096.xyz:61612  ->  937.59 k
+[测速] superpostmail.3322.org:1193  ->  941.82 k
+[测速] triq.cc:8012  ->  942.19 k
+[测速] wuyanjiang.cn:8012  ->  958.71 k
+[测速] www.photoby.us:28012  ->  938.78 k
 测速完成，共 22 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-home.zgnc.fun:8821     1.12 M
-home.zgnc.fun:8824     1.11 M
-221.220.131.65:8012    964.56 k
-happylive.asuscomm.com:8888 950.88 k
-n2.192372.xyz:8888     940.31 k
-guoxue.synology.me:57022 940.21 k
-guoxue7.3322.org:57022 934.30 k
-qqdwtypm.f3322.org:64022 920.48 k
-123.118.231.43:9090    920.12 k
-www.photoby.us:28012   903.19 k
+home.zgnc.fun:8821     1.04 M
+home.zgnc.fun:8824     1.03 M
+221.220.131.65:8012    965.33 k
+wuyanjiang.cn:8012     958.71 k
+guoxue.synology.me:57022 948.62 k
+n2.192372.xyz:8888     947.10 k
+123.118.225.9:9090     946.47 k
+6.triq.cc:8012         942.68 k
+triq.cc:8012           942.19 k
+superpostmail.3322.org:1193 941.82 k
 ---------------------------
 北京联通 测试完成，生成可用文件：'txt/北京联通.txt'
