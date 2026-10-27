@@ -1,2 +1,3 @@
+27.11.55.199:8008
 jellyfin.eversouthhangzhou.com.cn:8188
 z2m.eversouthhangzhou.com.cn:8188
