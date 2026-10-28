@@ -6,9 +6,11 @@
 58.48.104.62:8989
 59.173.123.30:9999
 61.184.232.168:8888
+119.100.144.130:10000
 a.liuxiaobo.top:8888
 ak.ws.sc.cn:8100
 alist.xicp.fun:52057
+b.liuliuball.cn:8888
 d.liuxiaobo.top:8888
 hzzzz530.com:4022
 kexu.mycloudnas.com:8001

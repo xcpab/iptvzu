@@ -10,3 +10,5 @@ lysj.aylzline.top:8899
 weige6566.asuscomm.com:4000
 www.flyju.top:8899
 xx.xinxiang.bbroot.com:24000
+219.156.55.44:4000
+61.52.172.113:4022

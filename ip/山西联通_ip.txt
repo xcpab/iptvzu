@@ -13,3 +13,4 @@
 flyriven.synology.me:8001
 home.yulei.online:9999
 sqdtn.cloud:8888
+183.188.159.12:6001

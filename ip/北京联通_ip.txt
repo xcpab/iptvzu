@@ -24,3 +24,6 @@ www.ljun.cc:4022
 www.mxmy.net:8888
 www.photoby.us:28012
 www.xiongnas.top:8888
+www.mxmy.net:8888
+221.219.99.69:8005
+221.220.130.93:9999
