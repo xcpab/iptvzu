@@ -249,7 +249,7 @@ IPTV谍战剧场,http://ipipip/udp/239.77.0.99:5146$1080p
 广东4K,http://ipipip/udp/239.77.0.252:5146
 广东4K,http://ipipip/udp/239.77.1.236:5146
 广东4K,http://ipipip/udp/239.77.1.237:5146
-广东九画面,http://ipipip/udp/239.77.1.234:5146
+九画面,http://ipipip/udp/239.77.1.234:5146
 广东体育,http://ipipip/udp/239.77.0.112:5146
 广东体育,http://ipipip/udp/239.77.0.112:5146$1080p
 广东体育,http://ipipip/udp/239.77.0.168:5146$1080p

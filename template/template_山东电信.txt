@@ -121,7 +121,7 @@ CHC影迷电影,http://ipipip/udp/239.21.2.127:5002
 山东卫视,http://ipipip/udp/239.21.2.130:5002
 山东卫视,http://ipipip/udp/239.21.2.157:5002
 山东卫视,http://ipipip/udp/239.21.2.158:5002
-山东九画面,http://ipipip/udp/239.21.1.203:5002$1080p
+九画面,http://ipipip/udp/239.21.1.203:5002$1080p
 山东体育休闲,http://ipipip/udp/239.21.1.141:5002
 山东农科,http://ipipip/udp/239.21.1.183:5002$1080p
 山东少儿,http://ipipip/udp/239.21.1.208:5002$1080p
