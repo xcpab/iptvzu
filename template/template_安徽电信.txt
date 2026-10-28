@@ -158,7 +158,6 @@ CHC影迷电影,http://ipipip/rtp/238.1.79.17:4248
 滁州科教,http://ipipip/rtp/238.1.78.134:6944
 潜山综合,http://ipipip/rtp/238.1.78.192:7408
 濉溪综合,http://ipipip/rtp/238.1.78.209:7544
-太平综合,http://ipipip/rtp/238.1.78.199:7464
 灵璧新闻综合,http://ipipip/rtp/238.1.79.68:4680
 界首综合,http://ipipip/rtp/238.1.78.195:7432
 祁门综合,http://ipipip/rtp/238.1.79.14:4224
@@ -176,7 +175,6 @@ CHC影迷电影,http://ipipip/rtp/238.1.79.17:4248
 蚌埠生活,http://ipipip/rtp/238.1.78.181:7320
 郎溪新闻综合,http://ipipip/rtp/238.1.78.214:7584
 金寨综合,http://ipipip/rtp/238.1.79.21:4280
-铜陵教育科技,http://ipipip/rtp/238.1.78.141:7000
 铜陵新闻综合,http://ipipip/rtp/238.1.78.139:6984
 阜南新闻综合,http://ipipip/rtp/238.1.79.11:4200
 阜阳教育,http://ipipip/rtp/238.1.78.126:6880
@@ -226,7 +224,7 @@ IPTV台球,http://ipipip/rtp/238.1.78.251:7880
 IPTV国学,http://ipipip/rtp/238.1.78.34:4064
 IPTV地理,http://ipipip/rtp/238.1.79.4:4144
 IPTV墨宝,http://ipipip/rtp/238.1.78.39:4104
-央视网·戏曲,http://ipipip/rtp/238.1.78.35:4072
+IPTV戏曲,http://ipipip/rtp/238.1.78.35:4072
 IPTV爱生活,http://ipipip/rtp/238.1.78.17:4040
 IPTV相声小品,http://ipipip/rtp/238.1.78.3:7928
 IPTV高网,http://ipipip/rtp/238.1.78.252:7888

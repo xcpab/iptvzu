@@ -1,5 +1,3 @@
-河南4K试验,http://ipipip/rtp/239.16.10.210:2000$2160p
-河南4K试验,http://ipipip/rtp/239.16.20.199:11990
 BRTV卡酷少儿,http://ipipip/rtp/239.16.10.116:2000$576p
 BRTV卡酷少儿,http://ipipip/rtp/239.16.20.105:11050
 CCTV-1 综合,http://ipipip/rtp/239.16.10.1:2000$1080p
@@ -196,7 +194,7 @@ CCTV4K,http://ipipip/rtp/239.16.11.1:2000$2160p
 宝丰综合,http://ipipip/rtp/239.16.20.209:12090
 宝丰综合,http://ipipip/rtp/239.16.20.63:10630
 封丘新闻综合,http://ipipip/rtp/239.16.20.19:10190
-嵩县综合,http://ipipip/rtp/239.16.20.234:12340
+​嵩县综合,http://ipipip/rtp/239.16.20.234:12340
 巩义综合,http://ipipip/rtp/239.16.10.33:2000$1080p
 巩义综合,http://ipipip/rtp/239.16.20.43:10430
 平煤安全环保,http://ipipip/rtp/239.16.20.244:12440
