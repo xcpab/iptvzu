@@ -4,8 +4,8 @@
 125.80.94.70:8088
 14.109.230.49:8181
 17782331118.top:8188
-home.scanflove.com:7788
 dyzy.pub:8003
+home.scanflove.com:7788
 iid.ccwu.cc:4070
 www.msen.site:8000
 www.wpfhome.cn:5555

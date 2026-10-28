@@ -1,3 +1,4 @@
+115.205.187.106:4022
 122.230.33.150:8889
 122.246.147.151:7777
 125.123.141.122:44022
@@ -14,7 +15,6 @@ hjro.cn:9999
 www.kod.nlmxy.cn:4000
 www.nlmxy.cn:4000
 www.tangtuanpp.fun:4000
+www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000
 z2m.eversouthhangzhou.com.cn:8188
 zjhuct.synology.me:8881
-www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000
-115.205.187.106:4022
