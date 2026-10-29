@@ -202,14 +202,7 @@ CHC影迷电影,http://ipipip/udp/239.252.219.83:5140$1080p
 快乐购,http://ipipip/udp/239.252.220.164:5140$576p
 电影,http://ipipip/udp/239.252.220.204:5140$1080p
 资料,http://ipipip/udp/239.252.220.14:5140$576p
-广播,http://ipipip/udp/239.252.220.21:5140
-广播,http://ipipip/udp/239.252.220.23:5140
-广播,http://ipipip/udp/239.252.220.29:5140
-广播,http://ipipip/udp/239.252.220.32:5140
-广播,http://ipipip/udp/239.252.220.39:5140$576p
 广播,http://ipipip/udp/239.252.220.48:5140
-无效,http://ipipip/udp/239.252.220.40:5140$576p
-无效,http://ipipip/udp/239.252.220.58:5140$576p
 IPTV,http://ipipip/udp/239.252.220.47:5140$1080p
 IPTV军事,http://ipipip/udp/239.252.220.206:5140$1080p
 IPTV地理,http://ipipip/udp/239.252.219.162:5140$1080p

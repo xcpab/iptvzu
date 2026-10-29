@@ -271,7 +271,7 @@ CCTV-3 综艺,http://ipipip/rtp/239.253.92.21:6226
 CCTV4K,http://ipipip/rtp/239.253.92.219:6228
 湖南卫视4K,http://ipipip/rtp/239.253.92.220:6229
 河北文旅体育,http://ipipip/rtp/239.253.94.1:6600
-九屏直播,http://ipipip/rtp/239.253.92.203:6150
+九画面,http://ipipip/rtp/239.253.92.203:6150
 慢直播2,http://ipipip/rtp/239.253.94.2:6601
 慢直播3,http://ipipip/rtp/239.253.94.3:6602
 慢直播4,http://ipipip/rtp/239.253.94.4:6603
