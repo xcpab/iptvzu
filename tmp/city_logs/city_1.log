@@ -1,31 +1,27 @@
 ======== 开始检索 浙江电信 ========
 从 'ip/浙江电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 12 个,开始测速（并发 5）······
-[测速] 122.246.147.151:7777  ->  1.05 M
-[测速] 60.163.106.143:9999  ->  1.05 M
-[测速] 122.230.33.150:8889  ->  1.05 M
-[测速] cnlvan.3322.org:8888  ->  1.04 M
-[测速] 125.123.141.122:44022  ->  1.03 M
-[测速] bit.nlmxy.cn:4000  ->  1.04 M
-[测速] www.nlmxy.cn:4000  ->  1.01 M
-[测速] www.kod.nlmxy.cn:4000  ->  1.04 M
-[测速] dootask.nlmxy.cn:4000  ->  1.03 M
-[测速] www.tangtuanpp.fun:4000  ->  1.05 M
-[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  1.04 M
-[测速] z2m.eversouthhangzhou.com.cn:8188  ->  111.00 k
-测速完成，共 12 条结果。
+连接成功 9 个,开始测速（并发 5）······
+[测速] cnlvan.3322.org:8888  ->  1.02 M
+[测速] www.kod.nlmxy.cn:4000  ->  813.08 k
+[测速] bit.nlmxy.cn:4000  ->  635.54 k
+[测速] dootask.nlmxy.cn:4000  ->  776.82 k
+[测速] 125.123.141.122:44022  ->  942.12 k
+[测速] www.nlmxy.cn:4000  ->  815.81 k
+[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  965.17 k
+[测速] www.tangtuanpp.fun:4000  ->  728.74 k
+[测速] z2m.eversouthhangzhou.com.cn:8188  ->  139.74 k
+测速完成，共 9 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-www.tangtuanpp.fun:4000 1.05 M
-122.246.147.151:7777   1.05 M
-60.163.106.143:9999    1.05 M
-122.230.33.150:8889    1.05 M
-www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000 1.04 M
-cnlvan.3322.org:8888   1.04 M
-bit.nlmxy.cn:4000      1.04 M
-www.kod.nlmxy.cn:4000  1.04 M
-dootask.nlmxy.cn:4000  1.03 M
-125.123.141.122:44022  1.03 M
+cnlvan.3322.org:8888   1.02 M
+www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000 965.17 k
+125.123.141.122:44022  942.12 k
+www.nlmxy.cn:4000      815.81 k
+www.kod.nlmxy.cn:4000  813.08 k
+dootask.nlmxy.cn:4000  776.82 k
+www.tangtuanpp.fun:4000 728.74 k
+bit.nlmxy.cn:4000      635.54 k
+z2m.eversouthhangzhou.com.cn:8188 139.74 k
 ---------------------------
 浙江电信 测试完成，生成可用文件：'txt/浙江电信.txt'
