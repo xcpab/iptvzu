@@ -3,13 +3,13 @@
 开始连通性检测（并发 50）...
 连接成功 3 个,开始测速（并发 5）······
 [测速] 27.11.55.199:8008  ->  0.00 B
-[测速] z2m.eversouthhangzhou.com.cn:8188  ->  176.15 k
-[测速] jellyfin.eversouthhangzhou.com.cn:8188  ->  194.17 k
+[测速] z2m.eversouthhangzhou.com.cn:8188  ->  85.21 k
+[测速] jellyfin.eversouthhangzhou.com.cn:8188  ->  85.49 k
 测速完成，共 3 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-jellyfin.eversouthhangzhou.com.cn:8188 194.17 k
-z2m.eversouthhangzhou.com.cn:8188 176.15 k
+jellyfin.eversouthhangzhou.com.cn:8188 85.49 k
+z2m.eversouthhangzhou.com.cn:8188 85.21 k
 27.11.55.199:8008      0.00 B
 ---------------------------
 浙江联通 测试完成，生成可用文件：'txt/浙江联通.txt'
