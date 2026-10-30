@@ -193,6 +193,7 @@ CCTV4K,http://ipipip/rtp/239.16.11.1:2000$2160p
 宜阳综合,http://ipipip/rtp/239.16.20.206:12060
 宝丰综合,http://ipipip/rtp/239.16.20.209:12090
 宝丰综合,http://ipipip/rtp/239.16.20.63:10630
+南乐综合,http://ipipip/rtp/239.16.20.108:11080
 封丘新闻综合,http://ipipip/rtp/239.16.20.19:10190
 ​嵩县综合,http://ipipip/rtp/239.16.20.234:12340
 巩义综合,http://ipipip/rtp/239.16.10.33:2000$1080p

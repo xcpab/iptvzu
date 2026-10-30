@@ -19,6 +19,7 @@ hydeqnapnas.mycloudnas.com:8100
 jellyfin.cyruslee.top:8888
 lsa.familyds.com:8188
 plex.cyruslee.top:8888
+ikuai.cyruslee.top:8888
 rfx2025.shunderen.top:2345
 sfyqvxiaoya.19810416.xyz:55555
 udp2.gdsz.eu.org:8888
@@ -26,3 +27,7 @@ www.3344.uk:8888
 www.yahao.host:4022
 xxika.synology.me:8188
 yanshifen.top:8889
+61.145.188.90:50055
+lbyjlt.vv5678.cn:8880
+907698324.xyz:7088
+net.manyee.net:18888

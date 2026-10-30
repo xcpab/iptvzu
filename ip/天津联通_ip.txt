@@ -4,3 +4,5 @@
 60.26.60.19:8000
 60.30.67.45:8834
 home.techua.net:8000
+lanfenggood.cn:4022
+server01.severus.top:4022

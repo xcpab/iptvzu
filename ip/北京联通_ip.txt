@@ -25,3 +25,6 @@ www.ljun.cc:4022
 www.mxmy.net:8888
 www.photoby.us:28012
 www.xiongnas.top:8888
+oray.com.ogrehq.com:20146
+www.ogrehq.com:20146
+r.xace.fun:4999

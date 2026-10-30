@@ -3,3 +3,4 @@
 27.152.83.238:18888
 e1.woc.iiiya.cn:18888
 woc.iiiya.cn:18888
+e3.woc.iiiya.cn:18888

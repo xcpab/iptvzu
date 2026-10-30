@@ -6,3 +6,4 @@
 demo1.ruisilink.top:9000
 www.0000505.xyz:8888
 www.zlizi.cn:4023
+yyangnet99.host:65000

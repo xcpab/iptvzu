@@ -25,3 +25,5 @@ www.xk8.top:8001
 xk8.top:8001
 xuanxindong.mycloudnas.com:10001
 yong1166.vicp.net:9999
+zhangkx717.cn:9999
+hiliu.myds.me:18088
