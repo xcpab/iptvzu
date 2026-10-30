@@ -10,7 +10,6 @@
 58.212.158.88:4022
 980413.xyz:6000
 ali.wxj520.top:8188
-clnas.heylc.com:4022
 dx.joygala.cn:8118
 h.vanshun.com:8802
 j1900.silicaite.com:58888
@@ -23,7 +22,8 @@ qh.diaglepm.cn:8333
 st.dhdasheng.cn:8188
 tlntbgs.synology.me:8889
 vpn.a5521.top:9889
-vs.heylc.com:4022
+www.922928.de:5888
+www.frankgb.cn:4022
 www.huijie5421.cn:8800
 www.yzddy.top:8800
 xpshat.i234.me:8188

@@ -1,68 +1,365 @@
 海南联通-组播1,#genre#
+海南卫视,http://www.alihomes.top:8188/rtp/239.254.96.179:7154
+海南卫视,http://www.alihomes.top:8188/rtp/239.254.96.18:7128
+三沙卫视,http://www.alihomes.top:8188/rtp/239.254.96.184:7158
+海南自贸,http://www.alihomes.top:8188/rtp/239.254.96.185:8162
+海南自贸,http://www.alihomes.top:8188/rtp/239.254.96.19:7136
+海南社会与法,http://www.alihomes.top:8188/rtp/239.254.96.186:8164
+海南社会与法,http://www.alihomes.top:8188/rtp/239.254.96.21:7152
+海南文旅,http://www.alihomes.top:8188/rtp/239.254.96.191:8176
+海南少儿,http://www.alihomes.top:8188/rtp/239.254.96.192:8178
+海南少儿,http://www.alihomes.top:8188/rtp/239.254.96.23:7168
+海南新闻,http://www.alihomes.top:8188/rtp/239.254.96.190:8174
+海南新闻,http://www.alihomes.top:8188/rtp/239.254.96.20:7144
+海口综合,http://www.alihomes.top:8188/rtp/239.254.96.103:7808
+海口生活娱乐,http://www.alihomes.top:8188/rtp/239.254.96.104:7816
+海口城乡经济,http://www.alihomes.top:8188/rtp/239.254.96.105:7824
+三亚综合,http://www.alihomes.top:8188/rtp/239.254.96.106:8832
+澄迈综合,http://www.alihomes.top:8188/rtp/239.254.96.111:7772
+万宁综合,http://www.alihomes.top:8188/rtp/239.254.96.119:7936
+临高综合,http://www.alihomes.top:8188/rtp/239.254.96.117:7920
+义旅综合,http://www.alihomes.top:8188/rtp/239.254.96.22:7160
+保亭综合,http://www.alihomes.top:8188/rtp/239.254.96.118:7928
+儋州综合,http://www.alihomes.top:8188/rtp/239.254.96.109:7856
+定安综合,http://www.alihomes.top:8188/rtp/239.254.96.112:7872
+屯昌综合,http://www.alihomes.top:8188/rtp/239.254.96.115:7904
+文昌综合,http://www.alihomes.top:8188/rtp/239.254.96.107:7840
+昌江综合,http://www.alihomes.top:8188/rtp/239.254.96.110:7864
+琼海综合,http://www.alihomes.top:8188/rtp/239.254.96.108:7848
+白沙综合,http://www.alihomes.top:8188/rtp/239.254.96.116:7914
+陵水综合,http://www.alihomes.top:8188/rtp/239.254.96.114:7896
+海南风景SD,http://www.alihomes.top:8188/rtp/239.254.96.120:7944
+海南风景SD,http://www.alihomes.top:8188/rtp/239.254.96.122:7960
+海南风景SD,http://www.alihomes.top:8188/rtp/239.254.96.165:8138
+CCTV-1 综合,http://www.alihomes.top:8188/rtp/239.254.96.82:7640
+CCTV-2 财经,http://www.alihomes.top:8188/rtp/239.254.96.124:7084
+CCTV-2 财经,http://www.alihomes.top:8188/rtp/239.254.96.2:7000
+CCTV-3 综艺,http://www.alihomes.top:8188/rtp/239.254.96.67:7520
+CCTV-4 中文国际,http://www.alihomes.top:8188/rtp/239.254.96.180:7092
+CCTV-4 中文国际,http://www.alihomes.top:8188/rtp/239.254.96.4:7016
+CCTV-5 体育,http://www.alihomes.top:8188/rtp/239.254.96.66:7512
+CCTV-5+ 体育赛事,http://www.alihomes.top:8188/rtp/239.254.96.83:7004
+CCTV-6 电影,http://www.alihomes.top:8188/rtp/239.254.96.63:7488
+CCTV-7 国防军事,http://www.alihomes.top:8188/rtp/239.254.96.125:7104
+CCTV-8 电视剧,http://www.alihomes.top:8188/rtp/239.254.96.62:7480
+CCTV-9 纪录,http://www.alihomes.top:8188/rtp/239.254.96.126:7112
+CCTV-9 纪录,http://www.alihomes.top:8188/rtp/239.254.96.9:7056
+CCTV-10 科教,http://www.alihomes.top:8188/rtp/239.254.96.127:7116
+CCTV-10 科教,http://www.alihomes.top:8188/rtp/239.254.96.10:7064
+CCTV-11 戏曲,http://www.alihomes.top:8188/rtp/239.254.96.187:8166
+CCTV-11 戏曲,http://www.alihomes.top:8188/rtp/239.254.96.11:7072
+CCTV-12 社会与法,http://www.alihomes.top:8188/rtp/239.254.96.128:7124
+CCTV-12 社会与法,http://www.alihomes.top:8188/rtp/239.254.96.12:7080
+CCTV-13 新闻,http://www.alihomes.top:8188/rtp/239.254.96.200:8205
+CCTV-13 新闻,http://www.alihomes.top:8188/rtp/239.254.96.13:7264
+CCTV-14 少儿,http://www.alihomes.top:8188/rtp/239.254.96.129:7132
+CCTV-14 少儿,http://www.alihomes.top:8188/rtp/239.254.96.14:7236
+CCTV-15 音乐,http://www.alihomes.top:8188/rtp/239.254.96.188:8170
+CCTV-15 音乐,http://www.alihomes.top:8188/rtp/239.254.96.15:7104
+CCTV-16 奥林匹克,http://www.alihomes.top:8188/rtp/239.254.96.170:8206
+CCTV-17 农业农村,http://www.alihomes.top:8188/rtp/239.254.96.57:8204
+CGTN,http://www.alihomes.top:8188/rtp/239.254.96.16:7112
+CGTN纪录,http://www.alihomes.top:8188/rtp/239.254.96.58:7448
+CETV1,http://www.alihomes.top:8188/rtp/239.254.96.155:7152
+CETV1,http://www.alihomes.top:8188/rtp/239.254.96.167:8142
+CETV2,http://www.alihomes.top:8188/rtp/239.254.96.168:8146
+CETV4,http://www.alihomes.top:8188/rtp/239.254.96.169:8148
+CCTV4K,http://www.alihomes.top:8188/rtp/239.254.96.56:7432
+北京卫视4K,http://www.alihomes.top:8188/rtp/239.254.96.158:8220
+广东卫视4K,http://www.alihomes.top:8188/rtp/239.254.96.159:8220
+深圳卫视4K,http://www.alihomes.top:8188/rtp/239.254.96.160:8220
+深圳卫视4K,http://www.alihomes.top:8188/rtp/239.254.96.68:7528
+求索纪录,http://www.alihomes.top:8188/rtp/239.254.96.102:7800
+华数4K,http://www.alihomes.top:8188/rtp/239.254.96.193:8182
+东南卫视,http://www.alihomes.top:8188/rtp/239.254.96.189:8172
+东南卫视,http://www.alihomes.top:8188/rtp/239.254.96.43:7328
+东方卫视,http://www.alihomes.top:8188/rtp/239.254.96.41:7312
+东方卫视,http://www.alihomes.top:8188/rtp/239.254.96.90:7704
+云南卫视,http://www.alihomes.top:8188/rtp/239.254.96.33:7248
+兵团卫视,http://www.alihomes.top:8188/rtp/239.254.96.153:8126
+兵团卫视,http://www.alihomes.top:8188/rtp/239.254.96.161:8220
+内蒙古卫视,http://www.alihomes.top:8188/rtp/239.254.96.50:7384
+北京卫视,http://www.alihomes.top:8188/rtp/239.254.96.29:7216
+北京卫视,http://www.alihomes.top:8188/rtp/239.254.96.84:7656
+厦门卫视,http://www.alihomes.top:8188/rtp/239.254.96.152:8122
+吉林卫视,http://www.alihomes.top:8188/rtp/239.254.96.47:7360
+吉林卫视,http://www.alihomes.top:8188/rtp/239.254.96.65:7504
+四川卫视,http://www.alihomes.top:8188/rtp/239.254.96.36:7272
+天津卫视,http://www.alihomes.top:8188/rtp/239.254.96.183:7364
+天津卫视,http://www.alihomes.top:8188/rtp/239.254.96.30:7224
+宁夏卫视,http://www.alihomes.top:8188/rtp/239.254.96.171:8220
+宁夏卫视,http://www.alihomes.top:8188/rtp/239.254.96.52:7400
+安徽卫视,http://www.alihomes.top:8188/rtp/239.254.96.133:7064
+安徽卫视,http://www.alihomes.top:8188/rtp/239.254.96.28:7208
+山东卫视,http://www.alihomes.top:8188/rtp/239.254.96.131:7052
+山东卫视,http://www.alihomes.top:8188/rtp/239.254.96.32:7240
+山东教育,http://www.alihomes.top:8188/rtp/239.254.96.151:8118
+山西卫视,http://www.alihomes.top:8188/rtp/239.254.96.49:7376
+广东卫视,http://www.alihomes.top:8188/rtp/239.254.96.130:7048
+广东卫视,http://www.alihomes.top:8188/rtp/239.254.96.45:7344
+广西卫视,http://www.alihomes.top:8188/rtp/239.254.96.46:7352
+新疆卫视,http://www.alihomes.top:8188/rtp/239.254.96.162:8220
+新疆卫视,http://www.alihomes.top:8188/rtp/239.254.96.54:7416
+江苏卫视,http://www.alihomes.top:8188/rtp/239.254.96.27:7200
+江苏卫视,http://www.alihomes.top:8188/rtp/239.254.96.88:7688
+江西卫视,http://www.alihomes.top:8188/rtp/239.254.96.61:7472
+河北卫视,http://www.alihomes.top:8188/rtp/239.254.96.181:7072
+河北卫视,http://www.alihomes.top:8188/rtp/239.254.96.44:7336
+河南卫视,http://www.alihomes.top:8188/rtp/239.254.96.178:8220
+河南卫视,http://www.alihomes.top:8188/rtp/239.254.96.34:7256
+浙江卫视,http://www.alihomes.top:8188/rtp/239.254.96.89:7696
+浙江卫视,http://www.alihomes.top:8188/rtp/239.254.96.26:7284
+深圳卫视,http://www.alihomes.top:8188/rtp/239.254.96.87:7020
+深圳卫视,http://www.alihomes.top:8188/rtp/239.254.96.39:7296
+湖北卫视,http://www.alihomes.top:8188/rtp/239.254.96.91:7712
+湖北卫视,http://www.alihomes.top:8188/rtp/239.254.96.40:7304
+湖南卫视,http://www.alihomes.top:8188/rtp/239.254.96.85:7664
+湖南卫视,http://www.alihomes.top:8188/rtp/239.254.96.25:7184
+甘肃卫视,http://www.alihomes.top:8188/rtp/239.254.96.177:8220
+甘肃卫视,http://www.alihomes.top:8188/rtp/239.254.96.55:7424
+西藏卫视,http://www.alihomes.top:8188/rtp/239.254.96.163:8220
+西藏卫视,http://www.alihomes.top:8188/rtp/239.254.96.53:7408
+贵州卫视,http://www.alihomes.top:8188/rtp/239.254.96.182:7076
+贵州卫视,http://www.alihomes.top:8188/rtp/239.254.96.38:7288
+辽宁卫视,http://www.alihomes.top:8188/rtp/239.254.96.132:7056
+辽宁卫视,http://www.alihomes.top:8188/rtp/239.254.96.31:7232
+重庆卫视,http://www.alihomes.top:8188/rtp/239.254.96.198:8198
+重庆卫视,http://www.alihomes.top:8188/rtp/239.254.96.60:7464
+陕西卫视,http://www.alihomes.top:8188/rtp/239.254.96.48:7368
+青海卫视,http://www.alihomes.top:8188/rtp/239.254.96.51:7392
+黑龙江卫视,http://www.alihomes.top:8188/rtp/239.254.96.86:7672
+黑龙江卫视,http://www.alihomes.top:8188/rtp/239.254.96.35:7264
+金鹰纪实,http://www.alihomes.top:8188/rtp/239.254.96.154:7156
+BRTV卡酷少儿,http://www.alihomes.top:8188/rtp/239.254.96.69:7536
+IPTV军事,http://www.alihomes.top:8188/rtp/239.254.96.140:8090
+IPTV喜剧影院,http://www.alihomes.top:8188/rtp/239.254.96.147:8106
+IPTV国学,http://www.alihomes.top:8188/rtp/239.254.96.141:8094
+IPTV地理,http://www.alihomes.top:8188/rtp/239.254.96.139:8086
+IPTV墨宝,http://www.alihomes.top:8188/rtp/239.254.96.94:8714
+IPTV好学生,http://www.alihomes.top:8188/rtp/239.254.96.144:7994
+IPTV戏曲,http://www.alihomes.top:8188/rtp/239.254.96.142:8096
+IPTV收视指南,http://www.alihomes.top:8188/rtp/239.254.96.17:7120
+IPTV早教,http://www.alihomes.top:8188/rtp/239.254.96.143:8098
+IPTV武术,http://www.alihomes.top:8188/rtp/239.254.96.98:8762
+IPTV法治,http://www.alihomes.top:8188/rtp/239.254.96.81:7632
+IPTV爱体育,http://www.alihomes.top:8188/rtp/239.254.96.101:7792
+IPTV爱生活,http://www.alihomes.top:8188/rtp/239.254.96.145:7996
+IPTV爱综艺,http://www.alihomes.top:8188/rtp/239.254.96.3:7004
+IPTV电视剧,http://www.alihomes.top:8188/rtp/239.254.96.95:8716
+IPTV相声小品,http://www.alihomes.top:8188/rtp/239.254.96.78:7608
+IPTV美人,http://www.alihomes.top:8188/rtp/239.254.96.96:8718
+IPTV解密,http://www.alihomes.top:8188/rtp/239.254.96.100:8066
+IPTV足球,http://www.alihomes.top:8188/rtp/239.254.96.146:7998
+IPTV野外,http://www.alihomes.top:8188/rtp/239.254.96.80:7624
+IPTV音乐现场,http://www.alihomes.top:8188/rtp/239.254.96.138:8082
+IPTV高网,http://www.alihomes.top:8188/rtp/239.254.96.99:8764
+华数军旅剧场,http://www.alihomes.top:8188/rtp/239.254.96.136:8070
+华数剧场,http://www.alihomes.top:8188/rtp/239.254.96.74:7576
+华数动作影院,http://www.alihomes.top:8188/rtp/239.254.96.148:8108
+华数动画,http://www.alihomes.top:8188/rtp/239.254.96.93:8708
+华数古装剧场,http://www.alihomes.top:8188/rtp/239.254.96.137:8078
+华数城市剧场,http://www.alihomes.top:8188/rtp/239.254.96.150:8114
+华数少儿动画,http://www.alihomes.top:8188/rtp/239.254.96.79:7616
+华数武侠剧场,http://www.alihomes.top:8188/rtp/239.254.96.92:8706
+华数爱大剧,http://www.alihomes.top:8188/rtp/239.254.96.8:7048
+华数爱电影,http://www.alihomes.top:8188/rtp/239.254.96.6:7016
+华数电影,http://www.alihomes.top:8188/rtp/239.254.96.149:8110
+华数电视剧,http://www.alihomes.top:8188/rtp/239.254.96.76:7592
+华数精选,http://www.alihomes.top:8188/rtp/239.254.96.73:8212
+华数经典电影,http://www.alihomes.top:8188/rtp/239.254.96.75:7584
+华数谍战剧场,http://www.alihomes.top:8188/rtp/239.254.96.77:7600
+嘉佳卡通,http://www.alihomes.top:8188/rtp/239.254.96.71:7552
+睛彩广场舞,http://www.alihomes.top:8188/rtp/239.254.96.175:8220
+睛彩竞技,http://www.alihomes.top:8188/rtp/239.254.96.172:8220
+睛彩篮球,http://www.alihomes.top:8188/rtp/239.254.96.173:8220
+睛彩青少,http://www.alihomes.top:8188/rtp/239.254.96.174:8220
+财富天下,http://www.alihomes.top:8188/rtp/239.254.96.72:7560
+金鹰卡通,http://www.alihomes.top:8188/rtp/239.254.96.70:7544
+无节目,http://www.alihomes.top:8188/rtp/239.254.96.134:7060
+无节目,http://www.alihomes.top:8188/rtp/239.254.96.194:8184
+无节目,http://www.alihomes.top:8188/rtp/239.254.96.195:8192
+无节目,http://www.alihomes.top:8188/rtp/239.254.96.196:8194
+无节目,http://www.alihomes.top:8188/rtp/239.254.96.197:8196
+电信宣传,http://www.alihomes.top:8188/rtp/239.254.96.164:8134海南联通-组播2,#genre#
 海南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.179:7154
+海南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.18:7128
 三沙卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.184:7158
 海南自贸,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.185:8162
+海南自贸,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.19:7136
 海南社会与法,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.186:8164
+海南社会与法,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.21:7152
 海南文旅,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.191:8176
 海南少儿,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.192:8178
+海南少儿,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.23:7168
 海南新闻,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.190:8174
+海南新闻,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.20:7144
 海口综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.103:7808
+海口生活娱乐,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.104:7816
+海口城乡经济,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.105:7824
 三亚综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.106:8832
 澄迈综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.111:7772
+万宁综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.119:7936
+临高综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.117:7920
+义旅综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.22:7160
+保亭综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.118:7928
+儋州综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.109:7856
+定安综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.112:7872
+屯昌综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.115:7904
+文昌综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.107:7840
+昌江综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.110:7864
+琼海综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.108:7848
+白沙综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.116:7914
+陵水综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.114:7896
+海南风景SD,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.120:7944
+海南风景SD,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.122:7960
+海南风景SD,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.165:8138
 CCTV-1 综合,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.82:7640
 CCTV-2 财经,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.124:7084
+CCTV-2 财经,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.2:7000
 CCTV-3 综艺,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.67:7520
 CCTV-4 中文国际,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.180:7092
+CCTV-4 中文国际,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.4:7016
 CCTV-5 体育,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.66:7512
 CCTV-5+ 体育赛事,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.83:7004
 CCTV-6 电影,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.63:7488
 CCTV-7 国防军事,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.125:7104
 CCTV-8 电视剧,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.62:7480
 CCTV-9 纪录,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.126:7112
+CCTV-9 纪录,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.9:7056
 CCTV-10 科教,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.127:7116
+CCTV-10 科教,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.10:7064
 CCTV-11 戏曲,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.187:8166
+CCTV-11 戏曲,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.11:7072
 CCTV-12 社会与法,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.128:7124
+CCTV-12 社会与法,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.12:7080
+CCTV-13 新闻,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.200:8205
+CCTV-13 新闻,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.13:7264
 CCTV-14 少儿,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.129:7132
+CCTV-14 少儿,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.14:7236
 CCTV-15 音乐,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.188:8170
+CCTV-15 音乐,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.15:7104
 CCTV-16 奥林匹克,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.170:8206
 CCTV-17 农业农村,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.57:8204
-CGTN纪录,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.58:7448
 CGTN,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.16:7112
+CGTN纪录,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.58:7448
 CETV1,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.155:7152
+CETV1,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.167:8142
+CETV2,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.168:8146
 CETV4,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.169:8148
-湖南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.85:7664
-浙江卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.89:7696
-江苏卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.88:7688
-安徽卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.133:7064
-北京卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.84:7656
-天津卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.183:7364
-重庆卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.60:7464
-东方卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.90:7704
+CCTV4K,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.56:7432
+北京卫视4K,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.158:8220
+广东卫视4K,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.159:8220
+深圳卫视4K,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.160:8220
+深圳卫视4K,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.68:7528
+求索纪录,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.102:7800
+华数4K,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.193:8182
 东南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.189:8172
-广东卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.130:7048
-深圳卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.87:7020
-山东卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.131:7052
-贵州卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.182:7076
-河北卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.181:7072
-湖北卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.91:7712
-吉林卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.65:7504
-江西卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.61:7472
-辽宁卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.132:7056
-黑龙江卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.86:7672
-河南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.34:7256
-广西卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.46:7352
-甘肃卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.55:7424
-内蒙古卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.50:7384
-青海卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.51:7392
-厦门卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.152:8122
-山西卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.49:7376
-陕西卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.48:7368
-四川卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.36:7272
-西藏卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.53:7408
-新疆卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.54:7416
+东南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.43:7328
+东方卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.41:7312
+东方卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.90:7704
 云南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.33:7248
-宁夏卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.52:7400
 兵团卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.153:8126
+兵团卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.161:8220
+内蒙古卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.50:7384
+北京卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.29:7216
+北京卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.84:7656
+厦门卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.152:8122
+吉林卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.47:7360
+吉林卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.65:7504
+四川卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.36:7272
+天津卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.183:7364
+天津卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.30:7224
+宁夏卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.171:8220
+宁夏卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.52:7400
+安徽卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.133:7064
+安徽卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.28:7208
+山东卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.131:7052
+山东卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.32:7240
 山东教育,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.151:8118
+山西卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.49:7376
+广东卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.130:7048
+广东卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.45:7344
+广西卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.46:7352
+新疆卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.162:8220
+新疆卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.54:7416
+江苏卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.27:7200
+江苏卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.88:7688
+江西卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.61:7472
+河北卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.181:7072
+河北卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.44:7336
+河南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.178:8220
+河南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.34:7256
+浙江卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.89:7696
+浙江卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.26:7284
+深圳卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.87:7020
+深圳卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.39:7296
+湖北卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.91:7712
+湖北卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.40:7304
+湖南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.85:7664
+湖南卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.25:7184
+甘肃卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.177:8220
+甘肃卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.55:7424
+西藏卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.163:8220
+西藏卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.53:7408
+贵州卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.182:7076
+贵州卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.38:7288
+辽宁卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.132:7056
+辽宁卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.31:7232
+重庆卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.198:8198
+重庆卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.60:7464
+陕西卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.48:7368
+青海卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.51:7392
+黑龙江卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.86:7672
+黑龙江卫视,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.35:7264
 金鹰纪实,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.154:7156
-
+BRTV卡酷少儿,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.69:7536
+IPTV军事,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.140:8090
+IPTV喜剧影院,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.147:8106
+IPTV国学,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.141:8094
+IPTV地理,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.139:8086
+IPTV墨宝,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.94:8714
+IPTV好学生,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.144:7994
+IPTV戏曲,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.142:8096
+IPTV收视指南,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.17:7120
+IPTV早教,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.143:8098
+IPTV武术,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.98:8762
+IPTV法治,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.81:7632
+IPTV爱体育,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.101:7792
+IPTV爱生活,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.145:7996
+IPTV爱综艺,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.3:7004
+IPTV电视剧,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.95:8716
+IPTV相声小品,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.78:7608
+IPTV美人,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.96:8718
+IPTV解密,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.100:8066
+IPTV足球,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.146:7998
+IPTV野外,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.80:7624
+IPTV音乐现场,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.138:8082
+IPTV高网,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.99:8764
+华数军旅剧场,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.136:8070
+华数剧场,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.74:7576
+华数动作影院,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.148:8108
+华数动画,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.93:8708
+华数古装剧场,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.137:8078
+华数城市剧场,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.150:8114
+华数少儿动画,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.79:7616
+华数武侠剧场,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.92:8706
+华数爱大剧,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.8:7048
+华数爱电影,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.6:7016
+华数电影,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.149:8110
+华数电视剧,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.76:7592
+华数精选,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.73:8212
+华数经典电影,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.75:7584
+华数谍战剧场,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.77:7600
+嘉佳卡通,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.71:7552
+睛彩广场舞,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.175:8220
+睛彩竞技,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.172:8220
+睛彩篮球,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.173:8220
+睛彩青少,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.174:8220
+财富天下,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.72:7560
+金鹰卡通,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.70:7544
+无节目,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.134:7060
+无节目,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.194:8184
+无节目,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.195:8192
+无节目,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.196:8194
+无节目,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.197:8196
+电信宣传,http://ikuai.hanxiaowang.win:3344/rtp/239.254.96.164:8134
