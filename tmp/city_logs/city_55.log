@@ -2,12 +2,12 @@
 从 'ip/海南联通_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
 连接成功 2 个,开始测速（并发 5）······
-[测速] ikuai.hanxiaowang.win:3344  ->  0.00 B
-[测速] www.alihomes.top:8188  ->  297.61 k
+[测速] www.ct123.online:8188  ->  0.00 B
+[测速] www.alihomes.top:8188  ->  301.78 k
 测速完成，共 2 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-www.alihomes.top:8188  297.61 k
-ikuai.hanxiaowang.win:3344 0.00 B
+www.alihomes.top:8188  301.78 k
+www.ct123.online:8188  0.00 B
 ---------------------------
 海南联通 测试完成，生成可用文件：'txt/海南联通.txt'
