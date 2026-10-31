@@ -1,33 +1,31 @@
 ======== 开始检索 浙江电信 ========
 从 'ip/浙江电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 14 个,开始测速（并发 5）······
-[测速] 60.163.106.143:9999  ->  1.04 M
-[测速] 122.246.144.212:7777  ->  950.30 k
-[测速] 125.123.141.122:44022  ->  906.33 k
-[测速] 122.230.33.150:8889  ->  986.70 k
-[测速] bit.nlmxy.cn:4000  ->  943.39 k
-[测速] 60.183.110.31:8000  ->  982.40 k
-[测速] cnlvan.3322.org:8888  ->  918.68 k
-[测速] dootask.nlmxy.cn:4000  ->  920.68 k
-[测速] www.kod.nlmxy.cn:4000  ->  969.98 k
-[测速] www.liangcl.top:8686  ->  955.11 k
-[测速] www.nlmxy.cn:4000  ->  902.75 k
-[测速] www.tangtuanpp.fun:4000  ->  735.61 k
-[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  981.20 k
-[测速] z2m.eversouthhangzhou.com.cn:8188  ->  84.34 k
-测速完成，共 14 条结果。
+连接成功 12 个,开始测速（并发 5）······
+[测速] 125.123.141.122:44022  ->  983.94 k
+[测速] 60.163.106.143:9999  ->  943.88 k
+[测速] bit.nlmxy.cn:4000  ->  1.02 M
+[测速] 122.230.33.150:8889  ->  1.01 M
+[测速] dootask.nlmxy.cn:4000  ->  974.50 k
+[测速] cnlvan.3322.org:8888  ->  1.04 M
+[测速] www.nlmxy.cn:4000  ->  1.02 M
+[测速] www.tangtuanpp.fun:4000  ->  938.80 k
+[测速] www.kod.nlmxy.cn:4000  ->  1023.29 k
+[测速] www.liangcl.top:8686  ->  1.04 M
+[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  1.01 M
+[测速] z2m.eversouthhangzhou.com.cn:8188  ->  127.54 k
+测速完成，共 12 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-60.163.106.143:9999    1.04 M
-122.230.33.150:8889    986.70 k
-60.183.110.31:8000     982.40 k
-www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000 981.20 k
-www.kod.nlmxy.cn:4000  969.98 k
-www.liangcl.top:8686   955.11 k
-122.246.144.212:7777   950.30 k
-bit.nlmxy.cn:4000      943.39 k
-dootask.nlmxy.cn:4000  920.68 k
-cnlvan.3322.org:8888   918.68 k
+www.liangcl.top:8686   1.04 M
+cnlvan.3322.org:8888   1.04 M
+bit.nlmxy.cn:4000      1.02 M
+www.nlmxy.cn:4000      1.02 M
+122.230.33.150:8889    1.01 M
+www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000 1.01 M
+www.kod.nlmxy.cn:4000  1023.29 k
+125.123.141.122:44022  983.94 k
+dootask.nlmxy.cn:4000  974.50 k
+60.163.106.143:9999    943.88 k
 ---------------------------
 浙江电信 测试完成，生成可用文件：'txt/浙江电信.txt'

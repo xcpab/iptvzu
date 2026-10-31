@@ -4,10 +4,8 @@
 14.19.159.83:8100
 14.221.177.129:4022
 183.236.43.98:4013
-183.36.240.113:9901
 183.47.2.156:16883
 408.135560.xyz:58888
-59.35.185.47:8188
 61.145.188.90:50055
 907698324.xyz:7088
 ddns.cyruslee.top:8888
@@ -26,8 +24,8 @@ plex.cyruslee.top:8888
 rfx2025.shunderen.top:2345
 sfyqvxiaoya.19810416.xyz:55555
 udp2.gdsz.eu.org:8888
+vpn.jk960.cn:8686
 www.3344.uk:8888
 www.yahao.host:4022
 xxika.synology.me:8188
 yanshifen.top:8889
-vpn.jk960.cn:8686
