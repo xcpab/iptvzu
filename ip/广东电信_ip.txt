@@ -32,3 +32,4 @@ www.kem.ink:8188
 www.yahao.host:4022
 xxika.synology.me:8188
 yanshifen.top:8889
+denghao.net:4022
