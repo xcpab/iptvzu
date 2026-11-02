@@ -455,7 +455,7 @@ def main():
     classify_channels('1.txt', '湖南.txt', keywords="湖南频道,湖南,金鹰,潇湘,长沙,南县,快乐")
     classify_channels('1.txt', '广东.txt', keywords="广东频道,广东,客家,广州,珠江,嘉佳,南方购物,岭南戏曲,五华,梅县,梅州,深圳,惠州,兴宁,河源,劲爆体育")
     classify_channels('1.txt', '河南.txt', keywords="河南频道,河南,信阳,漯河,郑州,驻马店,平顶山,安阳,武术世界,文物宝库,梨园,南阳")
-    classify_channels('1.txt', '广西.txt', keywords="广西频道,广西,南宁,玉林,桂林,北流,平南,贵港,北海")
+    classify_channels('1.txt', '广西.txt', keywords="广西频道,广西,南宁,玉林,桂林,北流,平南,贵港,北海,凤山,河池")
     classify_channels('1.txt', '陕西.txt', keywords="陕西频道,陕西,西安,宝鸡,汉中,铜川,榆林,商洛,安康,延安,咸阳")
     classify_channels('1.txt', '黑龙江.txt', keywords="黑龙江频道,黑龙江,齐齐哈尔")
     classify_channels('1.txt', '江西.txt', keywords="江西频道,江西,南昌,赣州,章贡,石城")
@@ -464,7 +464,7 @@ def main():
     classify_channels('1.txt', '山西.txt', keywords="山西频道,山西,朔州,太原,阳泉,大同,晋城,长治,吕梁,晋中,忻州,临汾,运城,黄河卫视,岚县,中阳")
     classify_channels('1.txt', '吉林.txt', keywords="吉林频道,吉林,松原,延边,四平,通化,辉南")
     classify_channels('1.txt', '新疆.txt', keywords="新疆频道,新疆,乌鲁木齐")
-    classify_channels('1.txt', '安徽.txt', keywords="安徽频道,安徽,合肥,安庆,宣城,广德,亳州")
+    classify_channels('1.txt', '安徽.txt', keywords="安徽频道,安徽,合肥,安庆,宣城,广德,亳州,阜阳,宿州,淮南")
     classify_channels('1.txt', '内蒙古.txt', keywords="内蒙古频道,内蒙古,赤峰,包头,兴安盟")
     classify_channels('1.txt', '上海.txt', keywords="上海频道,上海,东方财经,第一财经,动漫秀场,乐游,新纪实,金色学堂,都市剧场,游戏风云,生活时尚,法治天地,东方影视,五星体育,哈哈炫动,多彩文体")
     classify_channels('1.txt', '湖北.txt', keywords="湖北频道,湖北,荆门,荆州,天门,神农架,精彩影视")
@@ -474,7 +474,7 @@ def main():
     classify_channels('1.txt', '辽宁.txt', keywords="辽宁频道,辽宁,金普,家庭理财,大连,盘锦,阜新,葫芦岛,锦州,本溪,抚顺,丹东,鞍山,营口,辽河")
     classify_channels('1.txt', '浙江.txt', keywords="浙江频道,浙江,杭州,温州,金华,瑞安,求索")
     classify_channels('1.txt', '四川.txt', keywords="四川频道,四川,广元,成都,内江,达州,泸州,巴中,攀枝,遂宁,广安,南充,宜宾,资阳,甘孜,凉山,雅安,绵阳,德阳,自贡,乐山,眉山,阿坝州")
-    classify_channels('1.txt', '港台.txt', keywords="香港频道,凤凰,香港,明珠台,翡翠台,星河")
+    classify_channels('1.txt', '港台.txt', keywords="香港频道,凤凰,香港,明珠台,翡翠台,星河,天映,澳视")
 
     classify_unmatched('1.txt', '其他.txt', used_files=[
         "央视.txt", "卫视.txt", "北京.txt", "湖南.txt", "广东.txt",
