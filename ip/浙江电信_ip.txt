@@ -2,6 +2,8 @@
 122.246.151.189:7777
 125.108.183.58:4022
 125.123.141.122:44022
+125.125.143.215:8889
+218.71.18.154:18888
 bit.nlmxy.cn:4000
 cnlvan.3322.org:8888
 dk.song.zj.cn:4043
@@ -16,5 +18,3 @@ www.tangtuanpp.fun:4000
 www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000
 z2m.eversouthhangzhou.com.cn:8188
 zjhuct.synology.me:8881
-218.71.18.154:18888
-125.125.143.215:8889
