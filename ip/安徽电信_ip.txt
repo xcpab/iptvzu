@@ -13,3 +13,10 @@ songruyi.3322.org:9000
 wang0910.wang:7000
 www.191919.xyz:8888
 www.pizhiwei.cn:6688
+60.167.81.166:8686
+223.214.251.155:8686
+marcvision.xyz:8000
+www.98-2.top:5800
+www.marcvision.xyz:8000
+chengzhiming.f3322.net:4000
+hsza.f3322.net:4000

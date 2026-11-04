@@ -7,3 +7,9 @@
 home.techua.net:8000
 lanfenggood.cn:4022
 server01.severus.top:4022
+home.hanxucloud.cn:4022
+music.home.hanxucloud.cn:4022
+home.pan.hanxucloud.cn:4022
+web.hanxucloud.com:4022
+mail.hanxucloud.cn:4022
+upload.home.hanxucloud.cn:4022
