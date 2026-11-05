@@ -16,6 +16,7 @@ CCTV-12 社会与法,http://ipipip/rtp/239.93.5.68:8402
 CCTV-13 新闻,http://ipipip/rtp/239.93.4.210:8278
 CCTV-14 少儿,http://ipipip/rtp/239.93.5.69:8408
 CCTV-15 音乐,http://ipipip/rtp/239.93.5.131:7918
+CCTV-16 奥林匹克,http://ipipip/rtp/239.93.5.206:8840
 CCTV-17 农业农村,http://ipipip/rtp/239.93.5.154:7832
 CCTV4K,http://ipipip/rtp/239.93.4.16:7040
 CETV1,http://ipipip/rtp/239.93.5.8:7812
