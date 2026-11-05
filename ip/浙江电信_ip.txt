@@ -10,6 +10,7 @@ dk.song.zj.cn:4043
 dknas.song.zj.cn:4043
 dootask.nlmxy.cn:4000
 dous.cc:4023
+family-ph.vividnian.com:8188
 hjro.cn:9999
 www.kod.nlmxy.cn:4000
 www.liangcl.top:8686
@@ -18,7 +19,3 @@ www.tangtuanpp.fun:4000
 www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000
 z2m.eversouthhangzhou.com.cn:8188
 zjhuct.synology.me:8881
-218.71.18.154:18888
-125.125.143.215:8889
-family-ph.vividnian.com:8188
-

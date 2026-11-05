@@ -1,5 +1,7 @@
 106.112.254.193:8989
+119.100.145.86:10000
 27.18.245.163:2701
+58.48.105.214:8989
 61.184.232.194:8888
 a.liuxiaobo.top:8888
 ak.ws.sc.cn:8100
@@ -7,7 +9,6 @@ alist.xicp.fun:52057
 d.liuxiaobo.top:8888
 hiliu.myds.me:18088
 hzzzz530.com:4022
-kexu.mycloudnas.com:8001
 paul.paulli.fun:8188
 site.zhouqi.homes:4022
 sy.mc.paulli.fun:8188

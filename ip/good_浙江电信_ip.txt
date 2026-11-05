@@ -7,6 +7,7 @@
 bit.nlmxy.cn:4000
 cnlvan.3322.org:8888
 dootask.nlmxy.cn:4000
+family-ph.vividnian.com:8188
 www.kod.nlmxy.cn:4000
 www.liangcl.top:8686
 www.nlmxy.cn:4000
