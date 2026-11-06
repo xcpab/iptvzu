@@ -20,6 +20,7 @@ CCTV-13 新闻,http://ipipip/udp/239.21.2.3:5002$1080p
 CCTV-14 少儿,http://ipipip/udp/239.21.1.157:5002
 CCTV-15 音乐,http://ipipip/udp/239.21.2.4:5002$1080p
 CCTV-16 奥林匹克,http://ipipip/udp/239.21.2.110:5002
+CCTV-16 奥林匹克,http://ipipip/udp/239.21.2.195:5002
 CCTV-17 农业农村,http://ipipip/udp/239.21.1.186:5002$1080p
 CCTV4K,http://ipipip/udp/239.21.2.152:5002
 CETV1,http://ipipip/udp/239.21.2.7:5002$1080p

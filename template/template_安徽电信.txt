@@ -25,6 +25,7 @@ CCTV-14 少儿,http://ipipip/rtp/238.1.78.54:6304
 CCTV-15 音乐,http://ipipip/rtp/238.1.78.222:7648
 CCTV-15 音乐,http://ipipip/rtp/238.1.78.47:6248
 CCTV-16 奥林匹克,http://ipipip/rtp/238.1.78.138:6976
+CCTV-16 奥林匹克,http://ipipip/rtp/238.1.78.140:6992
 CCTV-17 农业农村,http://ipipip/rtp/238.1.78.178:7296
 CCTV-17 农业农村,http://ipipip/rtp/238.1.78.179:7304
 CCTV4K,http://ipipip/rtp/238.1.79.23:4296
@@ -66,6 +67,7 @@ CHC影迷电影,http://ipipip/rtp/238.1.79.17:4248
 兵团卫视,http://ipipip/rtp/238.1.78.104:6704
 兵团卫视,http://ipipip/rtp/238.1.79.3:4136
 内蒙古卫视,http://ipipip/rtp/238.1.78.103:6696
+内蒙古卫视,http://ipipip/rtp/238.1.78.153:7096
 北京卫视,http://ipipip/rtp/238.1.78.162:7168
 北京卫视,http://ipipip/rtp/238.1.78.63:6376
 厦门卫视,http://ipipip/rtp/238.1.78.246:7840
@@ -101,6 +103,7 @@ CHC影迷电影,http://ipipip/rtp/238.1.79.17:4248
 辽宁卫视,http://ipipip/rtp/238.1.78.21:6096
 重庆卫视,http://ipipip/rtp/238.1.78.31:6176
 陕西卫视,http://ipipip/rtp/238.1.78.88:6576
+陕西卫视,http://ipipip/rtp/238.1.78.157:7128
 青海卫视,http://ipipip/rtp/238.1.78.102:6688
 黑龙江卫视,http://ipipip/rtp/238.1.78.159:7144
 安徽卫视,http://ipipip/rtp/238.1.78.137:6968

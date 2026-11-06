@@ -33,3 +33,5 @@ www.tyio.cc:8188
 www.yahao.host:4022
 xxika.synology.me:8188
 yanshifen.top:8889
+wap.4pu.com:9988
+udp2.gdxz.eu.org:8888

@@ -1,0 +1,124 @@
+CCTV-1 综合,http://ipipip/rtp/239.0.1.87:1112
+CCTV-2 财经,http://ipipip/rtp/239.0.1.88:1113
+CCTV-3 综艺,http://ipipip/rtp/239.0.1.156:1181
+CCTV-4 中文国际,http://ipipip/rtp/239.0.1.122:1147
+CCTV-5 体育,http://ipipip/rtp/239.0.1.157:1182
+CCTV-5+ 体育赛事,http://ipipip/rtp/239.0.1.94:1119
+CCTV-6 电影,http://ipipip/rtp/239.0.1.158:1183
+CCTV-7 国防军事,http://ipipip/rtp/239.0.1.89:1114
+CCTV-8 电视剧,http://ipipip/rtp/239.0.1.159:1184
+CCTV-9 纪录,http://ipipip/rtp/239.0.1.90:1115
+CCTV-10 科教,http://ipipip/rtp/239.0.1.91:1116
+CCTV-11 戏曲,http://ipipip/rtp/239.0.1.126:1151
+CCTV-12 社会与法,http://ipipip/rtp/239.0.1.92:1117
+CCTV-13 新闻,http://ipipip/rtp/239.0.1.146:1171
+CCTV-14 少儿,http://ipipip/rtp/239.0.1.93:1118
+CCTV-15 音乐,http://ipipip/rtp/239.0.1.127:1152
+CCTV-16 奥林匹克,http://ipipip/rtp/239.0.1.163:1188
+CCTV-16 奥林匹克,http://ipipip/rtp/239.0.1.165:1190
+CCTV-17 农业农村,http://ipipip/rtp/239.0.1.125:1150
+CETV1,http://ipipip/rtp/239.0.1.111:1135
+CETV2,http://ipipip/rtp/239.0.1.133:1158
+CETV4,http://ipipip/rtp/239.0.1.181:1206
+CGTN,http://ipipip/rtp/239.0.1.28:1028
+北京卫视4K,http://ipipip/rtp/239.0.1.192:1217
+北京卫视4K,http://ipipip/rtp/239.0.1.193:1218
+东方卫视4K,http://ipipip/rtp/239.0.1.203:1228
+广东卫视4K,http://ipipip/rtp/239.0.1.194:1219
+湖南卫视4K,http://ipipip/rtp/239.0.1.200:1225
+江苏卫视4K,http://ipipip/rtp/239.0.1.201:1226
+山东卫视4K,http://ipipip/rtp/239.0.1.204:1229
+深圳卫视4K,http://ipipip/rtp/239.0.1.195:1220
+四川卫视4K,http://ipipip/rtp/239.0.1.205:1230
+浙江卫视4K,http://ipipip/rtp/239.0.1.202:1227
+安徽卫视,http://ipipip/rtp/239.0.1.137:1162
+北京卫视,http://ipipip/rtp/239.0.1.100:1125
+重庆卫视,http://ipipip/rtp/239.0.1.206:1231
+东方卫视,http://ipipip/rtp/239.0.1.99:1124
+甘肃卫视,http://ipipip/rtp/239.0.1.145:1170
+广东卫视,http://ipipip/rtp/239.0.1.97:1122
+广西卫视,http://ipipip/rtp/239.0.1.96:1121
+贵州卫视,http://ipipip/rtp/239.0.1.121:1146
+海南卫视,http://ipipip/rtp/239.0.1.185:1210
+河北卫视,http://ipipip/rtp/239.0.1.120:1145
+河南卫视,http://ipipip/rtp/239.0.1.190:1215
+黑龙江卫视,http://ipipip/rtp/239.0.1.107:1132
+湖北卫视,http://ipipip/rtp/239.0.1.105:1130
+湖南卫视,http://ipipip/rtp/239.0.1.98:1123
+吉林卫视,http://ipipip/rtp/239.0.1.164:1189
+江苏卫视,http://ipipip/rtp/239.0.1.102:1127
+江西卫视,http://ipipip/rtp/239.0.1.140:1165
+辽宁卫视,http://ipipip/rtp/239.0.1.136:1161
+内蒙古卫视,http://ipipip/rtp/239.0.1.53:1078
+宁夏卫视,http://ipipip/rtp/239.0.1.199:1224
+青海卫视,http://ipipip/rtp/239.0.1.52:1077
+山东卫视,http://ipipip/rtp/239.0.1.106:1131
+山西卫视,http://ipipip/rtp/239.0.1.48:1073
+陕西卫视,http://ipipip/rtp/239.0.1.41:1066
+深圳卫视,http://ipipip/rtp/239.0.1.103:1128
+四川卫视,http://ipipip/rtp/239.0.1.147:1172
+天津卫视,http://ipipip/rtp/239.0.1.104:1129
+西藏卫视,http://ipipip/rtp/239.0.1.196:1221
+新疆卫视,http://ipipip/rtp/239.0.1.197:1222
+云南卫视,http://ipipip/rtp/239.0.1.44:1069
+浙江卫视,http://ipipip/rtp/239.0.1.101:1126
+东南卫视,http://ipipip/rtp/239.0.1.123:1148
+厦门卫视,http://ipipip/rtp/239.0.1.138:1163
+大湾区卫视,http://ipipip/rtp/239.0.1.31:1056
+三沙卫视,http://ipipip/rtp/239.0.1.128:1153
+兵团卫视,http://ipipip/rtp/239.0.1.198:1223
+广西综艺旅游,http://ipipip/rtp/239.0.1.148:1173
+广西都市,http://ipipip/rtp/239.0.1.149:1174
+广西影视,http://ipipip/rtp/239.0.1.150:1175
+广西乐思购,http://ipipip/rtp/239.0.1.9:1035
+广西新闻,http://ipipip/rtp/239.0.1.151:1176
+广西移动,http://ipipip/rtp/239.0.1.186:1211
+百色综合,http://ipipip/rtp/239.0.1.167:1192
+北海新闻综合,http://ipipip/rtp/239.0.1.170:1195
+崇左综合,http://ipipip/rtp/239.0.1.191:1216
+防城港新闻综合,http://ipipip/rtp/239.0.1.172:1197
+贵港新闻综合,http://ipipip/rtp/239.0.1.174:1199
+桂林新闻综合,http://ipipip/rtp/239.0.1.177:1202
+河池新闻综合,http://ipipip/rtp/239.0.1.175:1200
+贺州综合,http://ipipip/rtp/239.0.1.171:1196
+桂林科教旅游,http://ipipip/rtp/239.0.1.188:1213
+来宾综合,http://ipipip/rtp/239.0.1.176:1201
+柳州新闻综合,http://ipipip/rtp/239.0.1.178:1203
+南宁文旅生活,http://ipipip/rtp/239.0.1.160:1185
+南宁新闻综合,http://ipipip/rtp/239.0.1.130:1155
+南宁影视娱乐,http://ipipip/rtp/239.0.1.161:1186
+钦州新闻综合,http://ipipip/rtp/239.0.1.173:1198
+梧州新闻综合,http://ipipip/rtp/239.0.1.179:1204
+玉林新闻综合,http://ipipip/rtp/239.0.1.180:1205
+BRTV纪实科教,http://ipipip/rtp/239.0.1.182:1207
+BRTV卡酷少儿,http://ipipip/rtp/239.0.1.61:1086
+嘉佳卡通,http://ipipip/rtp/239.0.1.62:1087
+金鹰卡通,http://ipipip/rtp/239.0.1.166:1191
+金鹰纪实,http://ipipip/rtp/239.0.1.112:1136
+山东教育,http://ipipip/rtp/239.0.1.113:1137
+爱大剧,http://ipipip/rtp/239.0.1.19:1044
+爱电影,http://ipipip/rtp/239.0.1.17:1042
+爱体育,http://ipipip/rtp/239.0.1.95:1120
+爱体育,http://ipipip/rtp/239.0.1.16:1041
+爱综艺,http://ipipip/rtp/239.0.1.15:1040
+广西IPTV4,http://ipipip/rtp/239.0.1.114:1139
+广西IPTV5,http://ipipip/rtp/239.0.1.115:1140
+广西IPTV6,http://ipipip/rtp/239.0.1.116:1141
+广西IPTV7,http://ipipip/rtp/239.0.1.117:1142
+广西IPTV8,http://ipipip/rtp/239.0.1.118:1143
+经典电影,http://ipipip/rtp/239.0.1.83:1108
+魅力时尚,http://ipipip/rtp/239.0.1.82:1107
+求索记录,http://ipipip/rtp/239.0.1.169:1194
+热播剧场,http://ipipip/rtp/239.0.1.84:1109
+少儿动画,http://ipipip/rtp/239.0.1.81:1106
+收视指南,http://ipipip/rtp/239.0.1.85:1110
+未命名,http://ipipip/rtp/239.0.1.112:1137
+未命名,http://ipipip/rtp/239.0.1.113:1138
+未命名,http://ipipip/rtp/239.0.1.111:1136
+中国天气,http://ipipip/rtp/239.0.1.76:1101
+CCTV4K,http://ipipip/rtp/239.0.1.183:1208
+IPTV谍战剧场,http://ipipip/rtp/239.0.1.66:1091
+IPTV法治,http://ipipip/rtp/239.0.1.64:1089
+IPTV相声小品,http://ipipip/rtp/239.0.1.65:1090
+IPTV野外,http://ipipip/rtp/239.0.1.63:1088
+华数4K,http://ipipip/rtp/239.0.1.131:1156
