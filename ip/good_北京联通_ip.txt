@@ -7,11 +7,11 @@
 123.118.231.248:9090
 221.219.103.76:8005
 221.220.129.202:8012
+223.72.107.124:9999
 6.triq.cc:8012
 fnos.cgproxy.cn:4022
 guoxue.synology.me:57022
 guoxue7.3322.org:57022
-guoxue7.xicp.net:57022
 happylive.asuscomm.com:8888
 home.zgnc.fun:8821
 home.zgnc.fun:8824

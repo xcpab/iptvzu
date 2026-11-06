@@ -2,10 +2,7 @@
 119.100.146.170:10000
 27.18.245.163:2701
 58.48.105.214:8989
-61.184.232.194:8888
-a.liuxiaobo.top:8888
 alist.xicp.fun:52057
-d.liuxiaobo.top:8888
 hiliu.myds.me:18088
 hzzzz530.com:4022
 paul.paulli.fun:8188
