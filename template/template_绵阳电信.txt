@@ -180,7 +180,6 @@ BESTV,http://ipipip/rtp/239.93.5.28:8162
 BESTV,http://ipipip/rtp/239.93.5.2:8042
 BESTV2,http://ipipip/rtp/239.93.5.176:9976
 BESTV3,http://ipipip/rtp/239.93.5.19:7056
-BESTV7,http://ipipip/rtp/239.93.5.238:9900
 BESTV全球大片,http://ipipip/rtp/239.93.5.169:9486
 BESTV华语影院,http://ipipip/rtp/239.93.5.205:9702
 BESTV宝宝动画,http://ipipip/rtp/239.93.5.196:9648
@@ -203,3 +202,4 @@ IPTV解密,http://ipipip/rtp/239.93.5.219:9786
 IPTV足球,http://ipipip/rtp/239.93.5.13:8072
 IPTV音乐现场,http://ipipip/rtp/239.93.5.162:9438
 IPTV高网,http://ipipip/rtp/239.93.5.238:9900
+
