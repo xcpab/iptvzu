@@ -19,6 +19,3 @@ www.800128.xyz:62888
 www.rogerxlj.top:9998
 www.rongrong.me:14022
 yyf1991.direct.quickconnect.to:9999
-116.234.65.119:54321
-116.237.125.70:8881
-180.165.34.100:8888
