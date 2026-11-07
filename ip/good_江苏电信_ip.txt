@@ -14,6 +14,7 @@ njbobo.mycloudnas.com:4022
 qh.diaglepm.cn:8333
 st.dhdasheng.cn:8188
 tlntbgs.synology.me:8889
+www.922928.de:5888
 www.frankgb.cn:4022
 www.huijie5421.cn:8800
 www.yzddy.top:8800
