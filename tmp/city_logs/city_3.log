@@ -3,40 +3,40 @@
 开始连通性检测（并发 50）...
 连接成功 23 个,开始测速（并发 5）······
 [测速] dx.joygala.cn:8118  ->  0.00 B
-[测速] 58.212.158.88:4022  ->  1.02 M
-[测速] 202.8090pc.cn:58888  ->  711.53 k
-[测速] 49.71.188.3:4022  ->  904.26 k
-[测速] 980413.xyz:6000  ->  37.97 k
-[测速] ali.wxj520.top:8188  ->  1.01 M
-[测速] h.vanshun.com:8802  ->  873.16 k
-[测速] j1900.silicaite.com:58888  ->  1.02 M
-[测速] j1900.silicaite.top:58888  ->  1.02 M
+[测速] 49.71.188.3:4022  ->  996.84 k
+[测速] 980413.xyz:6000  ->  348.08 k
+[测速] ali.wxj520.top:8188  ->  1.02 M
+[测速] 202.8090pc.cn:58888  ->  879.57 k
+[测速] 58.212.158.88:4022  ->  1.03 M
+[测速] j1900.silicaite.com:58888  ->  0.00 B
+[测速] h.vanshun.com:8802  ->  409.27 k
+[测速] j1900.silicaite.top:58888  ->  0.00 B
 [测速] jstxsheng.com:28088  ->  1.03 M
+[测速] njbobo.com:4022  ->  1.02 M
 [测速] mail.ck.wiki:4022  ->  1.03 M
-[测速] njbobo.com:4022  ->  1.03 M
+[测速] njbobo.mycloudnas.com:4022  ->  1.00 M
 [测速] www.922928.de:5888  ->  0.00 B
-[测速] njbobo.mycloudnas.com:4022  ->  973.58 k
-[测速] qh.diaglepm.cn:8333  ->  1010.15 k
-[测速] tlntbgs.synology.me:8889  ->  1.00 M
-[测速] st.dhdasheng.cn:8188  ->  1023.61 k
+[测速] qh.diaglepm.cn:8333  ->  988.28 k
+[测速] st.dhdasheng.cn:8188  ->  1.03 M
 [测速] www.frankgb.cn:4022  ->  1.04 M
-[测速] www.huijie5421.cn:8800  ->  1.00 M
-[测速] www.yzddy.top:8800  ->  1.01 M
-[测速] xuekuan.site:8088  ->  953.77 k
-[测速] xurishangcheng.top:10888  ->  933.69 k
-[测速] z.d4p.cn:8000  ->  1.01 M
+[测速] tlntbgs.synology.me:8889  ->  1.04 M
+[测速] www.huijie5421.cn:8800  ->  1.01 M
+[测速] www.yzddy.top:8800  ->  999.57 k
+[测速] xuekuan.site:8088  ->  1.03 M
+[测速] xurishangcheng.top:10888  ->  859.22 k
+[测速] z.d4p.cn:8000  ->  1.03 M
 测速完成，共 23 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
 www.frankgb.cn:4022    1.04 M
+tlntbgs.synology.me:8889 1.04 M
 jstxsheng.com:28088    1.03 M
-njbobo.com:4022        1.03 M
+58.212.158.88:4022     1.03 M
+st.dhdasheng.cn:8188   1.03 M
 mail.ck.wiki:4022      1.03 M
-58.212.158.88:4022     1.02 M
-j1900.silicaite.com:58888 1.02 M
-j1900.silicaite.top:58888 1.02 M
-ali.wxj520.top:8188    1.01 M
-www.yzddy.top:8800     1.01 M
-z.d4p.cn:8000          1.01 M
+xuekuan.site:8088      1.03 M
+z.d4p.cn:8000          1.03 M
+ali.wxj520.top:8188    1.02 M
+njbobo.com:4022        1.02 M
 ---------------------------
 江苏电信 测试完成，生成可用文件：'txt/江苏电信.txt'
