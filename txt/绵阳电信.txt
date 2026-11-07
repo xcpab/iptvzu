@@ -203,7 +203,9 @@ IPTV爱生活,http://gq.scvip.net.cn:8100/rtp/239.93.5.14:8078
 IPTV解密,http://gq.scvip.net.cn:8100/rtp/239.93.5.219:9786
 IPTV足球,http://gq.scvip.net.cn:8100/rtp/239.93.5.13:8072
 IPTV音乐现场,http://gq.scvip.net.cn:8100/rtp/239.93.5.162:9438
-IPTV高网,http://gq.scvip.net.cn:8100/rtp/239.93.5.238:9900绵阳电信-组播2,#genre#
+IPTV高网,http://gq.scvip.net.cn:8100/rtp/239.93.5.238:9900
+
+绵阳电信-组播2,#genre#
 BRTV卡酷少儿,http://ak.ws.sc.cn:8100/rtp/239.93.5.82:8486
 BRTV纪实科教,http://ak.ws.sc.cn:8100/rtp/239.93.5.187:9994
 CCTV-1 综合,http://ak.ws.sc.cn:8100/rtp/239.93.5.133:9260
