@@ -18,7 +18,6 @@ gzgxzm.dpdns.org:10086
 hongzhijiaoyu.net:8188
 hydeqnapnas.mycloudnas.com:8100
 ikuai.cyruslee.top:8888
-zb.hmysapp.cn:802
 jellyfin.cyruslee.top:8888
 lbyjlt.vv5678.cn:8880
 lsa.familyds.com:8188
@@ -36,3 +35,4 @@ www.tyio.cc:8188
 www.yahao.host:4022
 xxika.synology.me:8188
 yanshifen.top:8889
+zb.hmysapp.cn:802
