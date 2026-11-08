@@ -3,6 +3,9 @@
 27.18.245.163:2701
 58.48.105.214:8989
 61.184.232.179:8888
+171.83.46.66:4022
+59.173.52.239:12345
+59.174.160.12:4022
 a.liuxiaobo.top:8888
 ak.ws.sc.cn:8100
 alist.xicp.fun:52057
@@ -22,5 +25,12 @@ www.gaochao.host:4022
 www.xk8.top:8001
 xk8.top:8001
 xuanxindong.mycloudnas.com:10001
+cqknas.myqnapcloud.com:8808
+www.zyhfm.com:8088
 yong1166.vicp.net:9999
 zhangkx717.cn:9999
+xu3791vg3503.vicp.fun:8808
+xs.6411692.xyz:999
+rd.88016877.xyz:999
+vpn.6411692.xyz:999
+frp.6411692.xyz:999
