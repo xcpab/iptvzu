@@ -460,7 +460,7 @@ def main():
     classify_channels('1.txt', '黑龙江.txt', keywords="黑龙江频道,黑龙江,齐齐哈尔")
     classify_channels('1.txt', '江西.txt', keywords="江西频道,江西,南昌,赣州,章贡,石城")
     classify_channels('1.txt', '海南.txt', keywords="海南频道,海南,三亚,海口,儋州")
-    classify_channels('1.txt', '山东.txt', keywords="山东频道,山东,济宁,兰陵,临沂,济南,烟台")
+    classify_channels('1.txt', '山东.txt', keywords="山东频道,山东,济宁,兰陵,临沂,济南,烟台,青岛,聊城,淄博,枣庄,德州,潍坊,东营,菏泽,威海,泰安")
     classify_channels('1.txt', '山西.txt', keywords="山西频道,山西,朔州,太原,阳泉,大同,晋城,长治,吕梁,晋中,忻州,临汾,运城,黄河卫视,岚县,中阳")
     classify_channels('1.txt', '吉林.txt', keywords="吉林频道,吉林,松原,延边,四平,通化,辉南")
     classify_channels('1.txt', '新疆.txt', keywords="新疆频道,新疆,乌鲁木齐")
