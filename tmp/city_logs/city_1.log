@@ -1,33 +1,35 @@
 ======== 开始检索 浙江电信 ========
 从 'ip/浙江电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 14 个,开始测速（并发 5）······
-[测速] 122.246.150.209:7777  ->  991.39 k
-[测速] 125.123.141.122:44022  ->  910.64 k
-[测速] 125.125.143.215:8889  ->  912.86 k
-[测速] 122.230.33.150:8889  ->  951.25 k
-[测速] bit.nlmxy.cn:4000  ->  954.26 k
-[测速] cnlvan.3322.org:8888  ->  1011.63 k
-[测速] www.kod.nlmxy.cn:4000  ->  992.78 k
-[测速] www.liangcl.top:8686  ->  929.55 k
-[测速] family-ph.vividnian.com:8188  ->  971.86 k
-[测速] dootask.nlmxy.cn:4000  ->  954.16 k
-[测速] www.nlmxy.cn:4000  ->  959.69 k
-[测速] www.tangtuanpp.fun:4000  ->  452.35 k
-[测速] z2m.eversouthhangzhou.com.cn:8188  ->  1.03 M
-[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  956.32 k
-测速完成，共 14 条结果。
+连接成功 16 个,开始测速（并发 5）······
+[测速] cnlvan.3322.org:8888  ->  1.03 M
+[测速] 125.125.143.215:8889  ->  1022.53 k
+[测速] 125.123.141.122:44022  ->  951.70 k
+[测速] 122.230.33.150:8889  ->  1.04 M
+[测速] 122.246.150.209:7777  ->  1.05 M
+[测速] bit.nlmxy.cn:4000  ->  1.02 M
+[测速] dootask.nlmxy.cn:4000  ->  1005.67 k
+[测速] nas.liangcl.top:8686  ->  1.03 M
+[测速] www.liangcl.top:8686  ->  997.72 k
+[测速] www.kod.nlmxy.cn:4000  ->  1.01 M
+[测速] www.nlmxy.cn:4000  ->  1017.35 k
+[测速] family-ph.vividnian.com:8188  ->  1019.74 k
+[测速] www.tangtuanpp.fun:4000  ->  261.06 k
+[测速] z2m.eversouthhangzhou.com.cn:8188  ->  1.04 M
+[测速] www.nlmxy.top:4000  ->  1.04 M
+[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  991.23 k
+测速完成，共 16 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-z2m.eversouthhangzhou.com.cn:8188 1.03 M
-cnlvan.3322.org:8888   1011.63 k
-www.kod.nlmxy.cn:4000  992.78 k
-122.246.150.209:7777   991.39 k
-family-ph.vividnian.com:8188 971.86 k
-www.nlmxy.cn:4000      959.69 k
-www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000 956.32 k
-bit.nlmxy.cn:4000      954.26 k
-dootask.nlmxy.cn:4000  954.16 k
-122.230.33.150:8889    951.25 k
+122.246.150.209:7777   1.05 M
+122.230.33.150:8889    1.04 M
+z2m.eversouthhangzhou.com.cn:8188 1.04 M
+www.nlmxy.top:4000     1.04 M
+cnlvan.3322.org:8888   1.03 M
+nas.liangcl.top:8686   1.03 M
+bit.nlmxy.cn:4000      1.02 M
+www.kod.nlmxy.cn:4000  1.01 M
+125.125.143.215:8889   1022.53 k
+family-ph.vividnian.com:8188 1019.74 k
 ---------------------------
 浙江电信 测试完成，生成可用文件：'txt/浙江电信.txt'
