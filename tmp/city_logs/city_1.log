@@ -1,34 +1,33 @@
 ======== 开始检索 浙江电信 ========
 从 'ip/浙江电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 15 个,开始测速（并发 5）······
-[测速] 125.123.141.122:44022  ->  0.00 B
-[测速] 125.108.183.58:4022  ->  1.02 M
-[测速] 122.230.33.150:8889  ->  947.79 k
-[测速] 122.246.150.209:7777  ->  917.76 k
-[测速] bit.nlmxy.cn:4000  ->  930.00 k
-[测速] 125.125.143.215:8889  ->  985.85 k
-[测速] cnlvan.3322.org:8888  ->  962.84 k
-[测速] dootask.nlmxy.cn:4000  ->  861.56 k
-[测速] www.kod.nlmxy.cn:4000  ->  975.33 k
-[测速] family-ph.vividnian.com:8188  ->  976.29 k
-[测速] www.liangcl.top:8686  ->  948.10 k
-[测速] www.nlmxy.cn:4000  ->  953.29 k
-[测速] www.tangtuanpp.fun:4000  ->  336.30 k
-[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  896.43 k
-[测速] z2m.eversouthhangzhou.com.cn:8188  ->  1.04 M
-测速完成，共 15 条结果。
+连接成功 14 个,开始测速（并发 5）······
+[测速] 122.246.150.209:7777  ->  991.39 k
+[测速] 125.123.141.122:44022  ->  910.64 k
+[测速] 125.125.143.215:8889  ->  912.86 k
+[测速] 122.230.33.150:8889  ->  951.25 k
+[测速] bit.nlmxy.cn:4000  ->  954.26 k
+[测速] cnlvan.3322.org:8888  ->  1011.63 k
+[测速] www.kod.nlmxy.cn:4000  ->  992.78 k
+[测速] www.liangcl.top:8686  ->  929.55 k
+[测速] family-ph.vividnian.com:8188  ->  971.86 k
+[测速] dootask.nlmxy.cn:4000  ->  954.16 k
+[测速] www.nlmxy.cn:4000  ->  959.69 k
+[测速] www.tangtuanpp.fun:4000  ->  452.35 k
+[测速] z2m.eversouthhangzhou.com.cn:8188  ->  1.03 M
+[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  956.32 k
+测速完成，共 14 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-z2m.eversouthhangzhou.com.cn:8188 1.04 M
-125.108.183.58:4022    1.02 M
-125.125.143.215:8889   985.85 k
-family-ph.vividnian.com:8188 976.29 k
-www.kod.nlmxy.cn:4000  975.33 k
-cnlvan.3322.org:8888   962.84 k
-www.nlmxy.cn:4000      953.29 k
-www.liangcl.top:8686   948.10 k
-122.230.33.150:8889    947.79 k
-bit.nlmxy.cn:4000      930.00 k
+z2m.eversouthhangzhou.com.cn:8188 1.03 M
+cnlvan.3322.org:8888   1011.63 k
+www.kod.nlmxy.cn:4000  992.78 k
+122.246.150.209:7777   991.39 k
+family-ph.vividnian.com:8188 971.86 k
+www.nlmxy.cn:4000      959.69 k
+www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000 956.32 k
+bit.nlmxy.cn:4000      954.26 k
+dootask.nlmxy.cn:4000  954.16 k
+122.230.33.150:8889    951.25 k
 ---------------------------
 浙江电信 测试完成，生成可用文件：'txt/浙江电信.txt'
