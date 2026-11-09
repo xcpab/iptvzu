@@ -19,3 +19,5 @@ www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000
 xnnas.com:4023
 z2m.eversouthhangzhou.com.cn:8188
 zjhuct.synology.me:8881
+www.nlmxy.top:4000
+nas.liangcl.top:8686

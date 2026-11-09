@@ -19,3 +19,5 @@ www.191919.xyz:8888
 www.98-2.top:5800
 www.marcvision.xyz:8000
 www.pizhiwei.cn:6688
+nicolethree.top:8188
+124.112.188.30:4022

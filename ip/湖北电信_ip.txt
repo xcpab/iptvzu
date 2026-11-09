@@ -4,6 +4,7 @@
 27.18.245.163:2701
 58.48.105.214:8989
 59.173.52.239:12345
+58.19.32.207:4022
 59.174.160.12:4022
 61.184.232.179:8888
 a.liuxiaobo.top:8888
@@ -22,10 +23,12 @@ site.zhouqi.homes:4022
 sy.mc.paulli.fun:8188
 ud.mc.paulli.fun:8188
 vpn.6411692.xyz:999
+www.hiliu.myds.me:18088
 www.3872327.top:1225
 www.661130.xyz:8188
 www.ct123.online:8188
 www.gaochao.host:4022
+nas.lyfkai.cn:19999
 www.xk8.top:8001
 www.zyhfm.com:8088
 xk8.top:8001

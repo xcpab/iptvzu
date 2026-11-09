@@ -5,7 +5,6 @@
 182.143.113.11:40000
 182.143.114.83:40000
 222.208.147.60:8848
-ak.ws.sc.cn:8100
 aofuming.top:8188
 doosit.dscloud.me:888
 dyn.nowddns.com:7233
@@ -19,3 +18,4 @@ www.yanbingg.com:1888
 xmzj.f3322.net:8188
 yanke.icu:20189
 yaofuming.top:8188
+ddns.55682750.xyz:18888

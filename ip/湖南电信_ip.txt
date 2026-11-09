@@ -7,3 +7,4 @@ sanrenxing.ddns.net:7878
 www.0000505.xyz:8888
 www.zlizi.cn:4023
 yyangnet99.host:65000
+220.169.100.41:10087

@@ -4,5 +4,7 @@
 27.184.217.44:12521
 27.188.106.253:9009
 dsm4.xlangnan.cn:8189
+dsm.xlangnan.cn:8189
 emby.xlangnan.cn:10316
 prozyt.top:4022
+emby.xlangnan.cn:8189

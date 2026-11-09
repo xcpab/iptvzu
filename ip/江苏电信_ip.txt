@@ -27,8 +27,10 @@ vs.heylc.com:4022
 www.922928.de:5888
 www.frankgb.cn:4022
 www.huijie5421.cn:8800
+kd2.gcc125.top:6888
 www.yzddy.top:8800
 xpshat.i234.me:8188
 xuekuan.site:8088
 xurishangcheng.top:10888
 z.d4p.cn:8000
+kd3.gcc125.top:6888
