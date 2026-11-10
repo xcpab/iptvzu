@@ -9,3 +9,4 @@ nas.201606.xyz:4022
 playerbfq.shangea.top:40064
 www.sccckj.cn:8899
 ydzx.youzonggan.xyz:4500
+wsu.sccckj.cn:8899

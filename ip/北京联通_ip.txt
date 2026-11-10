@@ -13,8 +13,6 @@ guoxue.synology.me:57022
 guoxue7.3322.org:57022
 guoxue7.xicp.net:57022
 happylive.asuscomm.com:8888
-home.zgnc.fun:8821
-home.zgnc.fun:8824
 jf.pispro.com:8888
 n2.192372.xyz:8888
 naslmd2.myqnapcloud.com:4022
