@@ -9,7 +9,6 @@
 58.35.63.109:4022
 aima.520006.xyz:10855
 cloud.sunrisecom.cn:8888
-cloud.sunrisecom.wang:8888
 demo.medrun.cn:4022
 home.wscxy.fun:30100
 liuwenxiaokevin.top:14044

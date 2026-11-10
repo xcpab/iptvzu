@@ -13,6 +13,7 @@ dsm.cyruslee.top:8888
 file.cyruslee.top:8888
 gzgxzm.dpdns.org:10086
 hongzhijiaoyu.net:8188
+hyde-ipv6.dynv6.net:8100
 hydeqnapnas.mycloudnas.com:8100
 ikuai.cyruslee.top:8888
 jellyfin.cyruslee.top:8888
@@ -22,7 +23,6 @@ net.manyee.net:18888
 plex.cyruslee.top:8888
 rfx2025.shunderen.top:2345
 sfyqvxiaoya.19810416.xyz:55555
-hyde-ipv6.dynv6.net:8100
 udp2.gdsz.eu.org:8888
 udp2.gdxz.eu.org:8888
 vpn.jk960.cn:8686

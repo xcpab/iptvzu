@@ -23,11 +23,11 @@ r.xace.fun:4999
 rt.096096.xyz:61612
 superpostmail.3322.org:1193
 thomastian.duckdns.org:8012
-www.irisxxd.cn:8000
 triq.cc:8012
 wuyanjiang.cn:8012
 www.221111.best:8012
 www.49156116.xyz:23234
+www.irisxxd.cn:8000
 www.ljun.cc:4022
 www.mxmy.net:8888
 www.ogrehq.com:20146
