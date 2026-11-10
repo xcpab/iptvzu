@@ -22,6 +22,7 @@ net.manyee.net:18888
 plex.cyruslee.top:8888
 rfx2025.shunderen.top:2345
 sfyqvxiaoya.19810416.xyz:55555
+hyde-ipv6.dynv6.net:8100
 udp2.gdsz.eu.org:8888
 udp2.gdxz.eu.org:8888
 vpn.jk960.cn:8686
