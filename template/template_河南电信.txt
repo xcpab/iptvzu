@@ -61,6 +61,7 @@ CCTV4K,http://ipipip/rtp/239.16.11.1:2000$2160p
 山东卫视4K,http://ipipip/rtp/239.16.20.242:12420$2160p
 四川卫视4K,http://ipipip/rtp/239.16.11.29:2000$2160p
 东方卫视4K,http://ipipip/rtp/239.16.11.24:2000$2160p
+东方卫视4K,http://ipipip/rtp/239.16.20.109:11090
 湖南卫视4K,http://ipipip/rtp/239.16.11.28:2000$2160p
 浙江卫视4K,http://ipipip/rtp/239.16.11.26:2000$2160p
 广东卫视4K,http://ipipip/rtp/239.16.11.23:2000$2160p
@@ -164,12 +165,9 @@ CCTV4K,http://ipipip/rtp/239.16.11.1:2000$2160p
 三门峡新闻综合,http://ipipip/rtp/239.16.20.145:11450
 上蔡综合,http://ipipip/rtp/239.16.10.97:2000$576p
 临颍综合,http://ipipip/rtp/239.16.10.180:2000$1080p
-义马综合,http://ipipip/rtp/239.16.20.109:11090
 义马综合,http://ipipip/rtp/239.16.20.236:12360
 信阳新闻综合,http://ipipip/rtp/239.16.10.52:2000$1080p
 信阳文旅,http://ipipip/rtp/239.16.10.71:2000$1080p
-信阳平桥,http://ipipip/rtp/239.16.10.73:2000$576p
-信阳浉河,http://ipipip/rtp/239.16.10.72:2000$576p
 光山综合,http://ipipip/rtp/239.16.10.94:2000$576p
 内黄综合,http://ipipip/rtp/239.16.20.228:12280
 南阳新闻综合,http://ipipip/rtp/239.16.10.58:2000$1080p

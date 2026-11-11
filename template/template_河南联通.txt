@@ -154,7 +154,7 @@ CETV4,http://ipipip/rtp/225.1.4.171:1710
 淅川综合,http://ipipip/rtp/225.1.4.112:1292
 孟津综合,http://ipipip/rtp/225.1.5.22:1333
 宜阳综合,http://ipipip/rtp/225.1.5.47:1357
-嵩县综合,http://ipipip/rtp/225.1.5.23:1335
+​嵩县综合,http://ipipip/rtp/225.1.5.23:1335
 焦作综合,http://ipipip/rtp/225.1.4.128:1164
 焦作文旅,http://ipipip/rtp/225.1.4.129:1165
 济源综合,http://ipipip/rtp/225.1.4.118:1147
