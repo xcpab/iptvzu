@@ -15,3 +15,5 @@ www.flyju.top:8899
 www.siyao.xin:4000
 xx.xinxiang.bbroot.com:24000
 you1104.3322.org:8188
+221.15.2.110:4000
+115.60.253.194:4000

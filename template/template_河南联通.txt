@@ -54,8 +54,8 @@ CETV4,http://ipipip/rtp/225.1.4.171:1710
 深圳卫视4K,http://ipipip/rtp/225.1.5.68:1378
 山东卫视4K,http://ipipip/rtp/225.1.5.73:1383
 四川卫视4K,http://ipipip/rtp/225.1.5.75:1385
-河南4K试验,http://ipipip/rtp/225.1.4.254:1300
-河南4K试验,http://ipipip/rtp/225.1.4.254:1300
+河南卫视,http://ipipip/rtp/225.1.4.254:1300
+河南卫视,http://ipipip/rtp/225.1.4.254:1300
 爱上4k,http://ipipip/rtp/225.1.4.162:1204
 湖南卫视,http://ipipip/rtp/225.1.4.82:1111
 江苏卫视,http://ipipip/rtp/225.1.4.83:1112
@@ -327,7 +327,6 @@ CHC高清电影,http://ipipip/rtp/225.1.2.210:11398
 河南卫视,http://ipipip/rtp/225.1.2.237:11530
 大美河南,http://ipipip/rtp/225.1.2.211:11404
 河南乡村,http://ipipip/rtp/225.1.2.104:10618
-河南公共,http://ipipip/rtp/225.1.2.123:10756
 河南公共,http://ipipip/rtp/225.1.2.62:10366
 河南国际,http://ipipip/rtp/225.1.2.103:10612
 河南新闻,http://ipipip/rtp/225.1.2.60:10354
@@ -341,10 +340,11 @@ CHC高清电影,http://ipipip/rtp/225.1.2.210:11398
 梨园频道,http://ipipip/rtp/225.1.2.100:10594
 武术世界,http://ipipip/rtp/225.1.2.102:10606
 国学频道,http://ipipip/rtp/225.1.2.129:11674
+新乡新闻综合,http://ipipip/rtp/225.1.2.122:10750
+新乡公共,http://ipipip/rtp/225.1.2.123:10756
 商丘新闻综合,http://ipipip/rtp/225.1.2.114:10702
 商丘公共,http://ipipip/rtp/225.1.2.115:10708
 商丘文体科教,http://ipipip/rtp/225.1.2.157:10960
-许昌综合,http://ipipip/rtp/225.1.2.122:10750
 嘉佳卡通,http://ipipip/rtp/225.1.2.93:10552
 现场直播,http://ipipip/rtp/225.1.2.181:11104
 金鹰卡通,http://ipipip/rtp/225.1.2.46:10270

@@ -12,3 +12,7 @@ music.home.hanxucloud.cn:4022
 server01.severus.top:4022
 upload.home.hanxucloud.cn:4022
 web.hanxucloud.com:4022
+111.167.220.208:8086
+180.212.220.72:8888
+221.196.4.166:90
+111.30.75.190:8888
