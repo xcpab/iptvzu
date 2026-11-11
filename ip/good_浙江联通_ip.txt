@@ -1,3 +1,4 @@
 eversouthhangzhou.7766.org:8188
 jellyfin.eversouthhangzhou.com.cn:8188
+tt.lqddb.com:44022
 z2m.eversouthhangzhou.com.cn:8188

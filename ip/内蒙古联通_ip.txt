@@ -4,6 +4,5 @@ a.zhangzp.top:4022
 dabaoerbao2021.myds.me:9999
 tv.zhangzp.top:4022
 vpn.zhangzp.top:4022
-xtusrpa.com:8188
 wht.pve.onetopcloud.com:16666
-124.116.68.139:4022
+xtusrpa.com:8188

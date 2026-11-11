@@ -4,7 +4,6 @@
 27.18.245.163:2701
 59.173.52.239:12345
 59.174.160.12:4022
-59.174.162.43:4022
 61.184.232.109:8888
 a.liuxiaobo.top:8888
 alist.xicp.fun:52057
@@ -20,6 +19,7 @@ sy.mc.paulli.fun:8188
 ud.mc.paulli.fun:8188
 vpn.6411692.xyz:999
 www.3872327.top:1225
+www.661130.xyz:8188
 www.ct123.online:8188
 www.gaochao.host:4022
 www.hiliu.myds.me:18088
