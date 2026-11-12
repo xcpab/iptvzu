@@ -1,49 +1,51 @@
 ======== 开始检索 广东电信 ========
 从 'ip/广东电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 30 个,开始测速（并发 5）······
-[测速] 183.47.2.156:16883  ->  0.00 B
-[测速] 14.157.24.38:2345  ->  1.25 M
-[测速] 183.36.240.113:9901  ->  1.07 M
-[测速] 121.10.7.16:4000  ->  1.08 M
-[测速] 14.19.159.83:8100  ->  1.27 M
+连接成功 32 个,开始测速（并发 5）······
+[测速] 14.19.159.83:8100  ->  985.74 k
+[测速] 121.10.7.16:4000  ->  1.23 M
+[测速] 14.157.24.38:2345  ->  1.52 M
+[测速] 183.36.240.113:9901  ->  1.25 M
+[测速] 183.47.2.156:16883  ->  1.05 M
+[测速] 14.221.177.199:4022  ->  1.59 M
 [测速] 59.35.185.47:8188  ->  0.00 B
-[测速] 408.135560.xyz:58888  ->  1.09 M
+[测速] demo.lbs.eeue.net:8888  ->  0.00 B
 [测速] hongzhijiaoyu.net:8188  ->  0.00 B
-[测速] ddns.cyruslee.top:8888  ->  393.44 k
-[测速] demo.lbs.eeue.net:8888  ->  908.60 k
-[测速] dsm.cyruslee.top:8888  ->  505.85 k
-[测速] file.cyruslee.top:8888  ->  431.97 k
-[测速] hyde-ipv6.dynv6.net:8100  ->  1.25 M
-[测速] hydeqnapnas.mycloudnas.com:8100  ->  1.34 M
-[测速] jellyfin.cyruslee.top:8888  ->  544.89 k
-[测速] ikuai.cyruslee.top:8888  ->  565.09 k
-[测速] lbyjlt.vv5678.cn:8880  ->  1.08 M
-[测速] rfx2025.shunderen.top:2345  ->  0.00 B
-[测速] lsa.familyds.com:8188  ->  1.04 M
-[测速] plex.cyruslee.top:8888  ->  502.52 k
-[测速] net.manyee.net:18888  ->  1.10 M
+[测速] 408.135560.xyz:58888  ->  1.27 M
+[测速] 61.145.188.90:50055  ->  544.06 k
+[测速] ddns.cyruslee.top:8888  ->  1.23 M
+[测速] dsm.cyruslee.top:8888  ->  1.30 M
+[测速] file.cyruslee.top:8888  ->  1.25 M
+[测速] hyde-ipv6.dynv6.net:8100  ->  839.91 k
+[测速] net.manyee.net:18888  ->  0.00 B
+[测速] hydeqnapnas.mycloudnas.com:8100  ->  722.40 k
+[测速] ikuai.cyruslee.top:8888  ->  1.25 M
+[测速] jellyfin.cyruslee.top:8888  ->  1.23 M
+[测速] lbyjlt.vv5678.cn:8880  ->  1.21 M
+[测速] lsa.familyds.com:8188  ->  1.22 M
 [测速] wap.4pu.com:9988  ->  0.00 B
-[测速] sfyqvxiaoya.19810416.xyz:55555  ->  1.03 M
-[测速] udp2.gdsz.eu.org:8888  ->  527.11 k
-[测速] vpn.jk960.cn:8686  ->  957.15 k
-[测速] www.3344.uk:8888  ->  743.04 k
-[测速] www.kem.ink:8188  ->  1.02 M
-[测速] www.tyio.cc:8188  ->  926.32 k
-[测速] www.yahao.host:4022  ->  1.17 M
-[测速] xxika.synology.me:8188  ->  885.34 k
-测速完成，共 30 条结果。
+[测速] plex.cyruslee.top:8888  ->  1.09 M
+[测速] rfx2025.shunderen.top:2345  ->  1.50 M
+[测速] sfyqvxiaoya.19810416.xyz:55555  ->  1.21 M
+[测速] udp2.gdsz.eu.org:8888  ->  1.43 M
+[测速] vpn.jk960.cn:8686  ->  1.11 M
+[测速] xxika.synology.me:8188  ->  272.75 k
+[测速] www.3344.uk:8888  ->  1.28 M
+[测速] www.kem.ink:8188  ->  1.24 M
+[测速] www.tyio.cc:8188  ->  1.12 M
+[测速] www.yahao.host:4022  ->  1.34 M
+测速完成，共 32 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-hydeqnapnas.mycloudnas.com:8100 1.34 M
-14.19.159.83:8100      1.27 M
-14.157.24.38:2345      1.25 M
-hyde-ipv6.dynv6.net:8100 1.25 M
-www.yahao.host:4022    1.17 M
-net.manyee.net:18888   1.10 M
-408.135560.xyz:58888   1.09 M
-121.10.7.16:4000       1.08 M
-lbyjlt.vv5678.cn:8880  1.08 M
-183.36.240.113:9901    1.07 M
+14.221.177.199:4022    1.59 M
+14.157.24.38:2345      1.52 M
+rfx2025.shunderen.top:2345 1.50 M
+udp2.gdsz.eu.org:8888  1.43 M
+www.yahao.host:4022    1.34 M
+dsm.cyruslee.top:8888  1.30 M
+www.3344.uk:8888       1.28 M
+408.135560.xyz:58888   1.27 M
+183.36.240.113:9901    1.25 M
+ikuai.cyruslee.top:8888 1.25 M
 ---------------------------
 广东电信 测试完成，生成可用文件：'txt/广东电信.txt'

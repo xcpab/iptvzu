@@ -9,6 +9,7 @@
 60.168.237.234:6688
 60.168.37.235:8888
 chengzhiming.f3322.net:4000
+chengzhiming.myds.me:4000
 home.pinkfloyd.cn:5000
 hsza.f3322.net:4000
 nas.191919.xyz:8888
