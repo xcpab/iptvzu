@@ -3,7 +3,7 @@ name: zubo
 on:
   schedule:
   - cron: '51 17 * * *'   # UTC 17:51 = 北京次日 01:51
-  - cron: '1 6 * * *'     # UTC 06:01 = 北京 14:01
+  - cron: '11 2 * * *'     # UTC 02:11 = 北京 10:11
   workflow_dispatch:
 
 jobs:
