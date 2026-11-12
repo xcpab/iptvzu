@@ -19,3 +19,5 @@ fn.122020.xyz:4000
 home.yulei.online:9999
 sqdtn.cloud:8888
 xs12dp121403.vicp.fun:9999
+118.79.113.17:6001
+118.79.113.21:6001
