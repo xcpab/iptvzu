@@ -5,8 +5,8 @@
 59.173.52.239:12345
 59.174.160.12:4022
 59.174.162.242:4022
+61.184.232.109:8888
 a.liuxiaobo.top:8888
-alist.xicp.fun:52057
 d.liuxiaobo.top:8888
 frp.6411692.xyz:999
 hiliu.myds.me:18088
@@ -28,4 +28,3 @@ www.zyhfm.com:8088
 xk8.top:8001
 xs.6411692.xyz:999
 xuanxindong.mycloudnas.com:10001
-yong1166.vicp.net:9999
