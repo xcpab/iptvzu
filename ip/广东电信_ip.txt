@@ -35,3 +35,7 @@ www.yahao.host:4022
 xxika.synology.me:8188
 yanshifen.top:8889
 zb.hmysapp.cn:802
+183.7.18.0:4000
+113.78.252.187:4000
+125.94.175.13:8888
+125.89.163.44:8888

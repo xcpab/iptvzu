@@ -8,12 +8,15 @@
 222.141.133.5:8888
 222.141.135.6:8888
 42.237.223.168:8899
+42.239.113.11:8800
+125.46.160.82:23456
+123.10.155.11:8187
 aylzsu.cn:9999
 home.weigeax86s.asia:4000
 ik6.iptv8.net:8888
 lysj.aylzline.top:8899
 weige6566.asuscomm.com:4000
-www.flyju.top:8899
 www.siyao.xin:4000
 xx.xinxiang.bbroot.com:24000
+www.flyju.top:8899
 you1104.3322.org:8188
