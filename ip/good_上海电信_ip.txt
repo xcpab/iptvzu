@@ -1,10 +1,13 @@
+116.230.212.78:8222
 116.230.54.130:33988
 116.233.67.80:8899
 124.77.179.92:8686
 1266.kshome1266.top:8701
 180.157.159.50:34022
+180.165.6.4:9999
 204315.xyz:20204
 218.1.145.110:30100
+800128.xyz:62888
 aima.520006.xyz:10855
 cloud.sunrisecom.cn:8888
 cloud.sunrisecom.wang:8888
@@ -12,7 +15,7 @@ demo.medrun.cn:4022
 home.wscxy.fun:30100
 liuwenxiaokevin.top:14044
 rongrong.me:14022
-wqcjoy.diskstation.me:8188
 wsc2007123.myds.me:30100
+www.800128.xyz:62888
 www.rogerxlj.top:9998
 www.rongrong.me:14022
