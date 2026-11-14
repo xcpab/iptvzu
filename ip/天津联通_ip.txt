@@ -4,6 +4,7 @@
 180.212.220.72:8888
 221.196.4.166:90
 221.198.100.181:4022
+330459.xyz:8188
 60.26.63.238:8000
 home.hanxucloud.cn:4022
 home.pan.hanxucloud.cn:4022
@@ -13,4 +14,3 @@ music.home.hanxucloud.cn:4022
 server01.severus.top:4022
 upload.home.hanxucloud.cn:4022
 web.hanxucloud.com:4022
-330459.xyz:8188

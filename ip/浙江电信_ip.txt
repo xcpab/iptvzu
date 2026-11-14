@@ -3,12 +3,10 @@
 122.230.33.150:8889
 122.236.18.104:8088
 122.246.150.157:7777
-125.116.106.162:8022
-125.120.206.232:9999
+125.108.184.217:4022
 125.123.141.122:44022
-125.125.143.215:8888
+125.125.134.113:8888
 125.125.143.215:8889
-125.123.141.122:44022
 bit.nlmxy.cn:4000
 cnlvan.3322.org:8888
 dk.song.zj.cn:4043
@@ -17,7 +15,10 @@ dootask.nlmxy.cn:4000
 dous.cc:4023
 family-ph.vividnian.com:8188
 hjro.cn:9999
+home.lqddb.com:44022
+hzmaidu.com:8090
 nas.liangcl.top:8686
+tt.lqddb.com:44022
 www.kod.nlmxy.cn:4000
 www.liangcl.top:8686
 www.negative.top:50000
@@ -28,6 +29,3 @@ www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000
 xnnas.com:4023
 z2m.eversouthhangzhou.com.cn:8188
 zjhuct.synology.me:8881
-tt.lqddb.com:44022
-home.lqddb.com:44022
-hzmaidu.com:8090

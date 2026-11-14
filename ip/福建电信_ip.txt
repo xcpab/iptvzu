@@ -1,8 +1,7 @@
 218.5.56.24:18888
 218.5.56.9:18888
-27.152.83.10:18888
 e1.woc.iiiya.cn:18888
 e3.woc.iiiya.cn:18888
+nas01.misaka.show:5000
 remote.jackye.site:8000
 woc.iiiya.cn:18888
-nas01.misaka.show:5000
