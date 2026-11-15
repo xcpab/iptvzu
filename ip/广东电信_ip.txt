@@ -38,3 +38,5 @@ www.yahao.host:4022
 xxika.synology.me:8188
 yanshifen.top:8889
 zb.hmysapp.cn:802
+home.szjim.top:4000
+hiliu.myds.me:18088
