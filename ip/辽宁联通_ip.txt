@@ -8,6 +8,5 @@
 101.wifi98.com:9008
 101.wifi98.com:9009
 175.171.75.198:4000
-itv.ghwxhouse.com:8089
 fb4wd00001.f3322.net:1111
-119.116.17.243:8888
+itv.ghwxhouse.com:8089
