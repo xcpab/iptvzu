@@ -10,5 +10,5 @@
 175.169.95.41:5000
 175.171.75.198:4000
 fb4wd00001.f3322.net:1111
-itv.ghwxhouse.com:8089
 fetwd00001.f3322.net:1111
+itv.ghwxhouse.com:8089

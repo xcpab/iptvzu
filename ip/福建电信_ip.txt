@@ -5,7 +5,7 @@
 e1.woc.iiiya.cn:18888
 e3.woc.iiiya.cn:18888
 nas01.misaka.show:5000
+nlu01.misaka.show:5000
 remote.jackye.site:8000
 woc.iiiya.cn:18888
 www.ct123.online:8188
-nlu01.misaka.show:5000
