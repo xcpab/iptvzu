@@ -19,3 +19,5 @@ home.yulei.online:9999
 shanxi.150728.xyz:8001
 sqdtn.cloud:8888
 xs12dp121403.vicp.fun:9999
+118.81.123.104:6001
+171.127.248.93:8083

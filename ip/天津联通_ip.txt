@@ -4,15 +4,14 @@
 117.9.44.134:4022
 180.212.220.72:8888
 221.198.100.181:4022
-330459.xyz:8188
 60.26.63.238:8000
 60.30.67.44:8834
 60.30.67.45:8834
+330459.xyz:8188
 home.hanxucloud.cn:4022
 home.pan.hanxucloud.cn:4022
 home.techua.net:8000
 mail.hanxucloud.cn:4022
 music.home.hanxucloud.cn:4022
-server01.severus.top:4022
 upload.home.hanxucloud.cn:4022
 web.hanxucloud.com:4022
