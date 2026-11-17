@@ -1,4 +1,3 @@
-171.213.223.106:8800
 ak.ws.sc.cn:8100
 gq.scvip.net.cn:8100
 tbkool.com:8099

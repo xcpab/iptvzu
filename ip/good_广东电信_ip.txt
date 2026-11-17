@@ -1,7 +1,5 @@
 113.78.252.203:4000
-121.10.7.16:4000
 125.89.163.44:8888
-14.157.24.38:2345
 14.19.159.83:8100
 14.221.177.204:4022
 183.16.200.23:55555
@@ -22,9 +20,8 @@ net.manyee.net:18888
 rfx2025.shunderen.top:2345
 sfyqvxiaoya.19810416.xyz:55555
 vpn.jk960.cn:8686
-wap.4pu.com:9988
-www.3344.uk:8888
 www.kem.ink:8188
 www.tyio.cc:8188
 www.yahao.host:4022
+xhyx.gz.cn:1698
 xxika.synology.me:8188

@@ -7,7 +7,6 @@
 221.219.101.96:8005
 221.220.132.128:8012
 223.72.107.124:9999
-114.254.38.234:8888
 6.triq.cc:8012
 fnos.cgproxy.cn:4022
 guoxue.synology.me:57022
@@ -15,6 +14,7 @@ guoxue7.3322.org:57022
 guoxue7.xicp.net:57022
 happylive.asuscomm.com:8888
 jf.pispro.com:8888
+laowang666.familyds.com:6300
 n2.192372.xyz:8888
 naslmd2.myqnapcloud.com:4022
 oray.com.ogrehq.com:20146
@@ -23,7 +23,6 @@ qqdwtypm3.xicp.net:64022
 r.xace.fun:4999
 rt.096096.xyz:61612
 superpostmail.3322.org:1193
-laowang666.familyds.com:6300
 thomastian.duckdns.org:8012
 triq.cc:8012
 wuyanjiang.cn:8012
