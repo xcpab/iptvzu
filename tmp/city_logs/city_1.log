@@ -1,42 +1,43 @@
 ======== 开始检索 浙江电信 ========
 从 'ip/浙江电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 23 个,开始测速（并发 5）······
-[测速] 122.230.33.150:8888  ->  0.00 B
+连接成功 24 个,开始测速（并发 5）······
 [测速] 125.108.184.217:4022  ->  0.00 B
-[测速] 115.208.165.37:4000  ->  163.87 k
-[测速] 122.246.150.157:7777  ->  962.79 k
-[测速] 125.116.106.162:8022  ->  777.57 k
-[测速] 125.125.134.113:8888  ->  700.60 k
-[测速] 60.183.110.57:8000  ->  941.82 k
-[测速] bit.nlmxy.cn:4000  ->  887.29 k
-[测速] cnlvan.3322.org:8888  ->  1016.90 k
-[测速] dootask.nlmxy.cn:4000  ->  772.14 k
-[测速] dous.cc:4023  ->  344.74 k
-[测速] family-ph.vividnian.com:8188  ->  996.06 k
-[测速] home.lqddb.com:44022  ->  934.07 k
+[测速] 125.123.141.122:44022  ->  858.83 k
+[测速] 122.230.33.150:8888  ->  1.23 M
+[测速] 122.246.150.157:7777  ->  975.60 k
+[测速] 122.230.33.150:8889  ->  1.14 M
+[测速] 125.116.106.162:8022  ->  789.65 k
+[测速] 125.125.134.113:8888  ->  141.13 k
+[测速] bit.nlmxy.cn:4000  ->  991.52 k
+[测速] cnlvan.3322.org:8888  ->  1.00 M
+[测速] dous.cc:4023  ->  437.11 k
+[测速] 60.183.110.57:8000  ->  1005.66 k
+[测速] dootask.nlmxy.cn:4000  ->  167.84 k
+[测速] family-ph.vividnian.com:8188  ->  945.51 k
+[测速] home.lqddb.com:44022  ->  625.01 k
+[测速] tt.lqddb.com:44022  ->  1.00 M
+[测速] jellyfin.eversouthhangzhou.com.cn:8188  ->  840.58 k
 [测速] hzmaidu.com:8090  ->  1.01 M
-[测速] jellyfin.eversouthhangzhou.com.cn:8188  ->  1.04 M
-[测速] tt.lqddb.com:44022  ->  857.32 k
-[测速] www.kod.nlmxy.cn:4000  ->  961.85 k
-[测速] www.nlmxy.cn:4000  ->  986.54 k
-[测速] www.nlmxy.top:4000  ->  976.99 k
-[测速] www.tangtuanpp.fun:4000  ->  432.96 k
-[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  1.02 M
-[测速] xnnas.com:4023  ->  539.40 k
-[测速] z2m.eversouthhangzhou.com.cn:8188  ->  1.04 M
-测速完成，共 23 条结果。
+[测速] www.kod.nlmxy.cn:4000  ->  977.23 k
+[测速] www.nlmxy.cn:4000  ->  1.04 M
+[测速] www.nlmxy.top:4000  ->  1.04 M
+[测速] www.tangtuanpp.fun:4000  ->  757.38 k
+[测速] www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000  ->  142.70 k
+[测速] xnnas.com:4023  ->  534.71 k
+[测速] z2m.eversouthhangzhou.com.cn:8188  ->  640.78 k
+测速完成，共 24 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-z2m.eversouthhangzhou.com.cn:8188 1.04 M
-jellyfin.eversouthhangzhou.com.cn:8188 1.04 M
-www.www.www.www.www.www.www.www.kod.nlmxy.cn:4000 1.02 M
+122.230.33.150:8888    1.23 M
+122.230.33.150:8889    1.14 M
+www.nlmxy.top:4000     1.04 M
+www.nlmxy.cn:4000      1.04 M
 hzmaidu.com:8090       1.01 M
-cnlvan.3322.org:8888   1016.90 k
-family-ph.vividnian.com:8188 996.06 k
-www.nlmxy.cn:4000      986.54 k
-www.nlmxy.top:4000     976.99 k
-122.246.150.157:7777   962.79 k
-www.kod.nlmxy.cn:4000  961.85 k
+tt.lqddb.com:44022     1.00 M
+cnlvan.3322.org:8888   1.00 M
+60.183.110.57:8000     1005.66 k
+bit.nlmxy.cn:4000      991.52 k
+www.kod.nlmxy.cn:4000  977.23 k
 ---------------------------
 浙江电信 测试完成，生成可用文件：'txt/浙江电信.txt'
