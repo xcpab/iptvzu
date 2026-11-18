@@ -1,50 +1,51 @@
 ======== 开始检索 江苏电信 ========
 从 'ip/江苏电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 31 个,开始测速（并发 5）······
+连接成功 32 个,开始测速（并发 5）······
 [测速] 222.92.94.26:9889  ->  0.00 B
-[测速] 114.224.29.156:8888  ->  758.89 k
-[测速] 121.237.245.211:8888  ->  236.64 k
-[测速] 202.8090pc.cn:58888  ->  601.32 k
-[测速] 121.237.245.192:8888  ->  229.28 k
-[测速] 121.237.245.5:8888  ->  232.02 k
-[测速] 58.212.158.88:4022  ->  1.01 M
+[测速] 121.237.245.5:8888  ->  236.42 k
+[测速] 121.237.245.192:8888  ->  29.06 k
+[测速] 121.237.245.211:8888  ->  236.87 k
+[测速] 114.224.29.156:8888  ->  707.60 k
+[测速] 202.8090pc.cn:58888  ->  699.11 k
 [测速] dx.joygala.cn:8118  ->  0.00 B
-[测速] j1900.silicaite.com:58888  ->  0.00 B
-[测速] ali.wxj520.top:8188  ->  1.01 M
-[测速] 980413.xyz:6000  ->  500.15 k
-[测速] home.amucn.net:8800  ->  222.55 k
-[测速] h.vanshun.com:8802  ->  507.90 k
-[测速] kd2.gcc125.top:6888  ->  0.00 B
-[测速] j1900.silicaite.top:58888  ->  880.12 k
-[测速] jstxsheng.com:28088  ->  1.00 M
-[测速] kd3.gcc125.top:6888  ->  973.06 k
-[测速] njbobo.com:4022  ->  411.35 k
-[测速] mail.ck.wiki:4022  ->  288.04 k
-[测速] njbobo.mycloudnas.com:4022  ->  360.96 k
-[测速] tlntbgs.synology.me:8889  ->  0.00 B
+[测速] 49.71.188.3:4022  ->  928.08 k
+[测速] 980413.xyz:6000  ->  28.74 k
+[测速] h.vanshun.com:8802  ->  879.75 k
+[测速] 58.212.158.88:4022  ->  1.01 M
+[测速] ali.wxj520.top:8188  ->  1.02 M
+[测速] home.amucn.net:8800  ->  25.11 k
+[测速] j1900.silicaite.com:58888  ->  1018.28 k
+[测速] j1900.silicaite.top:58888  ->  1.02 M
+[测速] kd2.gcc125.top:6888  ->  995.45 k
+[测速] jstxsheng.com:28088  ->  1.02 M
+[测速] kd3.gcc125.top:6888  ->  949.11 k
+[测速] mail.ck.wiki:4022  ->  1.02 M
+[测速] njbobo.com:4022  ->  1.02 M
 [测速] www.922928.de:5888  ->  0.00 B
-[测速] qh.diaglepm.cn:8333  ->  987.57 k
-[测速] st.dhdasheng.cn:8188  ->  933.61 k
-[测速] xuekuan.site:8088  ->  0.00 B
+[测速] njbobo.mycloudnas.com:4022  ->  1.02 M
+[测速] st.dhdasheng.cn:8188  ->  869.47 k
+[测速] qh.diaglepm.cn:8333  ->  997.14 k
+[测速] tlntbgs.synology.me:8889  ->  1.02 M
+[测速] vpn.a5521.top:9889  ->  1.01 M
+[测速] www.frankgb.cn:4022  ->  635.61 k
 [测速] z.d4p.cn:8000  ->  0.00 B
-[测速] vpn.a5521.top:9889  ->  1.02 M
-[测速] www.frankgb.cn:4022  ->  930.41 k
-[测速] www.huijie5421.cn:8800  ->  711.47 k
-[测速] www.yzddy.top:8800  ->  1021.23 k
-[测速] xurishangcheng.top:10888  ->  958.19 k
-测速完成，共 31 条结果。
+[测速] www.huijie5421.cn:8800  ->  936.84 k
+[测速] www.yzddy.top:8800  ->  1.00 M
+[测速] xuekuan.site:8088  ->  952.87 k
+[测速] xurishangcheng.top:10888  ->  1.00 M
+测速完成，共 32 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-vpn.a5521.top:9889     1.02 M
+jstxsheng.com:28088    1.02 M
+njbobo.mycloudnas.com:4022 1.02 M
+tlntbgs.synology.me:8889 1.02 M
+j1900.silicaite.top:58888 1.02 M
+njbobo.com:4022        1.02 M
+mail.ck.wiki:4022      1.02 M
+ali.wxj520.top:8188    1.02 M
+vpn.a5521.top:9889     1.01 M
 58.212.158.88:4022     1.01 M
-ali.wxj520.top:8188    1.01 M
-jstxsheng.com:28088    1.00 M
-www.yzddy.top:8800     1021.23 k
-qh.diaglepm.cn:8333    987.57 k
-kd3.gcc125.top:6888    973.06 k
-xurishangcheng.top:10888 958.19 k
-st.dhdasheng.cn:8188   933.61 k
-www.frankgb.cn:4022    930.41 k
+xurishangcheng.top:10888 1.00 M
 ---------------------------
 江苏电信 测试完成，生成可用文件：'txt/江苏电信.txt'
