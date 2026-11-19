@@ -8,3 +8,4 @@ nlu01.misaka.show:5000
 remote.jackye.site:8000
 woc.iiiya.cn:18888
 www.ct123.online:8188
+nnp01.misaka.show:5000
