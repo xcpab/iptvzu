@@ -26,6 +26,7 @@ tlntbgs.synology.me:8889
 vpn.a5521.top:9889
 vs.heylc.com:4022
 www.922928.de:5888
+www.nteea.online:8848
 www.frankgb.cn:4022
 www.huijie5421.cn:8800
 www.yzddy.top:8800
