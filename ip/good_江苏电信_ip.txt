@@ -1,4 +1,3 @@
-114.224.29.156:8888
 121.237.245.192:8888
 121.237.245.211:8888
 121.237.245.5:8888
@@ -19,12 +18,14 @@ kd3.gcc125.top:6888
 mail.ck.wiki:4022
 njbobo.com:4022
 njbobo.mycloudnas.com:4022
+qh.diaglepm.cn:8333
 st.dhdasheng.cn:8188
 tlntbgs.synology.me:8889
 vpn.a5521.top:9889
 www.922928.de:5888
 www.frankgb.cn:4022
 www.huijie5421.cn:8800
+www.nteea.online:8848
 www.yzddy.top:8800
 xuekuan.site:8088
 xurishangcheng.top:10888
