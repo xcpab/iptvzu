@@ -158,7 +158,7 @@ CCTV4K,http://ipipip/rtp/226.0.2.142:9168
 晋能控股,http://ipipip/rtp/226.0.2.229:9744
 运城综合,http://ipipip/rtp/226.0.2.158:9896
 运城公共,http://ipipip/rtp/226.0.2.105:9010
-运城科教,http://ipipip/rtp/226.0.2.106:9006
+盐湖频道,http://ipipip/rtp/226.0.2.106:9006
 屯留综合,http://ipipip/rtp/226.0.2.17:9836
 平定综合,http://ipipip/rtp/226.0.2.88:9860
 长钢综合,http://ipipip/rtp/226.0.2.87:9856
