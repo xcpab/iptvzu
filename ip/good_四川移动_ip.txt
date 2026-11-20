@@ -4,5 +4,6 @@
 770622.xyz:19998
 ai.xiaoshudiao.top:10086
 playerbfq.shangea.top:40064
+wkt.sccckj.cn:8899
 wsu.sccckj.cn:8899
 www.sccckj.cn:8899

@@ -8,11 +8,8 @@ cckj.pw:8899
 gq.scvip.net.cn:8300
 nas.201606.xyz:4022
 playerbfq.shangea.top:40064
+wkt.sccckj.cn:8899
 wsu.sccckj.cn:8899
 www.cckj.pw:8899
 www.sccckj.cn:8899
 ydzx.youzonggan.xyz:4500
-183.223.206.242:4000
-183.41.20.17:4321
-112.48.88.97:8899
-wkt.sccckj.cn:8899
