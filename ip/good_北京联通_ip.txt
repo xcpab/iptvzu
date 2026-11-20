@@ -11,7 +11,6 @@
 a.xiongnas.top:8888
 b.xiongnas.top:8888
 fnos.cgproxy.cn:4022
-guoxue.synology.me:57022
 guoxue7.3322.org:57022
 guoxue7.xicp.net:57022
 happylive.asuscomm.com:8888

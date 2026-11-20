@@ -1,19 +1,15 @@
 ======== 开始检索 浙江联通 ========
 从 'ip/浙江联通_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 5 个,开始测速（并发 5）······
-[测速] 27.11.54.41:8008  ->  0.00 B
-[测速] eversouthhangzhou.7766.org:8188  ->  1.04 M
-[测速] z2m.eversouthhangzhou.com.cn:8188  ->  902.13 k
-[测速] jellyfin.eversouthhangzhou.com.cn:8188  ->  1013.97 k
-[测速] tt.lqddb.com:44022  ->  682.79 k
-测速完成，共 5 条结果。
+连接成功 3 个,开始测速（并发 5）······
+[测速] tt.lqddb.com:44022  ->  981.52 k
+[测速] jellyfin.eversouthhangzhou.com.cn:8188  ->  78.07 k
+[测速] z2m.eversouthhangzhou.com.cn:8188  ->  106.03 k
+测速完成，共 3 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-eversouthhangzhou.7766.org:8188 1.04 M
-jellyfin.eversouthhangzhou.com.cn:8188 1013.97 k
-z2m.eversouthhangzhou.com.cn:8188 902.13 k
-tt.lqddb.com:44022     682.79 k
-27.11.54.41:8008       0.00 B
+tt.lqddb.com:44022     981.52 k
+z2m.eversouthhangzhou.com.cn:8188 106.03 k
+jellyfin.eversouthhangzhou.com.cn:8188 78.07 k
 ---------------------------
 浙江联通 测试完成，生成可用文件：'txt/浙江联通.txt'
