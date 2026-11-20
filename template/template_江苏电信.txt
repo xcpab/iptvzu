@@ -38,8 +38,8 @@ CGTN西语,http://ipipip/rtp/239.49.1.30:8000$1080p
 中央新影-中学生,http://ipipip/rtp/239.49.1.82:8000$576p
 东方卫视4K,http://ipipip/rtp/239.49.1.69:8000$2160p
 东方卫视4K,http://ipipip/rtp/239.49.1.70:8000$2160p
-北京卫视4K,http://ipipip/rtp/239.49.0.253:8000
-北京卫视4K,http://ipipip/rtp/239.49.0.42:8000
+北京卫视4K,http://ipipip/rtp/239.49.0.253:8000$2160p
+北京卫视4K,http://ipipip/rtp/239.49.0.42:8000$2160p
 四川卫视4K,http://ipipip/rtp/239.49.1.65:8000$2160p
 四川卫视4K,http://ipipip/rtp/239.49.1.66:8000$2160p
 山东卫视4K,http://ipipip/rtp/239.49.1.71:8000$2160p
@@ -55,6 +55,16 @@ CGTN西语,http://ipipip/rtp/239.49.1.30:8000$1080p
 湖南卫视4K,http://ipipip/rtp/239.49.1.67:8000$2160p
 湖南卫视4K,http://ipipip/rtp/239.49.1.68:8000$2160p
 江苏菁彩4K,http://ipipip/rtp/239.49.8.38:8000$2160p
+天津卫视4K,http://ipipip/rtp/239.49.1.97:8000$2160p
+天津卫视4K,http://ipipip/rtp/239.49.1.98:8000$2160p
+辽宁卫视4K,http://ipipip/rtp/239.49.1.100:8000$2160p
+辽宁卫视4K,http://ipipip/rtp/239.49.1.99:8000$2160p
+江西卫视4K,http://ipipip/rtp/239.49.1.102:8000$2160p
+江西卫视4K,http://ipipip/rtp/239.49.1.101:8000$2160p
+重庆卫视4K,http://ipipip/rtp/239.49.1.104:8000$2160p
+重庆卫视4K,http://ipipip/rtp/239.49.1.103:8000$2160p
+贵州卫视4K,http://ipipip/rtp/239.49.1.106:8000$2160p
+贵州卫视4K,http://ipipip/rtp/239.49.1.105:8000$2160p
 三沙卫视,http://ipipip/rtp/239.49.0.167:8000$1080p
 东南卫视,http://ipipip/rtp/239.49.8.112:8000$1080p
 东方卫视,http://ipipip/rtp/239.49.8.17:9606
