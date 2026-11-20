@@ -1,0 +1,186 @@
+央视,#genre#
+CCTV-1 综合,http://ipipip/rtp/224.30.30.94:8113
+CCTV-1 综合,http://ipipip/rtp/224.30.30.226:8245
+CCTV-2 财经,http://ipipip/rtp/224.30.30.1:8020
+CCTV-3 综艺,http://ipipip/rtp/224.30.30.121:8140
+CCTV-4 中文国际,http://ipipip/rtp/224.30.30.4:8023
+CCTV-4 欧洲,http://ipipip/rtp/224.30.30.215:8234
+CCTV-4 美洲,http://ipipip/rtp/224.30.30.216:8235
+CCTV-5 体育,http://ipipip/rtp/224.30.30.122:8141
+CCTV-5+ 体育赛事,http://ipipip/rtp/224.30.30.5:8024
+CCTV-6 电影,http://ipipip/rtp/224.30.30.123:8142
+CCTV-7 国防军事,http://ipipip/rtp/224.30.30.2:8021
+CCTV-8 电视剧,http://ipipip/rtp/224.30.30.124:8143
+CCTV-9 纪录,http://ipipip/rtp/224.30.30.3:8022
+CCTV-10 科教,http://ipipip/rtp/224.30.30.17:8036
+CCTV-11 戏曲,http://ipipip/rtp/224.30.30.45:8064
+CCTV-12 社会与法,http://ipipip/rtp/224.30.30.18:8037
+CCTV-13 新闻,http://ipipip/rtp/224.30.30.227:8246
+CCTV-13 新闻,http://ipipip/rtp/224.30.30.47:8066
+CCTV-14 少儿,http://ipipip/rtp/224.30.30.19:8038
+CCTV-15 音乐,http://ipipip/rtp/224.30.30.46:8065
+CCTV-16 奥林匹克,http://ipipip/rtp/224.30.30.207:8226
+CCTV-17 农业农村,http://ipipip/rtp/224.30.30.148:8167
+CCTV-17 农业农村,http://ipipip/rtp/224.30.30.211:8230
+CCTV4K,http://ipipip/rtp/224.30.30.142:8161
+CCTV兵器科技,http://ipipip/rtp/224.30.30.83:8102
+CCTV第一剧场,http://ipipip/rtp/224.30.30.86:8105
+CCTV电视指南,http://ipipip/rtp/224.30.30.79:8098
+CCTV风云剧场,http://ipipip/rtp/224.30.30.85:8104
+CCTV风云音乐,http://ipipip/rtp/224.30.30.84:8103
+CCTV风云足球,http://ipipip/rtp/224.30.30.82:8101
+CCTV高尔夫网球,http://ipipip/rtp/224.30.30.129:8148
+CCTV怀旧剧场,http://ipipip/rtp/224.30.30.81:8100
+CCTV女性时尚,http://ipipip/rtp/224.30.30.71:8090
+CCTV世界地理,http://ipipip/rtp/224.30.30.130:8149
+CCTV央视台球,http://ipipip/rtp/224.30.30.153:8172
+CCTV央视文化精品,http://ipipip/rtp/224.30.30.80:8099
+CGTN,http://ipipip/rtp/224.30.30.214:8233
+CGTN,http://ipipip/rtp/224.30.30.217:8236
+CGTN西语,http://ipipip/rtp/224.30.30.219:8238
+CGTN法语,http://ipipip/rtp/224.30.30.220:8239
+CGTN俄语,http://ipipip/rtp/224.30.30.222:8241
+CGTN阿语,http://ipipip/rtp/224.30.30.221:8240
+CGTN纪录,http://ipipip/rtp/224.30.30.218:8237
+CETV1,http://ipipip/rtp/224.30.30.231:8250
+CETV1,http://ipipip/rtp/224.30.30.53:8072
+CETV2,http://ipipip/rtp/224.30.30.40:8059
+CETV4,http://ipipip/rtp/224.30.30.41:8060
+中央新影-发现之旅,http://ipipip/rtp/224.30.30.165:8184
+中央新影-老故事,http://ipipip/rtp/224.30.30.72:8091
+中央新影-中学生,http://ipipip/rtp/224.30.30.56:8075
+中央新影-中学生,http://ipipip/rtp/224.30.30.194:8213
+卫视,#genre#
+安徽卫视,http://ipipip/rtp/224.30.30.16:8035
+北京卫视,http://ipipip/rtp/224.30.30.9:8028
+重庆卫视,http://ipipip/rtp/224.30.30.11:8030
+东方卫视,http://ipipip/rtp/224.30.30.29:8048
+甘肃卫视,http://ipipip/rtp/224.30.30.60:8079
+广东卫视,http://ipipip/rtp/224.30.30.34:8053
+广西卫视,http://ipipip/rtp/224.30.30.48:8067
+贵州卫视,http://ipipip/rtp/224.30.30.12:8031
+海南卫视,http://ipipip/rtp/224.30.30.22:8041
+河北卫视,http://ipipip/rtp/224.30.30.38:8057
+河南卫视,http://ipipip/rtp/224.30.30.14:8033
+黑龙江卫视,http://ipipip/rtp/224.30.30.32:8051
+湖北卫视,http://ipipip/rtp/224.30.30.7:8026
+湖南卫视,http://ipipip/rtp/224.30.30.27:8046
+吉林卫视,http://ipipip/rtp/224.30.30.39:8058
+江苏卫视,http://ipipip/rtp/224.30.30.36:8055
+江西卫视,http://ipipip/rtp/224.30.30.13:8032
+辽宁卫视,http://ipipip/rtp/224.30.30.10:8029
+内蒙古卫视,http://ipipip/rtp/224.30.30.52:8071
+宁夏卫视,http://ipipip/rtp/224.30.30.58:8077
+青海卫视,http://ipipip/rtp/224.30.30.51:8070
+山东卫视,http://ipipip/rtp/224.30.30.6:8025
+山西卫视,http://ipipip/rtp/224.30.30.96:8115
+陕西卫视,http://ipipip/rtp/224.30.30.59:8078
+深圳卫视,http://ipipip/rtp/224.30.30.35:8054
+四川卫视,http://ipipip/rtp/224.30.30.31:8050
+天津卫视,http://ipipip/rtp/224.30.30.15:8034
+天津卫视,http://ipipip/rtp/224.30.30.228:8247
+西藏卫视,http://ipipip/rtp/224.30.30.23:8042
+新疆卫视,http://ipipip/rtp/224.30.30.26:8045
+云南卫视,http://ipipip/rtp/224.30.30.49:8068
+浙江卫视,http://ipipip/rtp/224.30.30.37:8056
+兵团卫视,http://ipipip/rtp/224.30.30.24:8043
+农林卫视,http://ipipip/rtp/224.30.30.95:8114
+三沙卫视,http://ipipip/rtp/224.30.30.25:8044
+东南卫视,http://ipipip/rtp/224.30.30.54:8073
+厦门卫视,http://ipipip/rtp/224.30.30.42:8061
+山东教育,http://ipipip/rtp/224.30.30.140:8159
+地方,#genre#
+山西经济与科技,http://ipipip/rtp/224.30.30.98:8117
+山西影视,http://ipipip/rtp/224.30.30.99:8118
+山西社会与法治,http://ipipip/rtp/224.30.30.100:8119
+山西文体生活,http://ipipip/rtp/224.30.30.101:8120
+黄河卫视,http://ipipip/rtp/224.30.30.97:8116
+太原新闻综合,http://ipipip/rtp/224.30.30.156:8175
+太原经济生活,http://ipipip/rtp/224.30.30.157:8176
+太原社教法制,http://ipipip/rtp/224.30.30.158:8177
+太原城市生活,http://ipipip/rtp/224.30.30.159:8178
+太原城市生活,http://ipipip/rtp/224.30.30.160:8179
+太原教育,http://ipipip/rtp/224.30.30.151:8170
+太原佰乐购,http://ipipip/rtp/224.30.30.161:8180
+山西焦煤,http://ipipip/rtp/224.30.30.143:8162
+晋中综合,http://ipipip/rtp/224.30.30.229:8248
+晋中公共,http://ipipip/rtp/224.30.30.230:8249
+霍州综合,http://ipipip/rtp/224.30.30.152:8171
+稷山综合,http://ipipip/rtp/224.30.30.209:8228
+潞州综合,http://ipipip/rtp/224.30.30.163:8182
+朔州新闻综合,http://ipipip/rtp/224.30.30.149:8168
+朔州生活娱乐,http://ipipip/rtp/224.30.30.150:8169
+平定综合,http://ipipip/rtp/224.30.30.208:8227
+太谷新闻综合,http://ipipip/rtp/224.30.30.210:8229
+阳高综合,http://ipipip/rtp/224.30.30.237:8256
+阳高综合,http://ipipip/rtp/224.30.30.147:8166
+阳泉综合,http://ipipip/rtp/224.30.30.166:8185
+永和综合,http://ipipip/rtp/224.30.30.162:8181
+运城综合,http://ipipip/rtp/224.30.30.223:8242
+运城公共,http://ipipip/rtp/224.30.30.224:8243
+盐湖频道,http://ipipip/rtp/224.30.30.225:8244
+左权综合,http://ipipip/rtp/224.30.30.144:8163
+BRTV卡酷少儿,http://ipipip/rtp/224.30.30.61:8080
+东方财经,http://ipipip/rtp/224.30.30.106:8125
+哈哈炫动,http://ipipip/rtp/224.30.30.44:8063
+纪实人文,http://ipipip/rtp/224.30.30.30:8049
+嘉佳卡通,http://ipipip/rtp/224.30.30.20:8039
+金鹰卡通,http://ipipip/rtp/224.30.30.43:8062
+金鹰纪实,http://ipipip/rtp/224.30.30.28:8047
+电子体育,http://ipipip/rtp/224.30.30.63:8082
+动漫秀场,http://ipipip/rtp/224.30.30.119:8138
+多屏测试,http://ipipip/rtp/224.30.30.135:8154
+财富天下,http://ipipip/rtp/224.30.30.69:8088
+环球旅游,http://ipipip/rtp/224.30.30.132:8151
+环球奇观,http://ipipip/rtp/224.30.30.131:8150
+国学频道[1024X576],http://ipipip/rtp/224.30.30.57:8076
+家庭理财,http://ipipip/rtp/224.30.30.127:8146
+家有购物,http://ipipip/rtp/224.30.30.213:8232
+睛彩广场舞,http://ipipip/rtp/224.30.30.236:8255
+睛彩竞技,http://ipipip/rtp/224.30.30.233:8252
+睛彩篮球,http://ipipip/rtp/224.30.30.234:8253
+睛彩青少,http://ipipip/rtp/224.30.30.235:8254
+聚鲨环球精选,http://ipipip/rtp/224.30.30.212:8231
+快乐垂钓,http://ipipip/rtp/224.30.30.67:8086
+乐游,http://ipipip/rtp/224.30.30.112:8131
+重庆汽摩,http://ipipip/rtp/224.30.30.90:8109
+生活时尚,http://ipipip/rtp/224.30.30.116:8135
+生态环境,http://ipipip/rtp/224.30.30.177:8196
+书画,http://ipipip/rtp/224.30.30.88:8107
+天下收藏,http://ipipip/rtp/224.30.30.62:8081
+优购物,http://ipipip/rtp/224.30.30.141:8160
+优漫卡通,http://ipipip/rtp/224.30.30.50:8069
+优优宝贝,http://ipipip/rtp/224.30.30.128:8147
+游戏风云,http://ipipip/rtp/224.30.30.120:8139
+证券服务,http://ipipip/rtp/224.30.30.70:8089
+中国气象,http://ipipip/rtp/224.30.30.66:8085
+中华特产,http://ipipip/rtp/224.30.30.65:8084
+都市剧场,http://ipipip/rtp/224.30.30.117:8136
+都市剧场,http://ipipip/rtp/224.30.30.193:8212
+法治天地,http://ipipip/rtp/224.30.30.107:8126
+金色学堂,http://ipipip/rtp/224.30.30.108:8127
+魅力足球,http://ipipip/rtp/224.30.30.110:8129
+咪咕视频,http://ipipip/rtp/224.30.30.187:8206
+咪咕视频,http://ipipip/rtp/224.30.30.184:8203
+咪咕视频,http://ipipip/rtp/224.30.30.186:8205
+咪咕视频,http://ipipip/rtp/224.30.30.196:8215
+咪咕视频,http://ipipip/rtp/224.30.30.182:8201
+咪咕视频,http://ipipip/rtp/224.30.30.185:8204
+咪咕视频,http://ipipip/rtp/224.30.30.183:8202
+咪咕视频,http://ipipip/rtp/224.30.30.195:8214
+咪咕体育,http://ipipip/rtp/224.30.30.198:8217
+咪咕体育,http://ipipip/rtp/224.30.30.201:8220
+咪咕体育,http://ipipip/rtp/224.30.30.203:8222
+咪咕体育,http://ipipip/rtp/224.30.30.188:8207
+咪咕体育,http://ipipip/rtp/224.30.30.197:8216
+咪咕体育,http://ipipip/rtp/224.30.30.191:8210
+咪咕体育,http://ipipip/rtp/224.30.30.199:8218
+咪咕体育,http://ipipip/rtp/224.30.30.189:8208
+咪咕体育,http://ipipip/rtp/224.30.30.190:8209
+咪咕体育,http://ipipip/rtp/224.30.30.204:8223
+咪咕体育,http://ipipip/rtp/224.30.30.205:8224
+咪咕体育,http://ipipip/rtp/224.30.30.206:8225
+咪咕体育,http://ipipip/rtp/224.30.30.200:8219
+咪咕体育,http://ipipip/rtp/224.30.30.202:8221
+
+

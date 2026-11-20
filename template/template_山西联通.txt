@@ -146,8 +146,8 @@ CCTV4K,http://ipipip/rtp/226.0.2.142:9168
 山西经济与科技,http://ipipip/rtp/226.0.2.236:9800
 九画面,http://ipipip/rtp/226.0.2.197:9488
 太原新闻综合,http://ipipip/rtp/226.0.2.201:9520
-太原社教法制,http://ipipip/rtp/226.0.2.203:9536
 太原经济生活,http://ipipip/rtp/226.0.2.202:9528
+太原社教法制,http://ipipip/rtp/226.0.2.203:9536
 太原佰乐购,http://ipipip/rtp/226.0.2.215:9632
 太原教育,http://ipipip/rtp/226.0.2.206:9560
 大同教育,http://ipipip/rtp/226.0.2.232:9772
@@ -166,8 +166,7 @@ CCTV4K,http://ipipip/rtp/226.0.2.142:9168
 朔州生活娱乐,http://ipipip/rtp/226.0.2.186:9400
 清徐综合,http://ipipip/rtp/226.0.2.191:9440
 阳曲综合,http://ipipip/rtp/226.0.2.196:9480
-阳泉新闻综合,http://ipipip/rtp/226.0.2.233:9776
-阳泉科教,http://ipipip/rtp/226.0.2.234:9784
+阳泉综合,http://ipipip/rtp/226.0.2.233:9776
 盐湖频道,http://ipipip/rtp/226.0.2.106:9006
 昔阳综合,http://ipipip/rtp/226.0.2.80:9848
 潞州综合,http://ipipip/rtp/226.0.2.117:9888
