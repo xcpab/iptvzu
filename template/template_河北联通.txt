@@ -72,6 +72,11 @@ CGTN阿语,http://ipipip/rtp/239.253.93.198:6376
 东方卫视4K,http://ipipip/rtp/239.253.93.43:6646
 四川卫视4K,http://ipipip/rtp/239.253.93.45:6647
 山东卫视4K,http://ipipip/rtp/239.253.93.49:6648
+贵州卫视4K,http://ipipip/rtp/239.253.92.150:3007
+辽宁卫视4K,http://ipipip/rtp/239.253.92.151:3008
+重庆卫视4K,http://ipipip/rtp/239.253.92.152:3009
+江西卫视4K,http://ipipip/rtp/239.253.92.153:3010
+天津卫视4K,http://ipipip/rtp/239.253.92.155:3011   
 多彩文体,http://ipipip/rtp/239.253.94.45:6574
 多彩文体,http://ipipip/rtp/239.253.94.44:6573
 凤凰电影,http://ipipip/rtp/239.253.93.81:6247

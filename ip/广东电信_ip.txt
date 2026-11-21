@@ -39,3 +39,4 @@ xhyx.gz.cn:1698
 xxika.synology.me:8188
 yanshifen.top:8889
 zb.hmysapp.cn:802
+tjzx.synology.me:8888
