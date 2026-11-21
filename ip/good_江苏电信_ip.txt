@@ -1,5 +1,6 @@
 121.237.245.192:8888
 121.237.245.211:8888
+121.237.245.5:8888
 202.8090pc.cn:58888
 222.92.94.26:9889
 49.71.188.3:4022
@@ -8,6 +9,7 @@
 ali.wxj520.top:8188
 duanht.top:4000
 dx.joygala.cn:8118
+gcc125.myds.me:6888
 h.vanshun.com:8802
 home.amucn.net:8800
 j1900.silicaite.com:58888
@@ -15,6 +17,7 @@ j1900.silicaite.top:58888
 jstxsheng.com:28088
 kd2.gcc125.top:6888
 kd3.gcc125.top:6888
+kouki.pro:8888
 mail.ck.wiki:4022
 nas.linktou.top:6001
 njbobo.com:4022

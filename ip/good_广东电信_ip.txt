@@ -1,14 +1,13 @@
 113.78.252.187:4000
 121.10.7.16:4000
 125.89.163.44:8888
-14.157.24.38:2345
 14.19.159.83:8100
 183.16.200.23:55555
 183.36.240.113:9901
 183.47.2.156:16883
 408.135560.xyz:58888
-59.35.185.47:8188
 61.145.188.90:50055
+demo.lbs.eeue.net:8888
 hiliu.myds.me:18088
 home.szjim.top:4000
 hongzhijiaoyu.net:8188
@@ -19,6 +18,7 @@ lsa.familyds.com:8188
 net.manyee.net:18888
 rfx2025.shunderen.top:2345
 sfyqvxiaoya.19810416.xyz:55555
+tjzx.synology.me:8888
 vpn.jk960.cn:8686
 wap.4pu.com:9988
 www.3344.uk:8888
