@@ -31,6 +31,9 @@ CGTN西语,http://ipipip/rtp/239.255.3.201:10176
 CGTN法语,http://ipipip/rtp/239.255.3.202:10180
 CGTN阿语,http://ipipip/rtp/239.255.3.203:10184
 CGTN俄语,http://ipipip/rtp/239.255.3.204:10188
+重庆卫视4K,http://ipipip/rtp/239.255.2.1:20122
+江西卫视4K,http://ipipip/rtp/239.255.2.37:20126
+贵州卫视4K,http://ipipip/rtp/239.255.3.199:20114
 安徽卫视,http://ipipip/rtp/239.255.2.74:8432
 北京卫视,http://ipipip/rtp/239.255.2.76:8444
 重庆卫视,http://ipipip/rtp/239.255.2.89:8522
