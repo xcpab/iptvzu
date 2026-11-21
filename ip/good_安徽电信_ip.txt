@@ -5,9 +5,8 @@
 223.247.2.250:18001
 36.63.234.166:8888
 509509.xyz:4022
-60.168.237.229:6688
+60.168.237.200:6688
 chengzhiming.f3322.net:4000
-chengzhiming.myds.me:4000
 home.pinkfloyd.cn:5000
 hsza.f3322.net:4000
 nas.191919.xyz:8888
