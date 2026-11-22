@@ -66,6 +66,11 @@ CHC影迷电影,http://ipipip/rtp/239.1.0.150:1025
 东方卫视,http://ipipip/rtp/239.1.0.133:1025
 东方卫视4K,http://ipipip/rtp/239.1.1.170:1025
 东方卫视4K,http://ipipip/rtp/239.1.1.171:1025
+重庆卫视4K,http://ipipip/rtp/239.1.1.190:1025
+辽宁卫视4K,http://ipipip/rtp/239.1.1.191:1025
+天津卫视4K,http://ipipip/rtp/239.1.1.192:1025
+贵州卫视4K,http://ipipip/rtp/239.1.1.193:1025
+江西卫视4K,http://ipipip/rtp/239.1.1.194:1025
 中华特产,http://ipipip/rtp/239.1.0.248:1025
 中国天气,http://ipipip/rtp/239.1.0.94:1025
 中央新影-老故事,http://ipipip/rtp/239.1.0.148:1025

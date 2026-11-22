@@ -103,7 +103,11 @@ CCTV4K,http://ipipip/http://ipipip/rtp/239.255.29.54:8231
 浙江卫视4K,http://ipipip/rtp/239.255.29.78:8231
 四川卫视4K,http://ipipip/rtp/239.255.29.80:8231
 山东卫视4K,http://ipipip/rtp/239.255.29.81:8231
-
+贵州卫视4K,http://ipipip/rtp/239.255.29.86:8231
+辽宁卫视4K,http://ipipip/rtp/239.255.29.87:8231
+重庆卫视4K,http://ipipip/rtp/239.255.29.88:8231
+江西卫视4K,http://ipipip/rtp/239.255.29.89:8231
+天津卫视4K,http://ipipip/rtp/239.255.29.90:8231
 湖南卫视,http://ipipip/udp/239.255.30.136:8231
 东方卫视,http://ipipip/udp/239.255.30.130:8231
 江苏卫视,http://ipipip/udp/239.255.30.131:8231
@@ -199,3 +203,4 @@ IPTV爱体育,http://ipipip/rtp/239.255.30.186:8231
 IPTV爱综艺,http://ipipip/rtp/239.255.30.185:8231
 4K,http://ipipip/rtp/239.255.29.65:8231
 4K,http://ipipip/rtp/239.255.29.66:8231
+
