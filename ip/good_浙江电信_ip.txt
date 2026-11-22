@@ -1,8 +1,11 @@
 115.208.165.37:4000
+122.230.33.150:8888
+122.230.33.150:8889
 122.246.145.62:7777
 125.108.184.217:4022
 125.116.106.162:8022
 125.123.141.122:44022
+125.125.134.113:8888
 125.125.135.102:8888
 bit.nlmxy.cn:4000
 cnlvan.3322.org:8888
@@ -10,7 +13,6 @@ dootask.nlmxy.cn:4000
 dous.cc:4023
 family-ph.vividnian.com:8188
 home.lqddb.com:44022
-hzmaidu.com:8090
 jellyfin.eversouthhangzhou.com.cn:8188
 lan4.cnlvan.me:8888
 t.zjhuct.icu:8888
