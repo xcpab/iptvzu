@@ -4,3 +4,5 @@ tv.zhangzp.top:4022
 vpn.zhangzp.top:4022
 wht.pve.onetopcloud.com:16666
 xtusrpa.com:8188
+116.114.138.235:8686
+110.18.153.54:17777
