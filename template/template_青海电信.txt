@@ -15,6 +15,7 @@
 矿区生活,http://ipipip/rtp/239.120.1.145:8420
 久治综合,http://ipipip/rtp/239.120.1.34:9534
 CCTV-1 综合,http://ipipip/rtp/239.120.1.119:8260
+CCTV-1 综合,http://ipipip/rtp/239.120.1.249:9444
 CCTV-1 综合,http://ipipip/rtp/239.120.1.120:8778
 CCTV-1 综合,http://ipipip/rtp/239.120.1.176:9114
 CCTV-1 综合,http://ipipip/rtp/239.120.1.196:8276

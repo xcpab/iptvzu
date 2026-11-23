@@ -23,6 +23,10 @@ mail.ck.wiki:4022
 nas.linktou.top:6001
 njbobo.com:4022
 njbobo.mycloudnas.com:4022
+www.jstxsheng.com:28088
+aes.jwjh.org:4022
+yang.guoping.love:4022
+speed.hjteam.cn:4022
 qh.diaglepm.cn:8333
 st.dhdasheng.cn:8188
 tlntbgs.synology.me:8889
@@ -31,6 +35,7 @@ vs.heylc.com:4022
 www.922928.de:5888
 www.frankgb.cn:4022
 www.huijie5421.cn:8800
+www.lsk0131.cn:4022
 www.nteea.online:8848
 www.yzddy.top:8800
 xpshat.i234.me:8188

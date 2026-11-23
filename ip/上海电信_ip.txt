@@ -19,10 +19,13 @@ demo.medrun.cn:4022
 home.wscxy.fun:30100
 liuwenxiaokevin.top:14044
 rongrong.me:14022
+home.chyyun.com:33988
+www.yanyan.ink:9988
 wqcjoy.diskstation.me:8188
 wsc2007123.myds.me:30100
 www.800128.xyz:62888
 www.rogerxlj.top:9998
 www.rongrong.me:14022
 www.yyf1991.top:9999
+800128.xyz:62888
 yyf1991.direct.quickconnect.to:9999
