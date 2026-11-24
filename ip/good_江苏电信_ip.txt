@@ -25,6 +25,7 @@ njbobo.com:4022
 njbobo.mycloudnas.com:4022
 qh.diaglepm.cn:8333
 speed.hjteam.cn:4022
+st.dhdasheng.cn:8188
 tlntbgs.synology.me:8889
 vpn.a5521.top:9889
 www.922928.de:5888
