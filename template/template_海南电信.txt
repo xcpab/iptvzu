@@ -9,6 +9,11 @@ CCTV-16 奥林匹克,http://ipipip/rtp/239.253.64.126:5140
 四川卫视4K,http://ipipip/rtp/239.253.64.64:5140
 浙江卫视4K,http://ipipip/rtp/239.253.64.62:5140
 江苏卫视4K,http://ipipip/rtp/239.253.64.61:5140
+贵州卫视4K,http://ipipip/rtp/239.253.64.142:5140
+辽宁卫视4K,http://ipipip/rtp/239.253.64.143:5140
+重庆卫视4K,http://ipipip/rtp/239.253.64.144:5140
+江西卫视4K,http://ipipip/rtp/239.253.64.145:5140
+天津卫视4K,http://ipipip/rtp/239.253.64.146:5140
 爱上4K,http://ipipip/rtp/239.253.64.243:5140
 CCTV-1 综合,http://ipipip/rtp/239.253.64.120:5140
 CCTV-2 财经,http://ipipip/rtp/239.253.64.195:5140
