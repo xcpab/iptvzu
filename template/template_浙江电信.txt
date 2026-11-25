@@ -8,16 +8,12 @@ BESTV,http://ipipip/udp/233.50.200.246:5140$1080p
 BESTV,http://ipipip/udp/233.50.200.247:5140$1080p
 BESTV,http://ipipip/udp/233.50.200.31:5140$1080p
 BESTV,http://ipipip/udp/233.50.200.32:5140$1080p
-BESTV,http://ipipip/udp/233.50.201.201:5140
-BESTV,http://ipipip/udp/233.50.201.202:5140
-BESTV,http://ipipip/udp/233.50.201.203:5140
 BESTV,http://ipipip/udp/233.50.201.204:5140
 BESTV,http://ipipip/udp/233.50.201.205:5140
 BESTV,http://ipipip/udp/233.50.201.206:5140
-BESTV,http://ipipip/udp/233.50.201.207:5140
-BESTV4K动画,http://ipipip/udp/233.50.200.183:5140$2160p
-BESTV4K电影,http://ipipip/udp/233.50.200.185:5140$2160p
-BESTV4K纪录,http://ipipip/udp/233.50.200.182:5140$2160p
+BESTV4K少儿,http://ipipip/udp/233.50.200.183:5140$2160p
+BESTV4K视界,http://ipipip/udp/233.50.200.185:5140$2160p
+BESTV4K纪实,http://ipipip/udp/233.50.200.182:5140$2160p
 BRTV卡酷少儿,http://ipipip/udp/233.50.200.166:5140$1080p
 BRTV卡酷少儿,http://ipipip/udp/233.50.202.33:5140$1080p
 BRTV纪实科教,http://ipipip/udp/233.50.202.34:5140$1080p
@@ -32,7 +28,6 @@ CCTV-1 综合,http://ipipip/udp/233.50.200.72:5140$576p
 CCTV-1 综合,http://ipipip/udp/233.50.200.99:5140$1080p
 CCTV-1 综合,http://ipipip/udp/233.50.201.118:5140
 CCTV-1 综合,http://ipipip/udp/233.50.201.1:5140$576p
-CCTV-1 综合,http://ipipip/udp/233.50.201.221:5140
 CCTV-1 综合,http://ipipip/udp/233.50.201.222:5140
 CCTV-2 财经,http://ipipip/udp/233.50.200.100:5140$1080p
 CCTV-2 财经,http://ipipip/udp/233.50.200.25:5140$1080p
@@ -50,7 +45,7 @@ CCTV-5 体育,http://ipipip/udp/233.50.200.108:5140$1080p
 CCTV-5 体育,http://ipipip/udp/233.50.201.17:5140$576p
 CCTV-5 体育,http://ipipip/udp/233.50.201.197:5140
 CCTV-5 体育,http://ipipip/udp/233.50.201.227:5140
-CCTV-5 体育,http://ipipip/udp/233.50.201.108:5140
+高清导视,http://ipipip/udp/233.50.201.108:5140
 CCTV-5+ 体育赛事,http://ipipip/udp/233.50.201.220:5140
 CCTV-6 电影,http://ipipip/udp/233.50.200.109:5140$1080p
 CCTV-6 电影,http://ipipip/udp/233.50.201.18:5140$576p
@@ -96,7 +91,8 @@ CCTV-16 奥林匹克,http://ipipip/udp/233.50.201.192:5140
 CCTV-16 奥林匹克,http://ipipip/udp/233.50.201.63:5140
 CCTV-17 农业农村,http://ipipip/udp/233.50.200.113:5140$1080p
 CCTV-17 农业农村,http://ipipip/udp/233.50.201.35:5140
-CCTV4K,http://ipipip/udp/233.50.201.226:5140
+天津卫视4K,http://ipipip/udp/233.50.201.226:5140
+CCTV4K,http://ipipip/udp/233.50.202.110:5140
 CETV1,http://ipipip/udp/233.50.200.169:5140$1080p
 CETV1,http://ipipip/udp/233.50.201.75:5140
 CETV4,http://ipipip/udp/233.50.200.141:5140$576p
@@ -234,7 +230,7 @@ CGTN俄语,http://ipipip/udp/233.50.201.39:5140
 浙江卫视,http://ipipip/udp/233.50.200.231:5140
 浙江卫视,http://ipipip/udp/233.50.200.79:5140$576p
 浙江卫视,http://ipipip/udp/233.50.201.100:5140
-浙江卫视,http://ipipip/udp/233.50.201.193:5140
+CCTV-5 体育,http://ipipip/udp/233.50.201.193:5140
 浙江卫视,http://ipipip/udp/233.50.201.27:5140
 浙江少儿,http://ipipip/udp/233.50.200.208:5140$576p
 浙江少儿,http://ipipip/udp/233.50.201.138:5140
@@ -256,6 +252,7 @@ CGTN俄语,http://ipipip/udp/233.50.201.39:5140
 浙江钱江都市,http://ipipip/udp/233.50.201.28:5140
 浙江之江纪录,http://ipipip/udp/233.50.202.25:5140
 浙江好易购,http://ipipip/udp/233.50.201.248:5140
+FTV足球,http://ipipip/udp/233.50.201.221:5140
 杭州综合,http://ipipip/udp/233.50.200.209:5140$576p
 杭州综合,http://ipipip/udp/233.50.201.173:5140
 杭州综合,http://ipipip/udp/233.50.201.21:5140
@@ -326,10 +323,9 @@ CGTN俄语,http://ipipip/udp/233.50.201.39:5140
 金色学堂,http://ipipip/udp/233.50.201.186:5140$1080p
 生活时尚,http://ipipip/udp/233.50.200.15:5140$1080p
 生活时尚,http://ipipip/udp/233.50.201.187:5140$1080p
-环球旅游,http://ipipip/udp/233.50.202.31:5140
-生态环境,http://ipipip/udp/233.50.202.103:5140
-生态环境,http://ipipip/udp/233.50.202.37:5140
-电影-科幻,http://ipipip/udp/233.50.201.20:5140$576p
+江苏国际,http://ipipip/udp/233.50.202.31:5140
+好享购物,http://ipipip/udp/233.50.202.103:5140
+导视频道,http://ipipip/udp/233.50.201.20:5140$576p
 金鹰卡通,http://ipipip/udp/233.50.200.138:5140$576p
 金鹰卡通,http://ipipip/udp/233.50.201.73:5140$576p
 聚鲨环球精选,http://ipipip/udp/233.50.201.91:5140
