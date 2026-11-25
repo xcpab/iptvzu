@@ -1,5 +1,4 @@
 218.5.61.19:18888
-218.5.63.172:18888
 e1.woc.iiiya.cn:18888
 e3.woc.iiiya.cn:18888
 nas01.misaka.show:5000
