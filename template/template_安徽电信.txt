@@ -29,6 +29,7 @@ CCTV-16 奥林匹克,http://ipipip/rtp/238.1.78.140:6992
 CCTV-17 农业农村,http://ipipip/rtp/238.1.78.178:7296
 CCTV-17 农业农村,http://ipipip/rtp/238.1.78.179:7304
 CCTV4K,http://ipipip/rtp/238.1.79.23:4296
+CCTV4K,http://ipipip/rtp/238.1.78.136:6960
 华数4K,http://ipipip/rtp/238.1.78.23:6112
 CCTV世界地理,http://ipipip/rtp/238.1.79.60:4616
 CCTV兵器科技,http://ipipip/rtp/238.1.79.56:4584
@@ -43,8 +44,10 @@ CCTV风云足球,http://ipipip/rtp/238.1.79.57:4592
 CCTV风云音乐,http://ipipip/rtp/238.1.79.64:4648
 CCTV高尔夫网球,http://ipipip/rtp/238.1.79.58:4600
 CETV1,http://ipipip/rtp/238.1.78.158:7136
+CETV1,http://ipipip/rtp/238.1.78.105:6712
 CETV2,http://ipipip/rtp/238.1.78.106:6720
 CETV4,http://ipipip/rtp/238.1.78.107:6728
+CETV4,http://ipipip/rtp/238.1.78.253:7896
 CGTN,http://ipipip/rtp/238.1.78.50:6272
 CHC动作电影,http://ipipip/rtp/238.1.79.18:4256
 CHC家庭影院,http://ipipip/rtp/238.1.79.22:4288
@@ -58,6 +61,11 @@ CHC影迷电影,http://ipipip/rtp/238.1.79.17:4248
 浙江卫视4K,http://ipipip/rtp/238.1.79.28:4336
 深圳卫视4K,http://ipipip/rtp/238.1.79.26:4320
 湖南卫视4K,http://ipipip/rtp/238.1.79.38:4416
+天津卫视4K,http://ipipip/rtp/238.1.78.85:6552
+辽宁卫视4K,http://ipipip/rtp/238.1.78.84:6544
+江西卫视4K,http://ipipip/rtp/238.1.78.83:6536
+重庆卫视4K,http://ipipip/rtp/238.1.78.82:6528
+贵州卫视4K,http://ipipip/rtp/238.1.78.81:6520
 三沙卫视,http://ipipip/rtp/238.1.78.27:6144
 东南卫视,http://ipipip/rtp/238.1.78.22:6104
 东南卫视,http://ipipip/rtp/238.1.78.62:6368
@@ -114,20 +122,22 @@ CHC影迷电影,http://ipipip/rtp/238.1.79.17:4248
 安徽公共,http://ipipip/rtp/238.1.79.43:4456
 安徽公共,http://ipipip/rtp/238.1.78.57:6328
 安徽农业科教,http://ipipip/rtp/238.1.79.40:4432
+安徽农业科教,http://ipipip/rtp/238.1.78.59:6344
 安徽国际,http://ipipip/rtp/238.1.78.61:6360
 安徽导视,http://ipipip/rtp/238.1.79.66:4664
 安徽影视,http://ipipip/rtp/238.1.79.42:4448
 安徽经济生活,http://ipipip/rtp/238.1.79.44:4464
 安徽经济生活,http://ipipip/rtp/238.1.78.55:6312
 安徽综艺体育,http://ipipip/rtp/238.1.79.41:4440
+安徽综艺体育,http://ipipip/rtp/238.1.78.58:6336
 临泉综合,http://ipipip/rtp/238.1.78.29:6160
 义安新闻综合,http://ipipip/rtp/238.1.78.211:7560
 五河新闻综合,http://ipipip/rtp/238.1.79.52:4528
-亳州农村,http://ipipip/rtp/238.1.78.129:6904
 亳州综合,http://ipipip/rtp/238.1.78.128:6896
+亳州农村,http://ipipip/rtp/238.1.78.129:6904
 休宁新闻综合,http://ipipip/rtp/238.1.79.20:4272
-六安社会生活,http://ipipip/rtp/238.1.78.145:7032
 六安综合,http://ipipip/rtp/238.1.78.144:7024
+六安社会生活,http://ipipip/rtp/238.1.78.145:7032
 利辛新闻综合,http://ipipip/rtp/238.1.78.196:7440
 南陵新闻综合,http://ipipip/rtp/238.1.78.189:7384
 合肥新闻,http://ipipip/rtp/238.1.78.111:6760
@@ -145,6 +155,7 @@ CHC影迷电影,http://ipipip/rtp/238.1.79.17:4248
 广德新闻综合,http://ipipip/rtp/238.1.78.212:7568
 怀远综合,http://ipipip/rtp/238.1.78.201:7480
 旌德综合,http://ipipip/rtp/238.1.78.215:7592
+泾县新闻综合,http://ipipip/rtp/238.1.78.217:7608
 无为综合,http://ipipip/rtp/238.1.78.188:7376
 明光综合,http://ipipip/rtp/238.1.78.208:7536
 来安新闻综合,http://ipipip/rtp/238.1.78.204:7504
@@ -183,14 +194,13 @@ CHC影迷电影,http://ipipip/rtp/238.1.79.17:4248
 阜阳教育,http://ipipip/rtp/238.1.78.126:6880
 阜阳新闻综合,http://ipipip/rtp/238.1.78.124:6864
 阜阳生活,http://ipipip/rtp/238.1.78.125:6872
-阜阳都市文艺,http://ipipip/rtp/238.1.78.127:6888
 霍山综合,http://ipipip/rtp/238.1.78.220:7632
 霍邱综合,http://ipipip/rtp/238.1.78.119:6824
 颍上新闻综合,http://ipipip/rtp/238.1.78.194:7424
 马鞍山新闻综合,http://ipipip/rtp/238.1.79.15:4232
 马鞍山科教生活,http://ipipip/rtp/238.1.78.77:6488
-黄山文旅,http://ipipip/rtp/238.1.78.131:6920
 黄山新闻综合,http://ipipip/rtp/238.1.78.130:6912
+黄山文旅,http://ipipip/rtp/238.1.78.131:6920
 黟县综合,http://ipipip/rtp/238.1.78.149:7064
 东方财经,http://ipipip/rtp/238.1.78.73:6456
 乐游,http://ipipip/rtp/238.1.78.151:7080
