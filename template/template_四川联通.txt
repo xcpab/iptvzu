@@ -16,7 +16,6 @@
 成都经济资讯,http://ipipip/rtp/239.0.0.162:5140$1080p
 成都都市生活,http://ipipip/rtp/239.0.0.163:5140$1080p
 乐山新闻综合,http://ipipip/rtp/239.0.0.129:5140$1080p
-乐山文旅生活,http://ipipip/rtp/239.0.0.85:5140$1080p
 内江综合,http://ipipip/rtp/239.0.0.128:5140$1080p
 内江科教生活,http://ipipip/rtp/239.0.0.90:5140$1080p
 凉山彝语综合,http://ipipip/rtp/239.0.0.137:5140$1080p
@@ -47,7 +46,6 @@
 阿坝州新闻综合,http://ipipip/rtp/239.0.0.141:5140$1080p
 阿坝州藏语综合,http://ipipip/rtp/239.0.0.142:5140$1080p
 CCTV-1 综合,http://ipipip/rtp/239.0.0.10:5140$1080p
-CCTV-1 综合,http://ipipip/rtp/239.0.0.92:5140$1080p
 CCTV-2 财经,http://ipipip/rtp/239.0.0.11:5140$1080p
 CCTV-3 综艺,http://ipipip/rtp/239.0.0.12:5140$1080p
 CCTV-4 中文国际,http://ipipip/rtp/239.0.0.13:5140$1080p
@@ -63,7 +61,8 @@ CCTV-12 社会与法,http://ipipip/rtp/239.0.0.20:5140$1080p
 CCTV-13 新闻,http://ipipip/rtp/239.0.0.190:5140$1080p
 CCTV-14 少儿,http://ipipip/rtp/239.0.0.21:5140$1080p
 CCTV-15 音乐,http://ipipip/rtp/239.0.0.188:5140$1080p
-CCTV-16 奥林匹克,http://ipipip/rtp/239.0.0.218:5140
+CCTV-16 奥林匹克,http://ipipip/rtp/239.0.0.218:5140$2160p
+CCTV-16 奥林匹克,http://ipipip/rtp/239.0.0.217:5140$2160p
 CCTV-17 农业农村,http://ipipip/rtp/239.0.0.152:5140$1080p
 CHC家庭影院,http://ipipip/rtp/239.0.0.23:5140$1080p
 CHC动作电影,http://ipipip/rtp/239.0.0.24:5140$1080p
@@ -79,28 +78,38 @@ CETV2,http://ipipip/rtp/239.0.0.196:5140$576p
 CETV4,http://ipipip/rtp/239.0.0.98:5140$1080p
 中央新影-老故事,http://ipipip/rtp/239.0.0.27:5140$576p
 中央新影-中学生,http://ipipip/rtp/239.0.0.29:5140$576p
-CCTV4K,http://ipipip/rtp/239.0.0.184:5140
+CCTV4K,http://ipipip/rtp/239.0.0.184:5140$2160p
 CCTV4K,http://ipipip/rtp/239.0.0.214:5140$2160p
-北京卫视4K,http://ipipip/rtp/239.0.0.198:5140
+北京卫视4K,http://ipipip/rtp/239.0.0.198:5140$2160p
 深圳卫视4K,http://ipipip/rtp/239.0.0.199:5140$2160p
-广东卫视4K,http://ipipip/rtp/239.0.0.200:5140
-多彩文体,http://ipipip/rtp/239.0.0.201:5140
+广东卫视4K,http://ipipip/rtp/239.0.0.200:5140$2160p
+多彩文体,http://ipipip/rtp/239.0.0.201:5140$2160p
 四川卫视4K,http://ipipip/rtp/239.0.0.202:5140$2160p
-四川卫视4K,http://ipipip/rtp/239.0.0.203:5140
-四川卫视4K,http://ipipip/rtp/239.0.0.178:5140
-四川卫视4K,http://ipipip/rtp/239.0.0.180:5140
-湖南卫视4K,http://ipipip/rtp/239.0.0.204:5140
+四川卫视4K,http://ipipip/rtp/239.0.0.203:5140$2160p
+四川卫视4K,http://ipipip/rtp/239.0.0.178:5140$2160p
+四川卫视4K,http://ipipip/rtp/239.0.0.180:5140$2160p
+湖南卫视4K,http://ipipip/rtp/239.0.0.204:5140$2160p
 江苏卫视4K,http://ipipip/rtp/239.0.0.205:5140$2160p
 浙江卫视4K,http://ipipip/rtp/239.0.0.206:5140$2160p
-东方卫视4K,http://ipipip/rtp/239.0.0.207:5140
-山东卫视4K,http://ipipip/rtp/239.0.0.208:5140
+东方卫视4K,http://ipipip/rtp/239.0.0.207:5140$2160p
+山东卫视4K,http://ipipip/rtp/239.0.0.208:5140$2160p
 湖南卫视4K,http://ipipip/rtp/239.0.0.209:5140$2160p
-江苏卫视4K,http://ipipip/rtp/239.0.0.210:5140
-浙江卫视4K,http://ipipip/rtp/239.0.0.211:5140
-东方卫视4K,http://ipipip/rtp/239.0.0.212:5140
-山东卫视4K,http://ipipip/rtp/239.0.0.213:5140
-深圳卫视4K,http://ipipip/rtp/239.0.0.215:5140
-广东卫视4K,http://ipipip/rtp/239.0.0.216:5140
+江苏卫视4K,http://ipipip/rtp/239.0.0.210:5140$2160p
+浙江卫视4K,http://ipipip/rtp/239.0.0.211:5140$2160p
+东方卫视4K,http://ipipip/rtp/239.0.0.212:5140$2160p
+山东卫视4K,http://ipipip/rtp/239.0.0.213:5140$2160p
+深圳卫视4K,http://ipipip/rtp/239.0.0.215:5140$2160p
+广东卫视4K,http://ipipip/rtp/239.0.0.216:5140$2160p
+贵州卫视4K,http://ipipip/rtp/239.0.0.219:5140$2160p
+辽宁卫视4K,http://ipipip/rtp/239.0.0.220:5140$2160p
+重庆卫视4K,http://ipipip/rtp/239.0.0.221:5140$2160p
+江西卫视4K,http://ipipip/rtp/239.0.0.222:5140$2160p
+天津卫视4K,http://ipipip/rtp/239.0.0.223:5140$2160p
+贵州卫视4K,http://ipipip/rtp/239.0.0.224:5140$2160p
+辽宁卫视4K,http://ipipip/rtp/239.0.0.225:5140$2160p
+重庆卫视4K,http://ipipip/rtp/239.0.0.226:5140$2160p
+江西卫视4K,http://ipipip/rtp/239.0.0.227:5140$2160p
+天津卫视4K,http://ipipip/rtp/239.0.0.228:5140$2160p
 三沙卫视,http://ipipip/rtp/239.0.0.195:5140$576p
 东南卫视,http://ipipip/rtp/239.0.0.62:5140$1080p
 东方卫视,http://ipipip/rtp/239.0.0.58:5140$1080p
@@ -153,5 +162,5 @@ CCTV4K,http://ipipip/rtp/239.0.0.214:5140$2160p
 财富天下,http://ipipip/rtp/239.0.0.34:5140$1080p
 BRTV卡酷少儿,http://ipipip/rtp/239.0.0.75:5140$576p
 BRTV纪实科教,http://ipipip/rtp/239.0.0.77:5140$1080p
-中国交通,http://ipipip/rtp/239.0.0.143:5140$1080p
+
 
