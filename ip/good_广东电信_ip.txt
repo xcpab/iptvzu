@@ -3,7 +3,7 @@
 125.89.163.44:8888
 14.157.24.38:2345
 14.19.159.83:8100
-183.36.240.113:9901
+14.221.177.36:4022
 183.47.2.156:16883
 408.135560.xyz:58888
 59.35.185.47:8188
@@ -16,7 +16,6 @@ hyde-ipv6.dynv6.net:8100
 hydeqnapnas.mycloudnas.com:8100
 lbyjlt.vv5678.cn:8880
 lsa.familyds.com:8188
-net.manyee.net:18888
 rfx2025.shunderen.top:2345
 sfyqvxiaoya.19810416.xyz:55555
 tjzx.synology.me:8888

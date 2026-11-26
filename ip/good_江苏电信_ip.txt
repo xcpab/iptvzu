@@ -1,5 +1,4 @@
 121.237.245.192:8888
-121.237.245.211:8888
 121.237.245.5:8888
 202.8090pc.cn:58888
 222.92.94.26:9889
@@ -28,10 +27,8 @@ speed.hjteam.cn:4022
 st.dhdasheng.cn:8188
 tlntbgs.synology.me:8889
 vpn.a5521.top:9889
-www.922928.de:5888
 www.frankgb.cn:4022
 www.huijie5421.cn:8800
-www.jstxsheng.com:28088
 www.lsk0131.cn:4022
 www.nteea.online:8848
 www.yzddy.top:8800
