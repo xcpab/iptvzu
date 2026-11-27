@@ -1,58 +1,61 @@
 ======== 开始检索 江苏电信 ========
 从 'ip/江苏电信_ip.txt' 读取 IP 并添加到检测列表
 开始连通性检测（并发 50）...
-连接成功 39 个,开始测速（并发 5）······
-[测速] 202.8090pc.cn:58888  ->  0.00 B
-[测速] 121.237.245.5:8888  ->  0.00 B
-[测速] 121.237.245.192:8888  ->  0.00 B
+连接成功 42 个,开始测速（并发 5）······
 [测速] 222.92.94.26:9889  ->  0.00 B
-[测速] 980413.xyz:6000  ->  0.00 B
+[测速] 202.8090pc.cn:58888  ->  827.72 k
+[测速] 121.237.245.211:8888  ->  220.69 k
+[测速] 121.237.245.5:8888  ->  220.30 k
+[测速] 49.71.188.3:4022  ->  986.73 k
+[测速] 121.237.245.192:8888  ->  208.86 k
+[测速] 58.212.158.88:4022  ->  1.04 M
 [测速] dx.joygala.cn:8118  ->  0.00 B
-[测速] 58.212.158.88:4022  ->  1.02 M
-[测速] 49.71.188.3:4022  ->  821.72 k
-[测速] aes.jwjh.org:4022  ->  1.02 M
-[测速] ali.wxj520.top:8188  ->  1012.67 k
-[测速] duanht.top:4000  ->  1003.65 k
-[测速] j1900.silicaite.top:58888  ->  0.00 B
-[测速] j1900.silicaite.com:58888  ->  0.00 B
-[测速] gcc125.myds.me:6888  ->  867.98 k
-[测速] h.vanshun.com:8802  ->  843.55 k
-[测速] home.amucn.net:8800  ->  201.88 k
-[测速] jstxsheng.com:28088  ->  1.02 M
+[测速] aes.jwjh.org:4022  ->  1.04 M
+[测速] 980413.xyz:6000  ->  481.50 k
+[测速] ali.wxj520.top:8188  ->  414.22 k
+[测速] duanht.top:4000  ->  1.01 M
+[测速] gcc125.myds.me:6888  ->  1.02 M
+[测速] h.vanshun.com:8802  ->  119.10 k
+[测速] home.amucn.net:8800  ->  175.17 k
+[测速] j1900.silicaite.com:58888  ->  1.03 M
+[测速] j1900.silicaite.top:58888  ->  1.03 M
+[测速] jstxsheng.com:28088  ->  1.04 M
+[测速] kd2.gcc125.top:6888  ->  1.03 M
+[测速] kd3.gcc125.top:6888  ->  1.02 M
 [测速] nas.linktou.top:6001  ->  0.00 B
-[测速] mail.ck.wiki:4022  ->  0.00 B
-[测速] kd2.gcc125.top:6888  ->  928.19 k
-[测速] njbobo.mycloudnas.com:4022  ->  0.00 B
-[测速] kd3.gcc125.top:6888  ->  923.90 k
-[测速] njbobo.com:4022  ->  0.00 B
-[测速] kouki.pro:8888  ->  41.03 k
+[测速] mail.ck.wiki:4022  ->  1.01 M
+[测速] kouki.pro:8888  ->  13.66 k
+[测速] njbobo.com:4022  ->  1.03 M
+[测速] njbobo.mycloudnas.com:4022  ->  1.03 M
+[测速] qh.diaglepm.cn:8333  ->  431.92 k
+[测速] speed.hjteam.cn:4022  ->  1.03 M
 [测速] vpn.a5521.top:9889  ->  0.00 B
-[测速] qh.diaglepm.cn:8333  ->  467.43 k
-[测速] speed.hjteam.cn:4022  ->  1.00 M
-[测速] st.dhdasheng.cn:8188  ->  882.56 k
-[测速] tlntbgs.synology.me:8889  ->  927.19 k
-[测速] www.frankgb.cn:4022  ->  355.41 k
-[测速] www.huijie5421.cn:8800  ->  919.89 k
-[测速] xuekuan.site:8088  ->  0.00 B
-[测速] www.lsk0131.cn:4022  ->  1021.16 k
-[测速] www.nteea.online:8848  ->  918.19 k
-[测速] www.yzddy.top:8800  ->  970.10 k
-[测速] xpshat.i234.me:8188  ->  841.13 k
+[测速] www.922928.de:5888  ->  0.00 B
+[测速] tlntbgs.synology.me:8889  ->  1.00 M
+[测速] st.dhdasheng.cn:8188  ->  1.02 M
+[测速] www.frankgb.cn:4022  ->  1.05 M
+[测速] www.huijie5421.cn:8800  ->  1.03 M
+[测速] www.jstxsheng.com:28088  ->  1.04 M
+[测速] www.lsk0131.cn:4022  ->  1.03 M
+[测速] www.nteea.online:8848  ->  1.02 M
+[测速] www.yzddy.top:8800  ->  1.02 M
+[测速] xpshat.i234.me:8188  ->  1.00 M
+[测速] xuekuan.site:8088  ->  1.03 M
+[测速] xurishangcheng.top:10888  ->  1.03 M
 [测速] z.d4p.cn:8000  ->  0.00 B
-[测速] xurishangcheng.top:10888  ->  999.81 k
-[测速] yang.guoping.love:4022  ->  941.97 k
-测速完成，共 39 条结果。
+[测速] yang.guoping.love:4022  ->  981.77 k
+测速完成，共 42 条结果。
 测速结果排序
 ----- 测速排行（前10）-----
-58.212.158.88:4022     1.02 M
-jstxsheng.com:28088    1.02 M
-aes.jwjh.org:4022      1.02 M
-speed.hjteam.cn:4022   1.00 M
-www.lsk0131.cn:4022    1021.16 k
-ali.wxj520.top:8188    1012.67 k
-duanht.top:4000        1003.65 k
-xurishangcheng.top:10888 999.81 k
-www.yzddy.top:8800     970.10 k
-yang.guoping.love:4022 941.97 k
+www.frankgb.cn:4022    1.05 M
+jstxsheng.com:28088    1.04 M
+58.212.158.88:4022     1.04 M
+aes.jwjh.org:4022      1.04 M
+www.jstxsheng.com:28088 1.04 M
+njbobo.com:4022        1.03 M
+xuekuan.site:8088      1.03 M
+j1900.silicaite.com:58888 1.03 M
+kd2.gcc125.top:6888    1.03 M
+www.lsk0131.cn:4022    1.03 M
 ---------------------------
 江苏电信 测试完成，生成可用文件：'txt/江苏电信.txt'
