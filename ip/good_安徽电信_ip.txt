@@ -3,12 +3,15 @@
 223.247.2.244:18001
 36.63.233.176:8888
 509509.xyz:4022
-60.168.237.200:6688
 chengzhiming.f3322.net:4000
+chengzhiming.myds.me:4000
 home.pinkfloyd.cn:5000
 hsza.f3322.net:4000
+nas.191919.xyz:8888
 nicolethree.top:8188
+op.191919.xyz:8888
 songruyi.3322.org:9000
 wang0910.wang:7000
+www.191919.xyz:8888
 www.pizhiwei.cn:6688
 www.whsf.online:8888
